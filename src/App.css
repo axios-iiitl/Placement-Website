@@ -43,7 +43,7 @@
   padding: 0 0.7rem;
 }
 
-.nav-elements a{
+.nav-elements .activeclass{
   color:white;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
@@ -67,7 +67,8 @@
   background: #fff;
 }
 
-.nav-elements a:active{
+
+.nav-elements .activeclass:active{
   color: #00ffe9;
 }
 
@@ -147,14 +148,14 @@
   margin-top:10%;
 }
 
-.side-drawer a {
+.side-drawer .activeclass {
   text-decoration: none;
   font-size: 1rem;
   color:#292c30;
 }
 
-.side-drawer a:hover,
-.side-drawer a:active{
+.side-drawer .activeclass:hover,
+.side-drawer .activeclass:active{
   color:#f90074;
   
 }
