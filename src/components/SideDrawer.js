@@ -11,7 +11,7 @@ const SideDrawer=props=>{
             IIIT Lucknow
         </span>
         <span className='cross-btn' onClick={props.click}>
-        <i className="fal fa-times fa-2x"></i>
+        <i className="fas fa-times fa-2x"></i>
         </span>
         </div>
              <ul>
