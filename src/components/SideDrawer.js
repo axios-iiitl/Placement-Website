@@ -1,5 +1,5 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom'
+import {NavLink, Link} from 'react-router-dom'
 const SideDrawer=props=>{
     let drawerClass='side-drawer'
     if(props.show)
@@ -7,9 +7,11 @@ const SideDrawer=props=>{
     return (
         <div className={drawerClass}>
         <div className='side'>
-        <span className="sidebar-logo-text">
+        <Link to="/" style={{textDecoration: "none", color: "white"}}>
+        <span onClick={props.click} className="sidebar-logo-text">
             IIIT Lucknow
         </span>
+        </Link>
         <span className='cross-btn' onClick={props.click}>
         <i className="fas fa-times fa-2x"></i>
         </span>

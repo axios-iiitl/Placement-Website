@@ -1,5 +1,5 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom'
+import {NavLink, Link} from 'react-router-dom'
 import ToggleButton from './ToggleButton'
 const Toolbar =props=>(
     <header className="toolbar">
@@ -7,9 +7,11 @@ const Toolbar =props=>(
        <div>
        <ToggleButton click={props.sideDrawerToggler}/>
        </div>
+       <Link to="/" style={{textDecoration: "none", color: "white"}}>
         <div className="logo">
        IIIT Lucknow
         </div>
+        </Link>
         <div className="spacer"></div>
         <div className="nav-elements">
          <ul>
