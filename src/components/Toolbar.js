@@ -7,18 +7,7 @@ const Toolbar =props=>(
        <ToggleButton click={props.sideDrawerToggler}/>
        </div>
         <div className="logo">
-        <span className="odd">I</span>
-        <span className="even">I</span>
-        <span className="odd">I</span>
-        <span className="even">T</span>
-        <span style={{paddingLeft:"1vw"}}>   </span>
-        <span className="odd">L</span>
-        <span className="even">u</span>
-        <span className="odd">c</span>
-        <span className="even">k</span>
-        <span className="odd">n</span>
-        <span className="even">o</span>
-        <span className="odd">w</span>
+       IIIT Lucknow
         </div>
         <div className="spacer"></div>
         <div className="nav-elements">

@@ -16,7 +16,7 @@
 }
 
 .logo{
-  color:white;
+  color:#3fada8;
   font-size:2.2rem;
   text-decoration: none;
   margin-left:0.5rem;
@@ -24,72 +24,6 @@
 
 
 
-.odd{
-  -webkit-animation: color-change-odd 1s infinite;
-        -moz-animation: color-change-odd 1s infinite;
-        -o-animation: color-change-odd 1s infinite;
-        -ms-animation: color-change-odd 1s infinite;
-        animation: color-change-odd 1s infinite;
-}
-
-@-webkit-keyframes color-change-odd {
-  0% { color: white; }
-  50% { color: #3fada8; }
-  100% { color: white; }
-}
-@-moz-keyframes color-change-odd {
-  0% { color: white; }
-  50% { color: #3fada8; }
-  100% { color: white; }
-}
-@-ms-keyframes color-change-odd {
-  0% { color: white; }
-  50% { color: #3fada8; }
-  100% { color: white; }
-}
-@-o-keyframes color-change-odd {
-  0% { color: white; }
-  50% { color: #3fada8; }
-  100% { color: white; }
-}
-@keyframes color-change-odd {
-  0% { color: white; }
-  50% { color: #3fada8; }
-  100% { color: white; }
-}
-.even{
-  -webkit-animation: color-change-even 1s infinite;
-        -moz-animation: color-change-even 1s infinite;
-        -o-animation: color-change-even 1s infinite;
-        -ms-animation: color-change-even 1s infinite;
-        animation: color-change-even 1s infinite;
-}
-
-@-webkit-keyframes color-change-even {
-  0% { color: #3fada8; }
-  50% { color: white; }
-  100% { color:#3fada8; }
-}
-@-moz-keyframes color-change-even {
-  0% { color: #3fada8; }
-  50% { color: white; }
-  100% { color: #3fada8; }
-}
-@-ms-keyframes color-change-even {
-  0% { color: #3fada8; }
-  50% { color: white; }
-  100% { color: #3fada8; }
-}
-@-o-keyframes color-change-even {
-  0% { color: #3fada8; }
-  50% { color: white; }
-  100% { color: #3fada8; }
-}
-@keyframes color-change-even {
-  0% { color: #3fada8; }
-  50% { color: white; }
-  100% { color: #3fada8; }
-}
 .spacer{
   flex:1;
 }
