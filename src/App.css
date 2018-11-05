@@ -38,14 +38,14 @@
   padding: 0 0.7rem;
 }
 
-.nav-elements a{
+.nav-elements .activeclass{
   color:white;
   font-weight: bold;
   text-decoration: none;
 }
 
-.nav-elements a:hover,
-.nav-elements a:active{
+.nav-elements .activeclass:hover,
+.nav-elements .activeclass:active{
   color: #00ffe9;
 }
 
@@ -125,15 +125,15 @@
   margin-top:8.5%;
 }
 
-.side-drawer a {
+.side-drawer .activeclass {
   text-decoration: none;
   font-size: 4.5 rem;
   font-weight: 600;
   color:#292c30;
 }
 
-.side-drawer a:hover,
-.side-drawer a:active{
+.side-drawer .activeclass:hover,
+.side-drawer .activeclass:active{
   color:#f90074;
   
 }

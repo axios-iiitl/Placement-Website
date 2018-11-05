@@ -1,15 +1,34 @@
-import React, { Component } from "react";
+import React, { Component ,Fragment} from "react";
+import { Route, Redirect, withRouter, Switch } from "react-router-dom";
+
 import Footer from "./components/Footer";
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Home from './components/Home';
+import PastRecruiters from './components/PastRecruiters';
+import Placement from './components/Placement';
+import Procedure from './components/Procedure';
+import Why from './components/Why'
+import Contact from './components/Contact'
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-      <Navbar />
+      <Fragment>
+        <Navbar />
+      <Switch>
+      <Route path="/" exact component={Home} />
+      <Route path="/past" exact component={PastRecruiters} />
+      <Route path="/statistics"exact component={Placement} />
+      <Route path="/contact" exact component={Contact} />
+      <Route path="/procedure" exact component={Procedure} />
+      <Route path="/why" exact component={Why} />
+      </Switch>
         <Footer />
-      </div>
+      </Fragment>
+      
+      
     );
   }
 }

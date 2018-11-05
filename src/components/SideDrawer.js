@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {NavLink} from 'react-router-dom'
 const SideDrawer=props=>{
     let drawerClass='side-drawer'
     if(props.show)
@@ -12,14 +12,14 @@ const SideDrawer=props=>{
         </span>
         <span className='cross-btn' onClick={props.click}>X</span>
         </div>
-             <ul>
-             <li><a href="/">Home</a></li>
-             <li><a href="/">Past Recruitors</a></li>
-             <li><a href="/">Placement Statistics</a></li>
-             <li><a href="/">Why us</a></li>
-             <li><a href="/">Procedure</a></li>
-             <li><a href="/">Contact us</a></li>
-             </ul>
+        <ul>
+             <li><NavLink to="/" exact className="activeclass">Home</NavLink></li>
+             <li><NavLink to="/past" exact className="activeclass">Past Recruitors</NavLink></li>
+             <li><NavLink to="/statistics" exact className="activeclass">Statistics</NavLink></li>
+             <li><NavLink to="/why" exact className="activeclass">Why us</NavLink></li>
+             <li><NavLink to="/procedure" exact className="activeclass">Procedure</NavLink></li>
+             <li><NavLink to="/contact" exact className="activeclass">Contact us</NavLink></li>
+         </ul>
         </div>
     )
 };
