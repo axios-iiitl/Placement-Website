@@ -10,13 +10,13 @@ const footer = () => {
         <div className="footer-logo">
           <img className="logo" src="https://placeholder.pics/svg/" alt="Logo" />
           <div className="social">
-            <a href="#" className="facebook">
+            <a href="/" className="facebook">
               <FacebookSVG />
             </a>
-            <a href="#" className="twitter">
+            <a href="/" className="twitter">
               <TwitterSVG />
             </a>
-            <a href="#" className="linkedin">
+            <a href="/" className="linkedin">
               <LinkedInSVG />
             </a>
           </div>
@@ -41,39 +41,39 @@ const footer = () => {
           <div className="footer-links-holder">
             <ul className="footer-links">
               <li>
-                <a href="#">Why IIITL</a>
+                <a href="/">Why IIITL?</a>
               </li>
               <li>
-                <a href="#">Facilities</a>
+                <a href="/">Facilities</a>
               </li>
               <li>
-                <a href="#">Academics</a>
-              </li>
-            </ul>
-          </div>
-          <div className="footer-links-holder">
-            <ul className="footer-links">
-              <li>
-                <a href="#">Procedures and<br/>Policies</a>
-              </li>
-              <li>
-                <a href="#">Brochure</a>
-              </li>
-              <li>
-                <a href="#">Past Recruiters</a>
+                <a href="/">Academics</a>
               </li>
             </ul>
           </div>
           <div className="footer-links-holder">
             <ul className="footer-links">
               <li>
-                <a href="#">Placement Statistics</a>
+                <a href="/">Procedures and<br/>Policies</a>
               </li>
               <li>
-                <a href="#">The Team</a>
+                <a href="/">Brochure</a>
               </li>
               <li>
-                <a href="#">Contact Us</a>
+                <a href="/">Past Recruiters</a>
+              </li>
+            </ul>
+          </div>
+          <div className="footer-links-holder">
+            <ul className="footer-links">
+              <li>
+                <a href="/">Placement Statistics</a>
+              </li>
+              <li>
+                <a href="/">The Team</a>
+              </li>
+              <li>
+                <a href="/">Contact Us</a>
               </li>
             </ul>
           </div>
