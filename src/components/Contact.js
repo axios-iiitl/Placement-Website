@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 
-import vijayshriImg from "../assets/images/vijayshri.jpg"
+import vijayshriImg from "../assets/images/vijayshri.jpg";
 
 const contactUs = () => {
   return (
@@ -39,54 +39,29 @@ const contactUs = () => {
           />
           <h1>Student Coordinators</h1>
           <div className="placement-coordinators">
-            <Card
-              src="https://dummyimage.com/400x400/000/fff"
-              alt="xyz"
-              name="NAME XYZABC"
-              isTeacher={false}
-              position="Placement Officer"
-              email="xyz@abcd.com"
-              phone="+91-987654321"
-            />
-            <Card
-              src="https://dummyimage.com/400x400/000/fff"
-              alt="xyz"
-              name="NAME XYZABC"
-              isTeacher={false}
-              position="Placement Officer"
-              email="xyz@abcd.com"
-              phone="+91-987654321"
-            />
-            <Card
-              src="https://dummyimage.com/400x400/000/fff"
-              alt="xyz"
-              name="NAME XYZABC"
-              isTeacher={false}
-              position="Placement Officer"
-              email="xyz@abcd.com"
-              phone="+91-987654321"
-            />
+            <div className="placement-coordinators-wrapper">
+              <Card
+                src="https://dummyimage.com/400x400/000/fff"
+                alt="xyz"
+                name="NAME XYZABC"
+                isTeacher={false}
+                position="Placement Officer"
+                email="xyz@abcd.com"
+                phone="+91-987654321"
+              />
+              <Card
+                src="https://dummyimage.com/400x400/000/fff"
+                alt="xyz"
+                name="NAME XYZABC"
+                isTeacher={false}
+                position="Placement Officer"
+                email="xyz@abcd.com"
+                phone="+91-987654321"
+              />
+            </div>
           </div>
           <h1>Executives</h1>
           <div className="placement-executives">
-            <Card
-              src="https://dummyimage.com/400x400/000/fff"
-              alt="xyz"
-              name="NAME XYZABC"
-              isTeacher={false}
-              position="Placement Officer"
-              email="xyz@abcd.com"
-              phone="+91-987654321"
-            />
-            <Card
-              src="https://dummyimage.com/400x400/000/fff"
-              alt="xyz"
-              name="NAME XYZABC"
-              isTeacher={false}
-              position="Placement Officer"
-              email="xyz@abcd.com"
-              phone="+91-987654321"
-            />
             <Card
               src="https://dummyimage.com/400x400/000/fff"
               alt="xyz"
