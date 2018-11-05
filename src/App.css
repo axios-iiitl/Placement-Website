@@ -40,11 +40,28 @@
 
 .nav-elements a{
   color:white;
-  font-weight: bold;
   text-decoration: none;
+  font-family: "Open Sans", sans-serif;
 }
 
-.nav-elements a:hover,
+.nav-elements a:after{
+  content: '';
+  position: relative;
+  width: 0; height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #fff;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+ 
+.nav-elements a:hover:after{
+  width: 100%;
+  left: 0;
+  background: #fff;
+}
+
 .nav-elements a:active{
   color: #00ffe9;
 }
@@ -54,6 +71,7 @@
   margin:0;
   padding: 0;
   display:flex;
+  margin-top: 5px;
 }
 
 /* ToggleButton component */
