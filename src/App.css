@@ -590,3 +590,76 @@ body {
     width: 95%;
   }
 }
+
+/* ///////////////////////////////////////////////// */
+
+/* Procedure And Policies */
+
+.custom-list li {
+  position: relative;
+    border: 0px none;
+    padding: 10px 0 0px 22px;
+    display: block;
+}
+
+.custom-list li::before {
+  position: absolute;
+    left: 0px;
+    content: '\f192';
+    font-family: "Font Awesome 5 Free";
+    COLOR: #00b3f3;
+    margin-top: 4px;
+}
+
+.procedure-outer {
+  display: flex;
+  justify-content: center;
+}
+
+.procedure-wrapper {
+  width:80%;
+  background-color: #f3f3f3;
+  padding: 20px 20px;
+  margin: 20px;
+}
+
+.procedure-wrapper h1 {
+  text-align: center;
+  margin: 20px 0;
+  margin-bottom: 20px;
+}
+
+.procedure-wrapper h2 {
+  margin-top: 20px;
+}
+
+.procedure-wrapper p {
+  margin: 20px 0;
+}
+
+.policies-heading {
+  font-size: 2em; 
+}
+
+.procedure-wrapper a {
+  text-decoration: none;
+  color: #3394ff;
+}
+
+.procedure-wrapper strong {
+  color: #414141;
+  font-weight: 700;
+}
+
+@media (max-width: 545px) {
+  .procedure-wrapper {
+    width: 95%;
+  }
+}
+
+.custom-hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  margin: 30px 0;
+}
