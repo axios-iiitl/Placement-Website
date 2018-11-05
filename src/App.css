@@ -20,6 +20,11 @@
   font-size:2.2rem;
   text-decoration: none;
   margin-left:0.5rem;
+  display: block;
+}
+
+.logo:hover{
+  cursor: pointer;
 }
 
 
@@ -112,8 +117,7 @@
 
 .side-drawer{
   height: 100%;
-  width:70%;
-  max-width: 300px;
+  width:300px;
   left:0;
   top:0;
   box-shadow: 1px,0,7px,rgba(0,0,0,0.5);
@@ -135,18 +139,17 @@
   flex-direction: column;
   justify-content: top;
   height:100%;
-  margin-left: 5%;
+  margin-left: 10%;
   
 }
 
 .side-drawer.open li{
-  margin-top:8.5%;
+  margin-top:10%;
 }
 
 .side-drawer a {
   text-decoration: none;
-  font-size: 4.5 rem;
-  font-weight: 600;
+  font-size: 1rem;
   color:#292c30;
 }
 
@@ -165,9 +168,27 @@
   align-items: center;
   justify-content: center;
 }
-.side span{
-  
+.sidebar-logo-text{
    font-size:2.2rem;
+}
+
+.cross-btn {
+  margin-top: 6px;
+}
+
+@media (max-width: 380px) {
+  .side-drawer {
+    width:258px;
+  }
+  .sidebar-logo-text {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  .cross-btn {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
 }
 /* Backdrop component */
 

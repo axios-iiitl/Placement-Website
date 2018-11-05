@@ -7,10 +7,12 @@ const SideDrawer=props=>{
     return (
         <div className={drawerClass}>
         <div className='side'>
-        <span>
+        <span className="sidebar-logo-text">
             IIIT Lucknow
         </span>
-        <span className='cross-btn' onClick={props.click}>X</span>
+        <span className='cross-btn' onClick={props.click}>
+        <i className="fas fa-times fa-2x"></i>
+        </span>
         </div>
              <ul>
              <li><a href="/">Home</a></li>
