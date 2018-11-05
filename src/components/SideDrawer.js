@@ -9,7 +9,7 @@ const SideDrawer=props=>{
         <div className='side'>
         <Link to="/" style={{textDecoration: "none", color: "white"}}>
         <span onClick={props.click} className="sidebar-logo-text">
-            IIIT Lucknow
+            IIITL Placement Cell
         </span>
         </Link>
         <span className='cross-btn' onClick={props.click}>

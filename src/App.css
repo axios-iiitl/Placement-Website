@@ -118,7 +118,7 @@
 
 .side-drawer{
   height: 100%;
-  width:300px;
+  width:380px;
   left:0;
   top:0;
   box-shadow: 1px,0,7px,rgba(0,0,0,0.5);
@@ -150,7 +150,7 @@
 
 .side-drawer .activeclass {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color:#292c30;
 }
 
@@ -170,26 +170,31 @@
   justify-content: center;
 }
 .sidebar-logo-text{
-   font-size:2.2rem;
+   font-size:31px;
 }
 
 .cross-btn {
-  margin-top: 6px;
+  margin-top: px;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 440px) {
   .side-drawer {
     width:258px;
   }
   .sidebar-logo-text {
-    font-size: 30px;
+    font-size: 21px;
     margin-bottom: 5px;
   }
   .cross-btn {
     font-size: 14px;
-    margin-bottom: 5px;
+    margin-bottom: 0;
   }
-
+  .logo {
+    font-size: 22px;
+  }
+  .toggle-btn-line{
+    width: 24px;
+  }
 }
 /* Backdrop component */
 
@@ -202,7 +207,7 @@
 }
 
 .cross-btn{
-  margin-left:15%;
+  margin-left:13%;
   cursor: pointer;
   
 }
@@ -526,9 +531,11 @@ body {
   flex-flow: row wrap;
 }
 
-.contact-outer h1{
+.contact-outer h2,
+.placement-team h1{
   margin: 30px 0;
   text-decoration: underline;
+  text-align: center;
 }
 
 .placement-executives {
