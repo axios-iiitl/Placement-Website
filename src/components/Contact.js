@@ -29,7 +29,7 @@ const contactUs = () => {
         <div className="placement-team">
           <h1>Placement Cell</h1>
           <Card
-            src="https://dummyimage.com/400x400/000/fff"
+            src="https://randomuser.me/api/portraits/men/51.jpg"
             alt="xyz"
             name="NAME XYZABC"
             isTeacher={false}
@@ -37,11 +37,11 @@ const contactUs = () => {
             email="xyz@abcd.com"
             phone="+91-987654321"
           />
-          <h1>Student Coordinators</h1>
+          <h2>Student Coordinators</h2>
           <div className="placement-coordinators">
             <div className="placement-coordinators-wrapper">
               <Card
-                src="https://dummyimage.com/400x400/000/fff"
+                src="https://randomuser.me/api/portraits/men/51.jpg"
                 alt="xyz"
                 name="NAME XYZABC"
                 isTeacher={false}
@@ -50,7 +50,7 @@ const contactUs = () => {
                 phone="+91-987654321"
               />
               <Card
-                src="https://dummyimage.com/400x400/000/fff"
+                src="https://randomuser.me/api/portraits/men/51.jpg"
                 alt="xyz"
                 name="NAME XYZABC"
                 isTeacher={false}
@@ -60,10 +60,10 @@ const contactUs = () => {
               />
             </div>
           </div>
-          <h1>Executives</h1>
+          <h2>Executives</h2>
           <div className="placement-executives">
             <Card
-              src="https://dummyimage.com/400x400/000/fff"
+              src="https://randomuser.me/api/portraits/men/51.jpg"
               alt="xyz"
               name="NAME XYZABC"
               isTeacher={false}
@@ -72,7 +72,7 @@ const contactUs = () => {
               phone="+91-987654321"
             />
             <Card
-              src="https://dummyimage.com/400x400/000/fff"
+              src="https://randomuser.me/api/portraits/men/51.jpg"
               alt="xyz"
               name="NAME XYZABC"
               isTeacher={false}
@@ -81,7 +81,7 @@ const contactUs = () => {
               phone="+91-987654321"
             />
             <Card
-              src="https://dummyimage.com/400x400/000/fff"
+              src="https://randomuser.me/api/portraits/men/51.jpg"
               alt="xyz"
               name="NAME XYZABC"
               isTeacher={false}
