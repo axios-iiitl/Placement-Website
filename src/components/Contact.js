@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "./Card";
 
+import vijayshriImg from "../assets/images/vijayshri.jpg"
+
 const contactUs = () => {
   return (
     <React.Fragment>
@@ -27,15 +29,15 @@ const contactUs = () => {
         <div className="placement-team">
           <h1>Placement Cell</h1>
           <Card
-            src="https://dummyimage.com/400x400/000/fff"
-            alt="xyz"
-            name="NAME XYZABC"
+            src={vijayshriImg}
+            alt="Dr. Vijayshri Tewari"
+            name="Dr. Vijayshri Tewari"
             isTeacher={false}
-            position="Placement Officer"
-            email="xyz@abcd.com"
-            phone="+91-987654321"
+            position="Training and Placements Officer"
+            email="placements@iiitl.ac.in"
+            phone="+91-9415214707"
           />
-          <h1>Coordinators</h1>
+          <h1>Student Coordinators</h1>
           <div className="placement-coordinators">
             <Card
               src="https://dummyimage.com/400x400/000/fff"

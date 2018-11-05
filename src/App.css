@@ -465,6 +465,8 @@ body {
 }
 
 .snip1559 .profile-image img {
+  width: 150px;
+  height:150px;
     vertical-align: top;
     position: relative;
     border-radius: 50%;
@@ -492,8 +494,9 @@ body {
 }
 
 .contact-detail {
-  margin-top: 40px;
+  margin-top: 20px;
   line-height: 25px;
+  margin-bottom: 20px;
 }
 
 .snip1559:hover,
