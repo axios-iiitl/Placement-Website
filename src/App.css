@@ -1,6 +1,241 @@
 /* ////////////////////////////////////////////////// */
 /* Header */
 
+/* Toolbar component */
+.toolbar{
+  width:100%;
+  background-color:#292c30;
+  height:60px;
+}
+
+.toolbar_navigation{
+  display: flex;
+  align-items: center;
+  height:100%;
+  padding: 0 1rem;
+}
+
+.logo{
+  color:white;
+  font-size:2.2rem;
+  text-decoration: none;
+  margin-left:0.5rem;
+}
+
+
+
+.odd{
+  -webkit-animation: color-change-odd 1s infinite;
+        -moz-animation: color-change-odd 1s infinite;
+        -o-animation: color-change-odd 1s infinite;
+        -ms-animation: color-change-odd 1s infinite;
+        animation: color-change-odd 1s infinite;
+}
+
+@-webkit-keyframes color-change-odd {
+  0% { color: white; }
+  50% { color: #3fada8; }
+  100% { color: white; }
+}
+@-moz-keyframes color-change-odd {
+  0% { color: white; }
+  50% { color: #3fada8; }
+  100% { color: white; }
+}
+@-ms-keyframes color-change-odd {
+  0% { color: white; }
+  50% { color: #3fada8; }
+  100% { color: white; }
+}
+@-o-keyframes color-change-odd {
+  0% { color: white; }
+  50% { color: #3fada8; }
+  100% { color: white; }
+}
+@keyframes color-change-odd {
+  0% { color: white; }
+  50% { color: #3fada8; }
+  100% { color: white; }
+}
+.even{
+  -webkit-animation: color-change-even 1s infinite;
+        -moz-animation: color-change-even 1s infinite;
+        -o-animation: color-change-even 1s infinite;
+        -ms-animation: color-change-even 1s infinite;
+        animation: color-change-even 1s infinite;
+}
+
+@-webkit-keyframes color-change-even {
+  0% { color: #3fada8; }
+  50% { color: white; }
+  100% { color:#3fada8; }
+}
+@-moz-keyframes color-change-even {
+  0% { color: #3fada8; }
+  50% { color: white; }
+  100% { color: #3fada8; }
+}
+@-ms-keyframes color-change-even {
+  0% { color: #3fada8; }
+  50% { color: white; }
+  100% { color: #3fada8; }
+}
+@-o-keyframes color-change-even {
+  0% { color: #3fada8; }
+  50% { color: white; }
+  100% { color: #3fada8; }
+}
+@keyframes color-change-even {
+  0% { color: #3fada8; }
+  50% { color: white; }
+  100% { color: #3fada8; }
+}
+.spacer{
+  flex:1;
+}
+
+@media(max-width:897px){
+  .nav-elements{
+    display:none;
+  }
+}
+
+.nav-elements li{
+  padding: 0 0.7rem;
+}
+
+.nav-elements a{
+  color:white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-elements a:hover,
+.nav-elements a:active{
+  color: #00ffe9;
+}
+
+.nav-elements ul{
+  list-style: none;
+  margin:0;
+  padding: 0;
+  display:flex;
+}
+
+/* ToggleButton component */
+
+.toggle-btn{
+   height:24px;
+   width:30px;
+   background: transparent;
+   border:none;
+   cursor:pointer;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   padding: 0;
+   box-sizing:border-box;
+}
+
+.toggle-btn:focus{
+  outline:none;
+}
+.toggle-btn-line{
+  width:30px;
+  height:1.5px;
+  background-color:white;
+}
+
+@media(min-width:898px){
+
+  .toggle-btn{
+    display:none;
+  }
+  .side-drawer{
+    display: none;
+  }
+}
+
+/* Side-Drawer component */
+
+.side-drawer{
+  height: 100%;
+  width:70%;
+  max-width: 300px;
+  left:0;
+  top:0;
+  box-shadow: 1px,0,7px,rgba(0,0,0,0.5);
+  position:fixed;
+  background: #f4f5f7;
+  z-index: 300;
+  transform: translateX(-100%);
+  transition:transform 0.3s ease-out;
+ 
+}
+
+.side-drawer.open{
+  transform: translateX(0);
+}
+
+.side-drawer.open ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  height:100%;
+  
+}
+
+.side-drawer.open li{
+  margin-top:8.5%;
+}
+
+.side-drawer a {
+  text-decoration: none;
+  font-size: 4.5 rem;
+  font-weight: 600;
+  color:#292c30;
+}
+
+.side-drawer a:hover,
+.side-drawer a:active{
+  color:#f90074;
+  
+}
+
+.side{
+  width:100%;
+  background-color:#292c30;
+  height:60px;
+  color:white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.side span{
+  
+   font-size:2.2rem;
+}
+/* Backdrop component */
+
+.backdrop{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+ 
+  z-index: 100;
+}
+
+.cross-btn{
+  margin-left:15%;
+  cursor: pointer;
+  
+}
+
+.cursor-btn:hover{
+  color:#3fada8;
+}
+
 /* ////////////////////////////////////////////////// */
 /* Footer */
 
