@@ -29,13 +29,13 @@ const contactUs = () => {
         <div className="placement-team">
           <h1>Placement Cell</h1>
           <Card
-            src={vijayshriImg}
-            alt="Dr. Vijayshri Tewari"
-            name="Dr. Vijayshri Tewari"
+            src="https://dummyimage.com/400x400/000/fff"
+            alt="xyz"
+            name="NAME XYZABC"
             isTeacher={false}
-            position="Training and Placements Officer"
-            email="placements@iiitl.ac.in, tpo@iiitl.ac.in"
-            phone="+91-9415214707"
+            position="Placement Officer"
+            email="xyz@abcd.com"
+            phone="+91-987654321"
           />
           <h1>Student Coordinators</h1>
           <div className="placement-coordinators">
