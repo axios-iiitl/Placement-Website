@@ -17,7 +17,7 @@
 
 .logo{
   color:white;
-  font-size:2.2rem;
+  font-size:28px;
   text-decoration: none;
   margin-left:0.5rem;
   display: block;
@@ -93,6 +93,7 @@
    justify-content: space-around;
    padding: 0;
    box-sizing:border-box;
+   margin-top: 4px;
 }
 
 .toggle-btn:focus{
