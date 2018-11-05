@@ -402,3 +402,126 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+
+/* //////////////////////////////////////////////// */
+
+/* Contact Us Page */
+
+.contact-wrapper {
+  display:flex;
+  justify-content: flex-start;
+  text-align: left;
+  margin: 30px;
+  flex-wrap: wrap;
+}
+.contact-box {
+  background-color: rgb(241, 241, 241);
+  width: 100%;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.contact-box h1 {
+  font-weight: 300;
+}
+
+.contact-box p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.contact-box a {
+  text-decoration: none;
+  color: black
+}
+
+.contact-box a:hover {
+  color: #65c2ed;
+  transition: color 0.3s ease;
+}
+
+.snip1559 {
+  top: 0;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 20px;
+    min-width: 250px;
+    max-width: 310px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #2B2B2B;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-out 0s;
+
+}
+.snip1559 .profile-image {
+    padding: 7% 10% 0;
+}
+
+.snip1559 .profile-image img {
+    vertical-align: top;
+    position: relative;
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+.snip1559 figcaption {
+    padding: 5% 0% 4%;
+}
+
+.snip1559 h3 {
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 3px ;
+}
+.snip1559 h5 {
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+    color: #888;
+    letter-spacing: 1px;
+}
+
+.contact-detail {
+  margin-top: 40px;
+  line-height: 25px;
+}
+
+.snip1559:hover,
+.snip1559.active {
+  top: -4px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid rgba(250, 123, 128, 1);
+}
+
+.placement-team {
+  width: 100%;  
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.placement-coordinators {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.contact-outer h1{
+  margin: 30px 0;
+  text-decoration: underline;
+}
+
+.placement-executives {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
