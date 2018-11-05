@@ -543,3 +543,49 @@ body {
   justify-content: center;
   flex-flow: row wrap;
 }
+
+/* ///////////////////////////////////////////////////// */
+
+/* Why IIITL Page */
+
+.whyus-o-container {
+  display: flex;
+  justify-content: center;
+}
+
+.whyus-container {
+  width:80%;
+  background-color: #f3f3f3;
+  padding: 0 20px;
+  margin: 20px;
+}
+
+.whyus-container h1 {
+  text-align: center;
+  margin: 20px 0;
+  margin-bottom: 20px;
+}
+
+.whyus-container p {
+  margin: 20px 0;
+}
+
+.whyus-container a {
+  text-decoration: none;
+  color: #3394ff;
+}
+
+.whyus-container strong {
+  color: #414141;
+  font-weight: 700;
+}
+
+.whyus-container h2 {
+  margin-top: 20px;
+}
+
+@media (max-width: 545px) {
+  .whyus-container {
+    width: 95%;
+  }
+}
