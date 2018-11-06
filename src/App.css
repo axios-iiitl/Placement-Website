@@ -663,3 +663,110 @@ body {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
   margin: 30px 0;
 }
+
+
+/* /////////////////////////////////////////////// */
+
+/* Past Recruiters */
+
+.pr-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pr-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pr-box {
+  box-sizing: border-box;
+  margin: 15px 20px;
+  padding: 0;
+  float: left;
+  top: 0px;
+  position: relative;
+  background: #fdfdfd;
+  transition: all 0.3s ease-out 0s;
+  z-index: 1;
+  border-bottom: 2px solid rgba(2, 216, 113, 0.2);
+  text-align: center;
+  padding: 15px;
+  width: 250px;
+}
+
+.pr-company-logo {
+  width: 85%;
+}
+
+.pr-company h5 {
+  z-index: 99;
+  position: relative;
+}
+
+.pr-box-content {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 30px;
+  font-style: normal;
+}
+
+.pr-box:hover,
+.pr-box.active {
+  top: -4px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid rgba(250, 123, 128, 1);
+}
+
+.pr-outer-container {
+  text-align: center;
+}
+
+.pr-outer-container h1 {
+  margin: 25px 0;
+  text-decoration: underline;
+  font-size: 50px;
+}
+
+@media (max-width: 366px) {
+  .pr-box {
+    width: 200px;
+  }
+  .pr-box-content {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 240px) {
+  .pr-box {
+    width: 160px;
+  }
+}
+
+.pr-inner-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.pr-inner-box {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px 0;
+  border: 8px solid rgb(206, 206, 206);
+}
+
+.pr-inner-box img {
+  width: 150px;
+  margin: 5px 10px;
+}
+
+@media (max-width: 950px) {
+  .pr-inner-box {
+    width: 90%;
+  }
+}
