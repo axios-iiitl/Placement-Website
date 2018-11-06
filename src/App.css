@@ -630,7 +630,6 @@ body {
 
 .procedure-wrapper h1 {
   text-align: center;
-  text-decoration: underline;
   margin: 20px 0;
   margin-bottom: 35px;
 }
@@ -646,7 +645,6 @@ body {
 .procedure-wrapper h2 {
   margin-top: 20px;
   font-size: 30px;
-  text-decoration: underline;
 }
 
 .procedure-wrapper p {
