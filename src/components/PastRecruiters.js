@@ -34,6 +34,9 @@ const PastRecruiters = props => {
     <React.Fragment>
       <div className="pr-outer-container">
         <h1 className="pr-main-heading">Past Recruiters</h1>
+        <div className="pr-sub-heading">
+          <h2>Major Recruiters</h2>
+        </div>
         <div className="pr-container">
           <div className="pr-wrapper">
             <CompanyCard
@@ -63,15 +66,22 @@ const PastRecruiters = props => {
               alt="Quantiphi"
               companyName="Quantiphi"
             />
+            <CompanyCard
+              src={goldmansachsLogo}
+              alt="Goldman Sachs"
+              companyName="Goldman Sachs"
+            />
           </div>
         </div>
-        <h1>Other Recruiters</h1>
+        <div className="pr-sub-heading">
+          <h2>Other Recruiters</h2>
+        </div>
         <div className="pr-inner-wrapper">
-            <div className="pr-inner-box">
+          <div className="pr-inner-box">
             <img src={ONEmgLogo} alt="1mg" />
             <img src={codenationLogo} alt="Codenation" />
             <img src={collegeduniaLogo} alt="College Dunia" />
-            <img src={goldmansachsLogo} alt="Goldman Sachs" />
+            <img src={quantiphiLogo} alt="Quantiphi" />
             <img src={hashedInLogo} alt="Hashedin" />
             <img src={infoobjectsLogo} alt="Info Objects" />
             <img src={jdaLogo} alt="jda" />
@@ -88,7 +98,7 @@ const PastRecruiters = props => {
             <img src={vehanttechnologiesLogo} alt="Vehant Technologies" />
             <img src={wickedrideLogo} alt="Wicked Ride" />
             <img src={zenefitsLogo} alt="Zenefits" />
-            </div>
+          </div>
         </div>
       </div>
     </React.Fragment>

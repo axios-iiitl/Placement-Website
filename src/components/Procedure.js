@@ -11,26 +11,30 @@ const Procedure = props => (
         drive.
       </p>
       <p>
-        To a student finally selected by a company after all testing and
-        interview rounds, the company may offer :
+        <strong>
+          To a student finally selected by a company after all testing and
+          interview rounds, the company may offer :
+        </strong>
       </p>
-      <h2>Full time job offer</h2>
-      <p>
-        The selected student will join company in June 2019 as full time
-        employee.
-      </p>
-      <h2>Internship</h2>
-      <p>
-        B. Tech 3rd year students are eligible for <strong>2 months</strong>{" "}
-        summer internship The student will join the company in May/June 2019 as
-        an intern for a period of 2 months.
-      </p>
-      <p>
-        B. Tech. 4th year students are eligible for <strong>6 months</strong>{" "}
-        internship. The student will join the company in January 2019 as an
-        intern for a period of 6 months and complete their 8th semester project
-        in the company.
-      </p>
+      <div className="sub-part">
+        <h2>Full time job offer</h2>
+        <p>
+          The selected student will join company in June 2019 as full time
+          employee.
+        </p>
+        <h2>Internship</h2>
+        <p>
+          B. Tech 3rd year students are eligible for <strong>2 months</strong>{" "}
+          summer internship The student will join the company in May/June 2019
+          as an intern for a period of 2 months.
+        </p>
+        <p>
+          B. Tech. 4th year students are eligible for <strong>6 months</strong>{" "}
+          internship. The student will join the company in January 2019 as an
+          intern for a period of 6 months and complete their 8th semester
+          project in the company.
+        </p>
+      </div>
       <HR />
       <h2>Placement Procedure</h2>
       <ul className="custom-list">
@@ -75,67 +79,69 @@ const Procedure = props => (
         </li>
       </ul>
       <HR />
-      <h2 className="policies-heading">Placement Policy</h2>
-      <h2>Classification of Company</h2>
-      <p>
-        The classification of a company will based on the criteria of pay
-        packages(CTC) and work profile. The two classes being:
-      </p>
-      <ul className="custom-list">
-        <li>First Round Company</li>
-        <li>Dream Round Company</li>
-      </ul>
-      <p>
-        Overall CTC of a company includes joining bonus and all other perks, if
-        applicable. Eligibility for a dream round company for a student will be
-        decided on the basis of overall CTC.
-      </p>
-      <h2>Job Offer for a student</h2>
-      <ul className="custom-list">
-        <li>
-          If a student's name appears on the final shortlist declared after the
-          Company's process through the Placement Cell, then that would be
-          considered as a Job Offer to the student.
-        </li>
-        <li>
-          A student will be out of campus placement process only if he/she gets
-          an offer from a Dream Round company.
-        </li>
-        <li>
-          Students getting a Job Offer from a First Round company are still
-          eligible for further placements and only these students are allowed to
-          upgrade to a Dream Round company.
-        </li>
-        <li>
-          PPO Offer and off-campus placements are also considered as Job Offer,
-          hence the same policy is applicable to them.
-        </li>
-        <h2>Job Offer made by Company</h2>
+      <div className="placement-policy-heading">
+        <h2 className="policies-heading">Placement Policy</h2>
+        <h2 className="ph-subheading">Classification of Company</h2>
+        <p>
+          The classification of a company will based on the criteria of pay
+          packages(CTC) and work profile. The two classes being:
+        </p>
+        <ul className="custom-list">
+          <li>First Round Company</li>
+          <li>Dream Round Company</li>
+        </ul>
+        <p>
+          Overall CTC of a company includes joining bonus and all other perks,
+          if applicable. Eligibility for a dream round company for a student
+          will be decided on the basis of overall CTC.
+        </p>
+        <h2 className="ph-subheading">Job Offer for a student</h2>
         <ul className="custom-list">
           <li>
-            The companies are requested to announce the result/ final shortlist
-            on the day of campus visit.
+            If a student's name appears on the final shortlist declared after
+            the Company's process through the Placement Cell, then that would be
+            considered as a Job Offer to the student.
           </li>
           <li>
-            The company should hand over the duly signed hard copy of the final
-            selection list to the placement cell.
+            A student will be out of campus placement process only if he/she
+            gets an offer from a Dream Round company.
           </li>
           <li>
-            The company shall provide the offer letters to the Placement office
-            and not directly to the students.
+            Students getting a Job Offer from a First Round company are still
+            eligible for further placements and only these students are allowed
+            to upgrade to a Dream Round company.
           </li>
           <li>
-            The purview of the Placement Cell is restricted only to the offers
-            made as part of the campus placement process.
+            PPO Offer and off-campus placements are also considered as Job
+            Offer, hence the same policy is applicable to them.
           </li>
-          <li>
-            In case the company is unable to declare the result on the same day,
-            then the student is allowed to participate in other companies until
-            the result is declared. The final status will depend upon who
-            declares the result first.
-          </li>{" "}
+          <h2 className="ph-subheading">Job Offer made by Company</h2>
+          <ul className="custom-list">
+            <li>
+              The companies are requested to announce the result/ final
+              shortlist on the day of campus visit.
+            </li>
+            <li>
+              The company should hand over the duly signed hard copy of the
+              final selection list to the placement cell.
+            </li>
+            <li>
+              The company shall provide the offer letters to the Placement
+              office and not directly to the students.
+            </li>
+            <li>
+              The purview of the Placement Cell is restricted only to the offers
+              made as part of the campus placement process.
+            </li>
+            <li>
+              In case the company is unable to declare the result on the same
+              day, then the student is allowed to participate in other companies
+              until the result is declared. The final status will depend upon
+              who declares the result first.
+            </li>{" "}
+          </ul>
         </ul>
-      </ul>
+      </div>
     </div>
   </div>
 );

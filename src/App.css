@@ -600,6 +600,8 @@ body {
     border: 0px none;
     padding: 10px 0 0px 22px;
     display: block;
+    margin: 10px 0;
+    padding-right: 10px;
 }
 
 .custom-list li::before {
@@ -611,6 +613,9 @@ body {
     margin-top: 4px;
 }
 
+.ph-subheading {
+  font-size: 25px!important;
+}
 .procedure-outer {
   display: flex;
   justify-content: center;
@@ -625,12 +630,23 @@ body {
 
 .procedure-wrapper h1 {
   text-align: center;
+  text-decoration: underline;
   margin: 20px 0;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
+}
+
+.sub-part h2 {
+  font-size: 20px!important;
+}
+
+.sub-part p {
+  margin: 10px 0!important;
 }
 
 .procedure-wrapper h2 {
   margin-top: 20px;
+  font-size: 30px;
+  text-decoration: underline;
 }
 
 .procedure-wrapper p {
@@ -724,9 +740,21 @@ body {
 }
 
 .pr-outer-container h1 {
-  margin: 25px 0;
   text-decoration: underline;
+  margin: 25px 0;
   font-size: 50px;
+}
+
+.pr-sub-heading {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  margin: 20px;
+}
+
+.pr-sub-heading h2 {
+  font-size: 35px;
+  width: fit-content;
 }
 
 @media (max-width: 366px) {
@@ -757,7 +785,9 @@ body {
   justify-content: center;
   padding: 20px;
   margin: 20px 0;
-  border: 8px solid rgb(206, 206, 206);
+  margin-bottom: 30px;
+  border: 1.6vw solid rgb(206, 206, 206);
+  box-shadow: 10px 10px 10px #eee;
 }
 
 .pr-inner-box img {
