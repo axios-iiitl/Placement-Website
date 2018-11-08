@@ -1163,7 +1163,55 @@ body {
   color: white;
   padding: 10px 20px;
 }
+/* Message Component */
 
 .msgh{
-  margin-left: 20vw
+  text-align:center;
+  margin-top:2vw;
+  margin-bottom: 2vw;
+  color: #17915d;
+  font-size: 2.7em;
+}
+.msgp{
+  font-size: 1.15em;
+  font-weight:bold;
+  margin-left:10vw;
+  margin-right:10vw;
+  color:#0c2728;
+  
+}
+
+.cred{
+  margin-left:10vw;
+  
+ color: #563e55;
+ font-weight:bold;
+}
+
+
+
+
+
+/* About Component*/
+
+.abt1,.abt3 {
+  text-align: center
+}
+
+.abt1{
+  margin-top:3vw;
+  color:#5b031f;
+}
+
+.abt3{
+  margin-top: 0.5vw;
+  margin-bottom: 2.2vw;
+  color:#a50034;
+}
+.abt-text{
+  margin-left: 8vw;
+  margin-right: 8vw;
+  margin-bottom:4vw;
+  font-weight: bold;
+  color:#19040e
 }

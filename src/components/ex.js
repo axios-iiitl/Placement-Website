@@ -48,7 +48,7 @@ const Ex=props=>(<div className='example'>
       <h2>The Training and Placement cell </h2>
       <p>The Training and Placement cell of Indian Institute of Information Technology, Lucknow is an integral part of the academics It helps in shaping the careers of our students in the field of Information Technology. </p>
       <p class="read-more">
-        <a href="#">Read More</a>
+      <NavLink to="/message/tpo" exact className="activeclass">Read More..</NavLink>
       </p>
     </div>
   </div>

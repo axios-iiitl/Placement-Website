@@ -16,6 +16,7 @@ const Toolbar =props=>(
         <div className="nav-elements">
          <ul>
              <li><NavLink to="/" exact className="activeclass">Home</NavLink></li>
+             <li><NavLink to="/about" exact className="activeclass">About Us</NavLink></li>
              <li><NavLink to="/past" exact className="activeclass">Past Recruiters</NavLink></li>
              <li><NavLink to="/statistics" exact className="activeclass">Statistics</NavLink></li>
              <li><NavLink to="/why" exact className="activeclass">Why us</NavLink></li>

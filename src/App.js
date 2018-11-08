@@ -10,8 +10,9 @@ import Placement from './components/Placement';
 import Procedure from './components/Procedure';
 import Why from './components/Why'
 import Contact from './components/Contact'
-import Message from './components/message'
-
+import MessageD from './components/message'
+import Messaget from './components/messaget'
+import About from './components/about'
 class App extends Component {
   render() {
     return (
@@ -24,7 +25,9 @@ class App extends Component {
       <Route path="/contact" exact component={Contact} />
       <Route path="/procedure" exact component={Procedure} />
       <Route path="/why" exact component={Why} />
-      <Route path="/message/director" exact render={()=><Message heading="Director's Message" />} />
+      <Route path="/message/director" exact component={MessageD} />
+      <Route path="/message/tpo" exact component={Messaget} />
+      <Route path="/about" exact component={About} />
       </Switch>
         <Footer />
       </Fragment>
