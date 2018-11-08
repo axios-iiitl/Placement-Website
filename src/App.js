@@ -10,7 +10,7 @@ import Placement from './components/Placement';
 import Procedure from './components/Procedure';
 import Why from './components/Why'
 import Contact from './components/Contact'
-
+import Message from './components/message'
 
 class App extends Component {
   render() {
@@ -24,6 +24,7 @@ class App extends Component {
       <Route path="/contact" exact component={Contact} />
       <Route path="/procedure" exact component={Procedure} />
       <Route path="/why" exact component={Why} />
+      <Route path="/message/director" exact render={()=><Message heading="Director's Message" />} />
       </Switch>
         <Footer />
       </Fragment>

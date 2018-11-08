@@ -1,6 +1,9 @@
 import React from 'react'
 import vijayshri from '../assets/images/vijayshri.jpg'
 import director from '../assets/images/director.jpg'
+import {NavLink, Link} from 'react-router-dom'
+
+
 const Ex=props=>(<div className='example'>
     <div class="blog-card">
     <div class="meta">
@@ -21,7 +24,7 @@ const Ex=props=>(<div className='example'>
       <h2>Evolving a brand-name takes years of nurturing</h2>
       <p> Evolving a brand-name takes years of nurturing, hard work and passion. IIIT Lucknow, which started its journey in 2015, has brought in the culture of innovation among its students. </p>
       <p class="read-more">
-        <a href="#">Read More</a>
+      <NavLink to="/message/director" exact className="activeclass">Read More..</NavLink>
       </p>
     </div>
   </div>
