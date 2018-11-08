@@ -17,7 +17,9 @@ const SideDrawer=props=>{
         </span>
         </div>
         <ul>
+            
              <li onClick={props.click}><NavLink to="/" exact className="activeclass">Home</NavLink></li>
+             <li onClick={props.click}><NavLink to="/about" exact className="activeclass">About us</NavLink></li>
              <li onClick={props.click}><NavLink to="/past" exact className="activeclass">Past Recruitors</NavLink></li>
              <li onClick={props.click}><NavLink to="/statistics" exact className="activeclass">Statistics</NavLink></li>
              <li onClick={props.click}><NavLink to="/why" exact className="activeclass">Why us</NavLink></li>
