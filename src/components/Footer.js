@@ -2,13 +2,14 @@ import React from "react";
 import TwitterSVG from "./svg/Twitter";
 import FacebookSVG from "./svg/Facebook";
 import LinkedInSVG from "./svg/Linkedin";
+import iiitlText from "../assets/images/iiitl-text.svg"
 
 const footer = () => {
   return (
     <footer>
       <div className="centered clearfix">
         <div className="footer-logo">
-          <img className="logo" src="https://placeholder.pics/svg/" alt="Logo" />
+          <img className="logo" src={iiitlText} alt="Logo" />
           <div className="social">
             <a href="/" className="facebook">
               <FacebookSVG />
