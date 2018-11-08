@@ -866,7 +866,7 @@ body {
 .blog-card:hover .details {
   left: 0%;
 }
-@media (min-width: 640px) {
+@media (min-width: 639px) {
   .blog-card {
     flex-direction: row;
     max-width: 700px;
