@@ -1,5 +1,5 @@
 import React, { Component ,Fragment} from "react";
-import { Route, Redirect, withRouter, Switch } from "react-router-dom";
+import { Route,  Switch } from "react-router-dom";
 
 import Footer from "./components/Footer";
 import "./App.css";
