@@ -33,7 +33,7 @@ const PastRecruiters = props => {
   return (
     <React.Fragment>
       <div className="pr-outer-container">
-        <h1 className="pr-main-heading">Past Recruiters</h1>
+        <h1 className="pr-main-heading">The Team</h1>
         <div className="pr-sub-heading">
           <h2>Major Recruiters</h2>
         </div>
