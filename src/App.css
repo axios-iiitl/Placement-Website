@@ -512,6 +512,12 @@ body {
   border-bottom: 2px solid rgba(250, 123, 128, 1);
 }
 
+.placement-team-heading {
+  font-size: 40px;
+  margin-top: 0!important;
+  background-color: white!important;
+}
+
 .placement-team {
   width: 100%;  
   display: flex;
@@ -535,8 +541,10 @@ body {
 .contact-outer h2,
 .placement-team h1{
   margin: 30px 0;
-  text-decoration: underline;
   text-align: center;
+  padding: 10px;
+  width: 98%;
+  background-color: #f5f5f5;
 }
 
 .placement-executives {
@@ -551,6 +559,8 @@ body {
   width: 100%;
     display: flex;
 }
+
+
 
 /* ///////////////////////////////////////////////////// */
 

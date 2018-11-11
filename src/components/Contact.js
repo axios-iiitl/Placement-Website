@@ -9,7 +9,8 @@ const contactUs = () => {
       <div className="contact-outer">
         <div className="contact-wrapper" />
         <div className="placement-team">
-          <h1>Placement Cell</h1>
+          <h1 className="placement-team-heading">Placement Cell</h1>
+          <h2>Training And Placement Officer (TPO)</h2>
           <Card
             src="https://iiitl.ac.in/sites/default/files/inline-images/vijayshri_0_0.jpg"
             alt="xyz"
