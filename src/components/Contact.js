@@ -1,8 +1,6 @@
 import React from "react";
 import Card from "./Card";
 
-// import vijayshriImg from "../assets/images/vijayshri.jpg";
-
 const contactUs = () => {
   return (
     <React.Fragment>

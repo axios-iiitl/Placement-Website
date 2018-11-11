@@ -1,5 +1,4 @@
 import React from 'react'
-import iiitl2 from '../assets/images/iiitl2.jpg'
 const About = props => (
     <div>
         <h1 className='abt1'>Welcome To IIIT Lucknow</h1>
