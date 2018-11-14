@@ -1,8 +1,5 @@
 import React from "react";
-import TwitterSVG from "./svg/Twitter";
-import FacebookSVG from "./svg/Facebook";
-import LinkedInSVG from "./svg/Linkedin";
-import iiitlText from "../assets/images/iiitl-text.svg";
+import { Link } from "react-router-dom";
 
 const footer = () => {
   return (
@@ -28,28 +25,52 @@ const footer = () => {
               <h2>Coordinators</h2>
               <p className="footer-contact-name">Devanshoo Udhani</p>
               <p className="footer-contact-position">Student Coordinator</p>
-              <p>+91-9415214707</p>
-              <p>placements@iiitl.ac.in</p>
+              <p>
+                <a href="tel:+91-9415214707">+91-9415214707</a>
+              </p>
+              <p>
+                <a href="mailto:placements@iiitl.ac.in">
+                  placements@iiitl.ac.in
+                </a>
+              </p>
             </div>
             <div class="footer-col">
               <p className="footer-contact-name">Prankur Agarwal</p>
               <p className="footer-contact-position">Student Coordinator</p>
-              <p>+91-9415214707</p>
-              <p>placements@iiitl.ac.in</p>
+              <p>
+                <a href="tel:+91-9415214707">+91-9415214707</a>
+              </p>
+              <p>
+                <a href="mailto:placements@iiitl.ac.in">
+                  placements@iiitl.ac.in
+                </a>
+              </p>
             </div>
             <div class="footer-col">
               <h2>Links</h2>
               <p>
-                <a href="#">Brochure</a>
+                <a
+                  href="https://iiitl.ac.in/documents/Placement_Brochure.pdf"
+                  target="blank"
+                >
+                  Brochure
+                </a>
               </p>
               <p>
-                <a href="#">Academics</a>
+                <a href="https://iiitl.ac.in/dean-academics" target="blank">
+                  Academics
+                </a>
               </p>
               <p>
-                <a href="#">Facilities</a>
+                <a
+                  href="https://iiitl.ac.in/placements/facilities"
+                  target="blank"
+                >
+                  Facilities
+                </a>
               </p>
               <p>
-                <a href="#">The Team</a>
+                <Link to="/contact">The Team</Link>
               </p>
             </div>
           </div>
