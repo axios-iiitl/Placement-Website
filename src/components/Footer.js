@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 const footer = () => {
   return (
     <React.Fragment>
-      <div class="footer">
-        <div class="footer-outer-wrapper">
-          <div class="footer-inner-wrapper">
-            <div class="footer-col">
+      <div className="footer">
+        <div className="footer-outer-wrapper">
+          <div className="footer-inner-wrapper">
+            <div className="footer-col">
               <h2>Contact Us</h2>
               <p>
                 <a href="mailto:contact@iiitl.ac.in">contact@iiitl.ac.in</a>
@@ -21,7 +21,7 @@ const footer = () => {
                 Allahabad - 211015
               </p>
             </div>
-            <div class="footer-col">
+            <div className="footer-col">
               <h2>Coordinators</h2>
               <p className="footer-contact-name">Devanshoo Udhani</p>
               <p className="footer-contact-position">Student Coordinator</p>
@@ -34,7 +34,7 @@ const footer = () => {
                 </a>
               </p>
             </div>
-            <div class="footer-col">
+            <div className="footer-col">
               <p className="footer-contact-name">Prankur Agarwal</p>
               <p className="footer-contact-position">Student Coordinator</p>
               <p>
@@ -46,7 +46,7 @@ const footer = () => {
                 </a>
               </p>
             </div>
-            <div class="footer-col">
+            <div className="footer-col">
               <h2>Links</h2>
               <p>
                 <a
@@ -77,7 +77,7 @@ const footer = () => {
         </div>
       </div>
 
-      <div class="footer-copyright">
+      <div className="footer-copyright">
         <p>
           ALL RIGHTS RESERVED © 2018. <strong>IIIT LUCKNOW</strong>
         </p>
