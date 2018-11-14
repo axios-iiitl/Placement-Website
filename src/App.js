@@ -13,6 +13,7 @@ import Contact from './components/Contact'
 import MessageD from './components/message'
 import Messaget from './components/messaget'
 import About from './components/about'
+import Courses from './components/courses'
 class App extends Component {
   render() {
     return (
@@ -28,6 +29,7 @@ class App extends Component {
       <Route path="/message/director" exact component={MessageD} />
       <Route path="/message/tpo" exact component={Messaget} />
       <Route path="/about" exact component={About} />
+      <Route path="/courses" exact component={Courses} />
       </Switch>
         <Footer />
       </Fragment>
