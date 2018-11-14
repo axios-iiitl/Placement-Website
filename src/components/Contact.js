@@ -49,7 +49,7 @@ const contactUs = () => {
                 name="Shubhanshu Singh"
                 isTeacher={false}
                 position="Placement Executive"
-                email="xyz@abcd.com"
+                email="placements@iiitl.ac.in"
                 phone="+91-9455229539"
               />
               <Card
@@ -57,7 +57,7 @@ const contactUs = () => {
                 alt="xyz"
                 name="Vaibhav Agarwal"
                 isTeacher={false}
-                position="Placement Officer"
+                position="Placement Executive"
                 email="placements@iiitl.ac.in"
                 phone="+91-7839932719"
               />
@@ -66,7 +66,7 @@ const contactUs = () => {
                 alt="xyz"
                 name="Raghav Khandelwal"
                 isTeacher={false}
-                position="Placement Officer"
+                position="Placement Executive"
                 email="placements@iiitl.ac.in"
                 phone="+91-9414038742"
               />
