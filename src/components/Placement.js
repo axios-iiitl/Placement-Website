@@ -4,7 +4,7 @@ import PlacementStatsCard from "./PlacementStatsCard";
 const Placement = props => {
   return (
     <div className='stats'>
-    <h1>Placement and Statistics</h1>
+    <h1>Statistics</h1>
      <p>
      IIIT-Lucknow provides a platform to facilitate interaction between students and companies, so both can find the best match as per their aspirations and requirements.<br /><br />
 
@@ -21,7 +21,10 @@ Here are some Statistics regarding the placement of the batch graduating in 2019
   Lowest Package: 4.50 lpa
   </li>
   <li>
-    Average of top 50%: 12.83 lpa
+  Percentage of students placed: 67.50%
+  </li>
+  <li>
+  Average of top 50%: 12.83 lpa
   </li>
   <li>
   Average of top 20%: 20.50 lpa
