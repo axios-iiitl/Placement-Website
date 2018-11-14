@@ -62,11 +62,6 @@ const PastRecruiters = props => {
             />
             <CompanyCard src={paytmLogo} alt="PayTm" companyName="PayTM" />
             <CompanyCard
-              src={quantiphiLogo}
-              alt="Quantiphi"
-              companyName="Quantiphi"
-            />
-            <CompanyCard
               src={goldmansachsLogo}
               alt="Goldman Sachs"
               companyName="Goldman Sachs"
