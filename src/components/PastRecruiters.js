@@ -1,6 +1,5 @@
 import React from "react";
 
-import CompanyCard from "./CompanyCard";
 import directiLogo from "../assets/company_logos/directi.png";
 import accoliteLogo from "../assets/company_logos/accolite.png";
 import ackoLogo from "../assets/company_logos/acko.png";
@@ -34,45 +33,15 @@ const PastRecruiters = props => {
     <React.Fragment>
       <div className="pr-outer-container">
         <h1 className="pr-main-heading">Past Recruiters</h1>
-        <div className="pr-sub-heading">
-          <h2>Major Recruiters</h2>
-        </div>
-        <div className="pr-container">
-          <div className="pr-wrapper">
-            <CompanyCard
-              src={directiLogo}
-              alt="Directi"
-              companyName="Directi"
-            />
-            <CompanyCard
-              src={accoliteLogo}
-              alt="Accolite"
-              companyName="Accolite"
-            />
-            <CompanyCard src={ackoLogo} alt="Acko" companyName="Acko" />
-            <CompanyCard
-              src={expediaLogo}
-              alt="Expedia"
-              companyName="Expedia"
-            />
-            <CompanyCard
-              src={linkedinLogo}
-              alt="LinkedIn"
-              companyName="LinkedIn"
-            />
-            <CompanyCard src={paytmLogo} alt="PayTm" companyName="PayTM" />
-            <CompanyCard
-              src={goldmansachsLogo}
-              alt="Goldman Sachs"
-              companyName="Goldman Sachs"
-            />
-          </div>
-        </div>
-        <div className="pr-sub-heading">
-          <h2>Other Recruiters</h2>
-        </div>
         <div className="pr-inner-wrapper">
           <div className="pr-inner-box">
+            <img src={directiLogo} alt="Directi" />
+            <img src={accoliteLogo} alt="Accolite" />
+            <img src={ackoLogo} alt="Acko" />
+            <img src={expediaLogo} alt="Expedia" />
+            <img src={linkedinLogo} alt="LinkedIn" />
+            <img src={paytmLogo} alt="PayTm" />
+            <img src={goldmansachsLogo} alt="Goldman Sachs" />
             <img src={ONEmgLogo} alt="1mg" />
             <img src={codenationLogo} alt="Codenation" />
             <img src={collegeduniaLogo} alt="College Dunia" />

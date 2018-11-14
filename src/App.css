@@ -904,7 +904,7 @@ body {
 }
 
 .pr-company-logo {
-  width: 85%;
+  width: 60%;
 }
 
 .pr-company h5 {
@@ -931,9 +931,15 @@ body {
 }
 
 .pr-outer-container h1 {
-  text-decoration: underline;
   margin: 25px 0;
   font-size: 50px;
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #f5f5f5;
+  font-size: 40px;
+  padding: 5px;
+  border: 0.3px solid #eee;
 }
 
 .pr-sub-heading {
@@ -969,7 +975,7 @@ body {
 }
 
 .pr-inner-box {
-  width: 70%;
+  width: 95%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -977,19 +983,11 @@ body {
   padding: 20px;
   margin: 20px 0;
   margin-bottom: 30px;
-  border: 1.6vw solid rgb(206, 206, 206);
-  box-shadow: 10px 10px 10px #eee;
 }
 
 .pr-inner-box img {
   width: 150px;
-  margin: 5px 10px;
-}
-
-@media (max-width: 950px) {
-  .pr-inner-box {
-    width: 90%;
-  }
+  margin: 25px 10px;
 }
 
 /* ///////////////////////////////////////////////// */
