@@ -344,6 +344,12 @@ body {
   }
 }
 
+.footer-col h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
 
 /* //////////////////////////////////////////////// */
 
