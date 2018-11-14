@@ -1055,34 +1055,7 @@ body {
 /* ///////////////////////////////////////////////// */
 /* Placements Stats */
 
-.stats{
-  width:70%;
-  margin-left:15%;
-  background-color: #f9f9f9;
-  margin-top:1vw;
-  margin-bottom: 10vw;
-  border: #e8ebef solid 0.2vw;
-}
 
-.stats p{
-  margin-left: 2vw;
-  margin-right: 2vw;
-  color:#2b000e;
-  font-weight: 250;
-}
-
-.stats h1{
-  text-align: center;
-  margin-top:1vw;
-  margin-bottom: 4vw;
-  color:#700325;
-}
-.stats li{
-  list-style: none;
-  margin-bottom:0.65vw;
-  color:#913146;
-  font-weight: bold;
-}
 
 /* Message Component */
 
