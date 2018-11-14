@@ -5,7 +5,7 @@ const Placement = props => {
     <React.Fragment>
       <div className="stats-outer">
         <div className="stats-inner">
-          <h1>Statistics</h1>
+          <h1>Placement Statistics</h1>
           <p>
             IIIT-Lucknow provides a platform to facilitate interaction between
             students and companies, so both can find the best match as per their
