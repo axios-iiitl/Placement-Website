@@ -235,6 +235,7 @@ footer {
   padding: 10px 10px;
   background-color: black;
   color: white;
+  font-size: 11px;
 }
 
 .footer {
@@ -243,7 +244,7 @@ footer {
 }
 
 .footer p {
-  font-size: 18px!important;
+  font-size: 11px!important;
 }
 
 .footer-outer-wrapper {
@@ -279,12 +280,12 @@ footer {
 }
 
 .footer-col p {
-  margin: 10px 0;
+  margin: 5px 0;
   font-size: 20px
 }
 
 .footer-col:nth-child(3) {
-  margin-top: 50px;
+  margin-top: 36px;
 }
 
 .footer-logo {
@@ -345,18 +346,18 @@ body {
 @media (max-width: 418px) {
   .footer-col:nth-child(4) {
     padding-right: 91px;
-    text-align: left;
+    width: 33%;
   }
-
-  .footer-col:nth-child(3) {
-    margin-top: 0px;
+  .footer-col {
+    margin: 20px 10px;
   }
 }
 
 .footer-col h2 {
-  font-size: 20px;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 3px;
+  font-weight: 700;
 }
 
 
