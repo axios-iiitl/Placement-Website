@@ -10,7 +10,7 @@ const contactUs = () => {
           <h2>Training And Placement Officer (TPO)</h2>
           <Card
             src="https://iiitl.ac.in/sites/default/files/inline-images/vijayshri_0_0.jpg"
-            alt="xyz"
+            alt="Dr. Vijayshri Tewari"
             name="Dr. Vijayshri Tewari"
             isTeacher={false}
             position="Training and Placements Officer"
@@ -22,7 +22,7 @@ const contactUs = () => {
             <div className="placement-coordinators-wrapper">
               <Card
                 src="https://iiitl.ac.in/sites/default/files/inline-images/devanshoo_1.jpg"
-                alt="xyz"
+                alt="Devanshoo Udhani"
                 name="Devanshoo Udhani"
                 isTeacher={false}
                 position="Student Coordinator"
@@ -31,7 +31,7 @@ const contactUs = () => {
               />
               <Card
                 src="https://iiitl.ac.in/sites/default/files/inline-images/prankur_0.jpg"
-                alt="xyz"
+                alt="Prankur Agarwal"
                 name="Prankur Agarwal"
                 isTeacher={false}
                 position="Student Coordinator"
@@ -45,7 +45,7 @@ const contactUs = () => {
             <div className="placement-executives">
               <Card
                 src="https://iiitl.ac.in/sites/default/files/inline-images/shubh_0.jpg"
-                alt="xyz"
+                alt="Shubhanshu Singh"
                 name="Shubhanshu Singh"
                 isTeacher={false}
                 position="Placement Executive"
@@ -54,7 +54,7 @@ const contactUs = () => {
               />
               <Card
                 src="https://iiitl.ac.in/sites/default/files/inline-images/vaibhav_0.jpg"
-                alt="xyz"
+                alt="Vaibhav Agarwal"
                 name="Vaibhav Agarwal"
                 isTeacher={false}
                 position="Placement Executive"
@@ -63,7 +63,7 @@ const contactUs = () => {
               />
               <Card
                 src="https://iiitl.ac.in/sites/default/files/inline-images/IMG-20180405-WA0001.jpg"
-                alt="xyz"
+                alt="Raghav Khandelwal"
                 name="Raghav Khandelwal"
                 isTeacher={false}
                 position="Placement Executive"
