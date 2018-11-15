@@ -28,35 +28,35 @@ const Placement = props => {
           </p>
         </div>
       </div>
-      <div class="stats-box-outer-wrapper">
-        <div class="stats-box-inner-wrapper">
-          <div class="stats-box-outer">
-            <p class="stats-box-numbers">27 LPA</p>
-            <p class="stats-box-heading">Highest Package</p>
+      <div className="stats-box-outer-wrapper">
+        <div className="stats-box-inner-wrapper">
+          <div className="stats-box-outer">
+            <p className="stats-box-numbers">27 LPA</p>
+            <p className="stats-box-heading">Highest Package</p>
           </div>
-          <div class="stats-box-outer">
-            <p class="stats-box-numbers">4.5 LPA</p>
-            <p class="stats-box-heading">Lowest Package</p>
+          <div className="stats-box-outer">
+            <p className="stats-box-numbers">4.5 LPA</p>
+            <p className="stats-box-heading">Lowest Package</p>
           </div>
-          <div class="stats-box-outer">
-            <p class="stats-box-numbers">67.50%</p>
-            <p class="stats-box-heading">Percentage of students placed</p>
+          <div className="stats-box-outer">
+            <p className="stats-box-numbers">67.50%</p>
+            <p className="stats-box-heading">Percentage of students placed</p>
           </div>
-          <div class="stats-box-outer">
-            <p class="stats-box-numbers">12.83 LPA</p>
-            <p class="stats-box-heading">Average of top 50%</p>
+          <div className="stats-box-outer">
+            <p className="stats-box-numbers">12.83 LPA</p>
+            <p className="stats-box-heading">Average of top 50%</p>
           </div>
-          <div class="stats-box-outer">
-            <p class="stats-box-numbers">20.50 LPA</p>
-            <p class="stats-box-heading">Average of top 20%</p>
+          <div className="stats-box-outer">
+            <p className="stats-box-numbers">20.50 LPA</p>
+            <p className="stats-box-heading">Average of top 20%</p>
           </div>
-          <div class="stats-box-outer">
-            <p class="stats-box-numbers">11.08 LPA</p>
-            <p class="stats-box-heading">Average of total students</p>
+          <div className="stats-box-outer">
+            <p className="stats-box-numbers">11.08 LPA</p>
+            <p className="stats-box-heading">Average of total students</p>
           </div>
-          <div class="stats-box-outer">
-            <p class="stats-box-numbers">40</p>
-            <p class="stats-box-heading">Number of students registered</p>
+          <div className="stats-box-outer">
+            <p className="stats-box-numbers">40</p>
+            <p className="stats-box-heading">Number of students registered</p>
           </div>
         </div>
       </div>

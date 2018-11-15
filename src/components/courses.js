@@ -11,7 +11,7 @@ const Courses = () => (
         <ul>
           <li>B.Tech. Information Technology (IT)</li>
         </ul>
-        <p class="courses-overview">
+        <p className="courses-overview">
           This course is arguably the best in the country. Its strength is its
           adaptability to the changing industry requirements. A student gets
           knowledge of the latest technologies, in addition to ample industry
@@ -27,10 +27,10 @@ const Courses = () => (
         <h3>Course Overview</h3>
       </div>
     </div>
-    <div class="course-outer">
-      <div class="course-inner">
+    <div className="course-outer">
+      <div className="course-inner">
         {semList.map((val, index) => (
-          <SubCard semNum={val} sem={val} ind={index} />
+          <SubCard semNum={val} sem={val} ind={index} key={val + index} />
         ))}
       </div>
     </div>
