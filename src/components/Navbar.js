@@ -23,7 +23,7 @@ class Navbar extends React.Component{
           backdrop=<Backdrop />
         }
         return (
-          <div style={{height:'100%'}}>
+          <div>
           <SideDrawer show={this.state.sideDrawerOpen} click={this.backdropHandler}/>
           {backdrop}
           

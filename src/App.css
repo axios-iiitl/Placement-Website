@@ -39,6 +39,10 @@
   }
 }
 
+.activeclass:focus {
+  outline: none!important;
+}
+
 .nav-elements li{
   padding: 0 0.7rem;
 }
