@@ -1011,6 +1011,7 @@ body {
   padding: 20px;
   margin: 20px 0;
   margin-bottom: 30px;
+  flex-direction: column;
 }
 
 .pr-inner-box img {

@@ -35,33 +35,46 @@ const PastRecruiters = props => {
         <h1 className="pr-main-heading">Past Recruiters</h1>
         <div className="pr-inner-wrapper">
           <div className="pr-inner-box">
-            <img src={directiLogo} alt="Directi" />
-            <img src={accoliteLogo} alt="Accolite" />
-            <img src={ackoLogo} alt="Acko" />
-            <img src={expediaLogo} alt="Expedia" />
-            <img src={linkedinLogo} alt="LinkedIn" />
-            <img src={paytmLogo} alt="PayTm" />
-            <img src={goldmansachsLogo} alt="Goldman Sachs" />
-            <img src={ONEmgLogo} alt="1mg" />
-            <img src={codenationLogo} alt="Codenation" />
-            <img src={collegeduniaLogo} alt="College Dunia" />
-            <img src={quantiphiLogo} alt="Quantiphi" />
-            <img src={hashedInLogo} alt="Hashedin" />
-            <img src={infoobjectsLogo} alt="Info Objects" />
-            <img src={jdaLogo} alt="jda" />
-            <img src={joshtechnologyLogo} alt="Josh Technology Group" />
-            <img src={maqsoftwareLogo} alt="MAQ Software" />
-            <img src={mavenhiveLogo} alt="MavenHive" />
-            <img src={nagarroLogo} alt="nagarro" />
-            <img src={nineleapsLogo} alt="Nineleaps" />
-            <img src={sokratiLogo} alt="Sokrati" />
-            <img src={tcsLogo} alt="TATA Consultancy Services" />
-            <img src={travelokaLogo} alt="traveloka" />
-            <img src={valuefyLogo} alt="Valuefy" />
-            <img src={vassarlabsLogo} alt="Vassar Labs" />
-            <img src={vehanttechnologiesLogo} alt="Vehant Technologies" />
-            <img src={wickedrideLogo} alt="Wicked Ride" />
-            <img src={zenefitsLogo} alt="Zenefits" />
+            <div className="pr-inner-row">
+              <img src={directiLogo} alt="Directi" />
+              <img src={ackoLogo} alt="Acko" />
+              <img src={goldmansachsLogo} alt="Goldman Sachs" />
+              <img src={linkedinLogo} alt="LinkedIn" />
+              <img src={expediaLogo} alt="Expedia" />
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={codenationLogo} alt="Codenation" />
+              <img src={accoliteLogo} alt="Accolite" />
+              <img src={paytmLogo} alt="PayTm" />
+              <img src={quantiphiLogo} alt="Quantiphi" />
+              <img src={wickedrideLogo} alt="Wicked Ride" />
+            </div>
+            <div className="pr-inner-row">
+              <img src={mavenhiveLogo} alt="MavenHive" />
+              <img src={nagarroLogo} alt="nagarro" />
+              <img src={ONEmgLogo} alt="1mg" />
+              <img src={jdaLogo} alt="jda" />
+              <img src={maqsoftwareLogo} alt="MAQ Software" />
+            </div>
+            <div className="pr-inner-row">
+              <img src={vassarlabsLogo} alt="Vassar Labs" />
+              <img src={joshtechnologyLogo} alt="Josh Technology Group" />
+              <img src={zenefitsLogo} alt="Zenefits" />
+              <img src={hashedInLogo} alt="Hashedin" />
+              <img src={nineleapsLogo} alt="Nineleaps" />
+            </div>
+            <div className="pr-inner-row">
+              <img src={collegeduniaLogo} alt="College Dunia" />
+              <img src={valuefyLogo} alt="Valuefy" />
+              <img src={travelokaLogo} alt="traveloka" />
+              <img src={infoobjectsLogo} alt="Info Objects" />
+              <img src={sokratiLogo} alt="Sokrati" />
+            </div>
+            <div className="pr-inner-row">
+              <img src={tcsLogo} alt="TATA Consultancy Services" />
+              <img src={vehanttechnologiesLogo} alt="Vehant Technologies" />
+            </div>
           </div>
         </div>
       </div>
