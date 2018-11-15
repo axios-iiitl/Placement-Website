@@ -24,7 +24,7 @@ const Courses = () => (
           importance of applied knowledge, and promotes state-of-the-art
           teaching and learning.
         </p>
-        <h3>Course Overview</h3>
+        <button disabled>Course Overview</button>
       </div>
     </div>
     <div className="course-outer">

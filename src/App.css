@@ -1178,9 +1178,13 @@ body {
   justify-content: center;
 }
 
-.courses h3{
-  text-align: center;
-  color:#10593e;
+.courses button{
+ background:white;
+ border-radius:20px;
+ border:2.2px double #aa42f4;
+ font-size:18px;
+ padding:10px;
+ margin-bottom: 20px;
 }
 
 .courses {
