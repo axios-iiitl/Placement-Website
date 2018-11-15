@@ -1149,34 +1149,37 @@ body {
   
 }
 .courses ul{
- margin-top: 1.5vw;
- margin-bottom: 1vw;
- border:0.1vw solid #e2e2e2;
- padding-top: 0.6vw;
- padding-bottom: 0.6vw;
- margin-left: 3vw;
- margin-right: 3vw;
- background: #f9f9f9;
+ margin-top: 10px;
+ margin-bottom: 20px;
+ border:0.3px solid #eee;
+ background: #f5f5f5;
  margin-bottom: 2vw;
+ padding: 10px;
+ width: 95%;
+ list-style: none;
+}
+.courses-overview {
+  width: 95%;
+  margin-bottom: 35px;
 }
 .courses li{
-  list-style:none;
-  font-weight: bold;
-  margin-left:37vw;
-  font-size: 15px;
-  color:#160b23;
+  text-align: center;
 }
-.courses p{
-  margin-left:3vw;
-  margin-right: 3vw;
-  font-weight:bold;
-  margin-bottom: 1vw;
-  line-height: 18px;
-  font-weight:1.5vw;
+.courses-outer-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
+
 .courses h3{
   text-align: center;
   color:#10593e;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 /* 
 Card Component */
