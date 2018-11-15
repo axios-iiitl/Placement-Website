@@ -1,6 +1,39 @@
 import React from "react";
+import { Bar, Doughnut } from "react-chartjs-2";
 
 const Placement = props => {
+  const dataForBarGraph = {
+    labels: [
+      "Highest Package",
+      "Lowest Package",
+      "Avg (Top 50%)",
+      "Avg (Top 20%)",
+      "Avg (Total)"
+    ],
+    datasets: [
+      {
+        label: "Placement Statistics 2018 (In LPA)",
+        backgroundColor: "rgba(255,99,132,0.2)",
+        borderColor: "rgba(255,99,132,1)",
+        borderWidth: 1,
+        hoverBackgroundColor: "rgba(255,99,132,0.4)",
+        hoverBorderColor: "rgba(255,99,132,1)",
+        data: [27, 4.5, 12.83, 20.5, 11.08]
+      }
+    ]
+  };
+
+  const dataForDoughnutGraph = {
+    labels: ["Percentage Of Student Placed", "Percentage Of Student Not Placed"],
+    datasets: [
+      {
+        data: [67.5, 32.5],
+        backgroundColor: ["#FF6384", "#36A2EB"],
+        hoverBackgroundColor: ["#FF6384", "#36A2EB"]
+      }
+    ]
+  };
+
   return (
     <React.Fragment>
       <div className="stats-outer">
@@ -28,37 +61,17 @@ const Placement = props => {
           </p>
         </div>
       </div>
-      <div className="stats-box-outer-wrapper">
-        <div className="stats-box-inner-wrapper">
-          <div className="stats-box-outer">
-            <p className="stats-box-numbers">27 LPA</p>
-            <p className="stats-box-heading">Highest Package</p>
-          </div>
-          <div className="stats-box-outer">
-            <p className="stats-box-numbers">4.5 LPA</p>
-            <p className="stats-box-heading">Lowest Package</p>
-          </div>
-          <div className="stats-box-outer">
-            <p className="stats-box-numbers">67.50%</p>
-            <p className="stats-box-heading">Percentage of students placed</p>
-          </div>
-          <div className="stats-box-outer">
-            <p className="stats-box-numbers">12.83 LPA</p>
-            <p className="stats-box-heading">Average of top 50%</p>
-          </div>
-          <div className="stats-box-outer">
-            <p className="stats-box-numbers">20.50 LPA</p>
-            <p className="stats-box-heading">Average of top 20%</p>
-          </div>
-          <div className="stats-box-outer">
-            <p className="stats-box-numbers">11.08 LPA</p>
-            <p className="stats-box-heading">Average of total students</p>
-          </div>
-          <div className="stats-box-outer">
-            <p className="stats-box-numbers">40</p>
-            <p className="stats-box-heading">Number of students registered</p>
-          </div>
-        </div>
+      <div className="bar-graph-outer">
+        <Bar
+          data={dataForBarGraph}
+        />
+        <br/>
+        <br/>
+        <br/>
+        <Doughnut data={dataForDoughnutGraph} />
+      </div>
+      <div className="placement-total-students">
+        <h1>Total Students Registered: 40</h1>
       </div>
     </React.Fragment>
   );

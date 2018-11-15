@@ -220,6 +220,15 @@
 /* ////////////////////////////////////////////////// */
 /* Footer */
 
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+footer {
+  margin-top:auto
+}
+
 .footer-copyright {
   display: flex;
   justify-content: center;
@@ -1024,40 +1033,39 @@ body {
   margin: 20px 0;
 }
 
-.stats-box-outer-wrapper {
-  display: flex;
-  justify-content: center;
+.bar-graph-outer {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 820px;
+  padding: 1em;
 }
 
-.stats-box-inner-wrapper {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: center;
-}
-
-.stats-box-numbers {
+.placement-total-students {
   text-align: center;
-  font-size: 28px;
-  margin: 10px;
-  padding: 0;
-  font-weight: 800;
-  color:white;
+  margin: 30px;
 }
 
-.stats-box-heading {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  font-size: 15px;
-  font-weight: 700;
-  color: #00004c;
+.placement-total-students h1 {
+  font-weight: 100;
+}
+
+@media (max-width: 631px) {
+  .placement-total-students h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 438px) {
+  .placement-total-students h1 {
+    font-size: 15px;
+  }
 }
 
 .stats-outer {
   display: flex;
   justify-content: center;
   margin: 30px 0;
-  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("https://i.imgur.com/4AwzjGP.png") no-repeat center;
+  background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url("https://i.imgur.com/4AwzjGP.png") no-repeat center;
 }
 
 .stats-inner::after {
