@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const footer = () => {
   return (
-    <React.Fragment>
+    <footer>
       <div className="footer">
         <div className="footer-outer-wrapper">
           <div className="footer-inner-wrapper">
@@ -57,7 +57,7 @@ const footer = () => {
                 </a>
               </p>
               <p>
-              <Link to="/courses">Academics</Link>
+                <Link to="/courses">Academics</Link>
               </p>
               <p>
                 <a
@@ -80,7 +80,7 @@ const footer = () => {
           ALL RIGHTS RESERVED © 2018. <strong>IIIT LUCKNOW</strong>
         </p>
       </div>
-    </React.Fragment>
+    </footer>
   );
 };
 
