@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Why = props => {
   return (
@@ -6,12 +7,12 @@ const Why = props => {
       <div className="whyus-container">
         <h1 className="whyus-h1">Why Recruit at IIITL?</h1>
         <p>
-          <strong>IIIT, Lucknow</strong> encourages its students to balance their academics and
-          co-curricular activities. This allows for an all-round development, as
-          evidenced by the numerous projects undertaken and the participation in
-          sports and cultural events. This is evident from the wide repertoire
-          of projects that they have done as well as their participation in
-          sports and cultural events.
+          <strong>IIIT, Lucknow</strong> encourages its students to balance
+          their academics and co-curricular activities. This allows for an
+          all-round development, as evidenced by the numerous projects
+          undertaken and the participation in sports and cultural events. This
+          is evident from the wide repertoire of projects that they have done as
+          well as their participation in sports and cultural events.
         </p>
         <p>
           The institute also encourages the students to showcase their research
@@ -28,9 +29,7 @@ const Why = props => {
           the learning process in turn igniting the minds.
         </p>
         <p>
-          <a href="https://iiitl.ac.in/academics/course-structure">
-            https://iiitl.ac.in/academics/course-structure
-          </a>
+          Click <Link to="/courses">here</Link> to see the course structure.
         </p>
         <h2>Admission Criteria</h2>
         <p>
