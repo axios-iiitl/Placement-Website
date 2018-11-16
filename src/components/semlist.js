@@ -20,14 +20,14 @@ const sem2 = [
 ];
 const sem3 = [
   "Operation Research and Optimization",
-  "Syste Modelling and Simulation",
+  "System Modelling and Simulation",
 ];
 const sem4 = [
-  "Communcaation Skills",
+  "Communication Skills",
   "Principles of Economics",
   "Principles Of Management",
   "Business Systems",
-  "Intelletual Property Rights"
+  "Intellectual Property Rights"
 ];
 const sem5 = [
   "Data and Network Security",
@@ -54,14 +54,13 @@ const elective = [
   "Advanced Database Management",
   "Data Mining and Data Warehousing",
   "Information Retrieval Systems",
- 
 ];
 export const semList = [
   "Basics",
   "Machine Intelligence",
   "Modelling & Optimization",
   "Managerial Skills",
-  "Advanced Networks,Security and Applications",
+  "Advanced Networks, Security and Applications",
   "Software Engineering",
   "Applied Computing",
   "Applied Systems",

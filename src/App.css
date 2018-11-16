@@ -1465,14 +1465,70 @@ display: none;
 }
 /* Demographics Component */
 
+.gender-ratio-outer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.gender-ratio-inner {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+@media (max-width: 594px) {
+  .gender-ratio-row {
+    flex-direction: column!important;
+  }
+
+  .gender-ratio-row p {
+    width: 95%!important;
+  }
+  .gender-ratio-row img {
+    margin-top: 20px;
+  }
+}
+
+.gender-ratio-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.gender-ratio-row p {
+  width: 40%;
+  margin: 20px 40px;
+  font-size: 20px;
+}
+
+.gender-ratio-row img {
+  width: 185px;
+  align-self: center;
+}
+
+.gender-ratio-outer h1 {
+  margin-top: 25px;
+}
+
+.gender-ratio-row:nth-last-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+
+.gender-ratio-row img:nth-last-child(1) {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 96%;
+}
+
 .demo h1{
  text-align: center;
  
-}
-.gender{
-  width:20%;
-  margin-top:3.5%;
-  margin-left:40%
 }
 .student{
   margin-left: 70%;
@@ -1482,12 +1538,7 @@ display: none;
 
   width:20%;
 }
-.demo h3{
-  margin-left: 50%;
-  color:#510909;
-  margin-bottom: 2%;
-  margin-top: 1.8%;
-}
+
 
 @media(max-width:600px){
   .demo h3{

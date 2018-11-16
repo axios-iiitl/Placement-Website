@@ -34,27 +34,31 @@ const Placement = props => {
       <div className="graphs-outer-wrapper">
         <div className="graphs-inner-wrapper">
           <div className="bar-graph-outer">
-            <img className="bar-graph-image" src={PlacementStats2018} />
+            <img
+              className="bar-graph-image"
+              src={PlacementStats2018}
+              alt="Placement Statistics 2018"
+            />
           </div>
-          <div class="quote">
+          <div className="quote">
             <blockquote>
               <p>
                 <strong>Highest Package:</strong> 27 LPA
-                <br/>
+                <br />
                 <strong>Lowest Package:</strong> 4.5 LPA
-                <br/>
+                <br />
                 <strong>Average CTC Of Top 20%:</strong> 20.50 LPA
                 <br />
                 <strong>Average CTC Of Top 50%:</strong> 12.83 LPA
-                <br/>
+                <br />
                 <strong>Average CTC Of Total Students:</strong> 11.08 LPA
                 <br />
                 <strong>Percentage Of Students Placed:</strong> 67.50%
-                <br/>
+                <br />
                 <strong>Total Students Registered:</strong> 40
-                <br/>
+                <br />
                 <strong>No. Of Offers:</strong> 39 + 5 interns
-                <br/>
+                <br />
                 <strong>No. Of Companies Visited:</strong> 27
               </p>
             </blockquote>
@@ -64,10 +68,18 @@ const Placement = props => {
       <div className="graphs-outer-wrapper">
         <div className="graphs-inner-wrapper">
           <div className="bar-chart-outer-1">
-            <img className="bar-graph-image" src={BarChart1} />
+            <img
+              className="bar-graph-image"
+              src={BarChart1}
+              alt="Distribution Of Offers"
+            />
           </div>
           <div className="bar-chart-outer-2">
-            <img className="bar-graph-image" src={BarChart2} />
+            <img
+              className="bar-graph-image"
+              src={BarChart2}
+              alt="Dream Round Offers"
+            />
           </div>
         </div>
       </div>

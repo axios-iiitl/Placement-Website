@@ -19,7 +19,7 @@ const Toolbar = props => (
                     <li><NavLink to="/about" exact className="activeclass">About Us</NavLink></li>
                     <li className="dropdown">
                         <button className="dropbtn"><span>Academics </span>
-                            <i class="fa fa-caret-down"></i>
+                            <i className="fa fa-caret-down"></i>
                         </button>
                         <div className="dropdown-content">
                             <NavLink to="/courses" exact className="activeclass">Courses</NavLink>

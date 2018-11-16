@@ -1,4 +1,4 @@
-import React,{Fragment} from 'react'
+import React from 'react'
 import {NavLink, Link} from 'react-router-dom'
 class  SideDrawer extends React.Component{
     state={
@@ -9,7 +9,6 @@ class  SideDrawer extends React.Component{
         
     }
     render(){
-        console.log(this.state.showDropDown)
         let drawerClass='side-drawer'
         if(this.props.show)
         drawerClass='side-drawer open'
@@ -30,7 +29,7 @@ class  SideDrawer extends React.Component{
                  
                  <li onClick={this.props.click}><NavLink to="/about" exact className="activeclass">About Us</NavLink></li>
                  <li onClick={this.props.click}><NavLink to="/past" exact className="activeclass">Past Recruitors</NavLink></li>
-                 <li  className='activeclass' onClick={this.handleDropDown}>Academics <i class="fa fa-caret-down"></i></li>
+                 <li  className='activeclass' onClick={this.handleDropDown}>Academics <i className="fa fa-caret-down"></i></li>
                  {
                      this.state.showDropDown?<ul className='drp-down'><li onClick={()=>this.props.click(this.handleDropDown)}  className="activeclass" ><NavLink to="/courses" exact className="activeclass" >Courses</NavLink></li>
                      <li onClick={()=>this.props.click(this.handleDropDown)} className=' activeclass'><NavLink to="/demographics" exact className="activeclass" >Demographics</NavLink></li></ul>:null
