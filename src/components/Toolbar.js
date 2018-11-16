@@ -9,7 +9,7 @@ const Toolbar = props => (
             </div>
             <Link to="/" style={{ textDecoration: "none", color: "white" }}>
                 <div className="logo">
-                    IIITL Placement Cell
+                    IIIT Lucknow Placement Cell
         </div>
             </Link>
             <div className="spacer"></div>

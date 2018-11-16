@@ -18,7 +18,7 @@ class  SideDrawer extends React.Component{
             <div className='side'>
             <Link to="/" style={{textDecoration: "none", color: "white"}}>
             <span onClick={this.props.click} className="sidebar-logo-text">
-                IIITL Placement Cell
+                IIIT Lucknow Placement Cell
             </span>
             </Link>
             <span className='cross-btn' onClick={this.props.click}>
