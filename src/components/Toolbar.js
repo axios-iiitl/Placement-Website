@@ -26,7 +26,7 @@ const Toolbar = props => (
                             <NavLink to="/demographics" exact className="activeclass">Demographics</NavLink>
                         </div>
                     </li>
-                    <li><NavLink to="/past" exact className="activeclass">Past Recruiters</NavLink></li>
+                    <li><NavLink to="/past" exact className="activeclass">Our Recruiters</NavLink></li>
                     <li><NavLink to="/statistics" exact className="activeclass">Statistics</NavLink></li>
                     <li><NavLink to="/why" exact className="activeclass">Why Us</NavLink></li>
                     <li><NavLink to="/procedure" exact className="activeclass">Procedure</NavLink></li>
