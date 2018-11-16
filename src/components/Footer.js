@@ -26,7 +26,7 @@ const footer = () => {
               <p className="footer-contact-name">Devanshoo Udhani</p>
               <p className="footer-contact-position">Student Coordinator</p>
               <p>
-                <a href="tel:+91-9415214707">+91-9415214707</a>
+                <a href="tel:+91-9415214707">+91-9838636124</a>
               </p>
               <p>
                 <a href="mailto:placements@iiitl.ac.in">
@@ -38,7 +38,7 @@ const footer = () => {
               <p className="footer-contact-name">Prankur Agarwal</p>
               <p className="footer-contact-position">Student Coordinator</p>
               <p>
-                <a href="tel:+91-9415214707">+91-9415214707</a>
+                <a href="tel:+91-9415214707">+91-9457382069</a>
               </p>
               <p>
                 <a href="mailto:placements@iiitl.ac.in">
@@ -60,12 +60,9 @@ const footer = () => {
                 <Link to="/courses">Academics</Link>
               </p>
               <p>
-                <a
-                  href="https://iiitl.ac.in/placements/facilities"
-                  target="blank"
-                >
+                <Link to="/facilities">
                   Facilities
-                </a>
+                </Link>
               </p>
               <p>
                 <Link to="/contact">The Team</Link>

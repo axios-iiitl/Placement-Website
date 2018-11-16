@@ -39,6 +39,10 @@
   }
 }
 
+.activeclass:focus {
+  outline: none!important;
+}
+
 .nav-elements li{
   padding: 0 0.7rem;
 }
@@ -285,7 +289,7 @@ footer {
 }
 
 .footer-col:nth-child(3) {
-  margin-top: 36px;
+  margin-top: 43px;
 }
 
 .footer-logo {
@@ -1007,6 +1011,7 @@ body {
   padding: 20px;
   margin: 20px 0;
   margin-bottom: 30px;
+  flex-direction: column;
 }
 
 .pr-inner-box img {
@@ -1032,12 +1037,69 @@ body {
 .stats-inner p {
   margin: 20px 0;
 }
+.quote {
+  display: inline-block;
+  margin: 1em;
+  overflow: hidden;
+}
+.quote blockquote {
+  background-color: #fff;
+  border: solid 2px #757575;
+  display: inline-block;
+  margin: 0;
+  padding: 2em;
+  position: relative;
+}
+.quote blockquote:before {
+  background-color: #fff;
+  bottom: -10%;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: -10%;
+  transform: rotate(-15deg) skew(5deg);
+}
+.quote blockquote > * {
+  position: relative;
+  line-height: 35px;
+  z-index: 1;
+}
+
+.graphs-inner-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.bar-graph-image {
+  width: 600px;
+}
+
+@media (max-width: 1200px) {
+  .bar-graph-image {
+    width: 400px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .bar-graph-image {
+    width: 350px;
+  }
+}
+
+.graphs-outer-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
 
 .bar-graph-outer {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 820px;
-  padding: 1em;
+  width: 400px;
 }
 
 .placement-total-students {
