@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import brochurePdf from "../assets/brochure.pdf"
 
 const footer = () => {
   return (
@@ -50,7 +51,7 @@ const footer = () => {
               <h2>Links</h2>
               <p>
                 <a
-                  href="https://iiitl.ac.in/documents/Placement_Brochure.pdf"
+                  href={brochurePdf}
                   target="blank"
                 >
                   Brochure
