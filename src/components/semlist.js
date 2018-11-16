@@ -1,80 +1,71 @@
 const sem1 = [
-  " Electronics Devices And Circuits",
-  "Circuit Analysis And Synthesis",
-  " Introduction To Computers",
-  " Introduction To Programming",
-  " Mathematics - 1",
-  "Physics - 1",
-  " Language And Communication Skills"
+  " Algorithms",
+  "Networking",
+  "Graphical and Visual Computing",
+  "Digital Communications",
+  "Data Structure",
+  "Compiler Design",
+  "Automata Theory",
+  "Digital Electronics",
+  "Operating Systems",
+  "Discrete Mathematics",
+  "Computer Organisation",
+  "Database Management System"
 ];
 const sem2 = [
-  " Discrete Mathematics",
-  "Data Structures",
-  "Digital Electronics",
-  " Probability and Statistics",
-  " Computer Organization and Architecture",
-  "Principles Of Management"
+  "Soft Computing",
+  "Pattern Recognition",
+  "Artificial Intelligence",
+  "Natural language Processing"
 ];
 const sem3 = [
-  "Mathematics - 2",
-  "Operating System",
-  "Theory Of Computation",
-  "Object Oriented Methodologies",
-  " Microprocessors"
+  "Operation Research and Optimization",
+  "Syste Modelling and Simulation",
 ];
 const sem4 = [
-  "Mathematics - 3",
-  "Design And Analysis Of Algorithms",
-  "Principles Of Programming Languages",
-  "Database Management Systems",
-  "Principles Of Communication"
+  "Communcaation Skills",
+  "Principles of Economics",
+  "Principles Of Management",
+  "Business Systems",
+  "Intelletual Property Rights"
 ];
 const sem5 = [
-  " Computer Networks",
-  " Software Engineering",
-  " Artificial Intelligence	",
-  " Graphics And Visual Computing",
-  " Principles Of Economics",
-  "Mini Project"
+  "Data and Network Security",
+  " Cryptography and Information Security",
+  " Mobile Intelligent Networks	",
+  " Storage and Network Devices",
+  "Wireless Sensor Networks",
+  "Distributed Systems",
+  "Storage Area Networks"
 ];
 const sem6 = [
-  "Compiler Design",
-  " Image And Video Processing",
-  " Data Mining And Warehousing",
-  " Elective - 1",
-  " Elective - 2",
-  "Mini Project"
+  "Human Computer Interaction",
+  "Software Interaction",
+  "Object Oriented Programming",
+  "Software Component Design",
 ];
 const sem7 = [
-  " System Modelling and Simulation",
-  "Organizational Behaviour",
-  "Elective-3",
-  "Elective-4",
-  "Elective-5",
-  "Mini Project"
+  "Bio-Informatics",
+  "Parallel Computing",
+  "Image Processing"
 ];
-const sem8 = ["Major Project"];
+const sem8 = ["Robotics","Humanoid Robotics","Computer Controlled Systems"];
 const elective = [
-  "Optimization Techniques",
-  "Machine Learning - Tools And Techniques",
-  " Wireless Sensor Networks",
-  " Architecture of Software Systems",
-  "Advanced Graphics and Animation",
+  "Advanced Database Management",
+  "Data Mining and Data Warehousing",
   "Information Retrieval Systems",
-  "Cryptography and Information Security",
-  "Modeling, Design and Analysis of Embedded System",
-  "Data Compression"
+ 
 ];
 export const semList = [
-  "Semester 1",
-  "Semester 2",
-  "Semester 3",
-  "Semester 4",
-  "Semester 5",
-  "Semester 6",
-  "Semester 7",
-  "Semester 8",
-  "Electives"
+  "Basics",
+  "Machine Intelligence",
+  "Modelling & Optimization",
+  "Managerial Skills",
+  "Advanced Networks,Security and Applications",
+  "Software Engineering",
+  "Applied Computing",
+  "Applied Systems",
+  "Data Storing and Mining "
 ];
 
 export const subjects = [

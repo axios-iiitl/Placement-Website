@@ -77,7 +77,7 @@ const footer = () => {
 
       <div className="footer-copyright">
         <p>
-          ALL RIGHTS RESERVED © 2018. <strong>IIIT LUCKNOW</strong>
+          ALL RIGHTS RESERVED © 2018. <strong>IIIT LUCKNOW</strong>(Developed by Vaibhav Gupta)
         </p>
       </div>
     </footer>
