@@ -60,12 +60,9 @@ const footer = () => {
                 <Link to="/courses">Academics</Link>
               </p>
               <p>
-                <a
-                  href="https://iiitl.ac.in/placements/facilities"
-                  target="blank"
-                >
+                <Link to="/facilities">
                   Facilities
-                </a>
+                </Link>
               </p>
               <p>
                 <Link to="/contact">The Team</Link>

@@ -14,12 +14,15 @@ import MessageD from './components/message'
 import Messaget from './components/messaget'
 import About from './components/about'
 import Courses from './components/courses'
+import Facilities from "./components/Facilities";
+
 class App extends Component {
   render() {
     return (
       <Fragment>
         <Navbar />
       <Switch>
+        <Route path="/facilities" exact component={Facilities} />
       <Route path="/" exact component={Home} />
       <Route path="/past" exact component={PastRecruiters} />
       <Route path="/statistics"exact component={Placement} />
