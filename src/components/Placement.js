@@ -1,39 +1,9 @@
 import React from "react";
-import { Bar, Doughnut } from "react-chartjs-2";
+import PlacementStats2018 from "../assets/images/placement-stats-2018.png";
+import BarChart1 from "../assets/images/bar-chart-1.jpg";
+import BarChart2 from "../assets/images/bar-chart-2.png";
 
 const Placement = props => {
-  const dataForBarGraph = {
-    labels: [
-      "Highest Package",
-      "Lowest Package",
-      "Avg (Top 50%)",
-      "Avg (Top 20%)",
-      "Avg (Total)"
-    ],
-    datasets: [
-      {
-        label: "Placement Statistics 2018 (In LPA)",
-        backgroundColor: "rgba(255,99,132,0.2)",
-        borderColor: "rgba(255,99,132,1)",
-        borderWidth: 1,
-        hoverBackgroundColor: "rgba(255,99,132,0.4)",
-        hoverBorderColor: "rgba(255,99,132,1)",
-        data: [27, 4.5, 12.83, 20.5, 11.08]
-      }
-    ]
-  };
-
-  const dataForDoughnutGraph = {
-    labels: ["Percentage Of Student Placed", "Percentage Of Student Not Placed"],
-    datasets: [
-      {
-        data: [67.5, 32.5],
-        backgroundColor: ["#FF6384", "#36A2EB"],
-        hoverBackgroundColor: ["#FF6384", "#36A2EB"]
-      }
-    ]
-  };
-
   return (
     <React.Fragment>
       <div className="stats-outer">
@@ -61,17 +31,35 @@ const Placement = props => {
           </p>
         </div>
       </div>
-      <div className="bar-graph-outer">
-        <Bar
-          data={dataForBarGraph}
-        />
-        <br/>
-        <br/>
-        <br/>
-        <Doughnut data={dataForDoughnutGraph} />
+      <div className="graphs-outer-wrapper">
+        <div className="graphs-inner-wrapper">
+          <div className="bar-graph-outer">
+            <img className="bar-graph-image" src={PlacementStats2018} />
+          </div>
+          <div class="quote">
+            <blockquote>
+              <p>
+                <strong>Average Of Top 20%:</strong> 20.50 LPA
+                <br />
+                <strong>Average Of Top 50%:</strong> 12.83 LPA
+                <br/>
+                <strong>Percentage Of Students Placed:</strong> 67.50%
+                <br/>
+                <strong>Total Students Registered:</strong> 40
+              </p>
+            </blockquote>
+          </div>
+        </div>
       </div>
-      <div className="placement-total-students">
-        <h1>Total Students Registered: 40</h1>
+      <div className="graphs-outer-wrapper">
+        <div className="graphs-inner-wrapper">
+          <div className="bar-chart-outer-1">
+            <img className="bar-graph-image" src={BarChart1} />
+          </div>
+          <div className="bar-chart-outer-2">
+            <img className="bar-graph-image" src={BarChart2} />
+          </div>
+        </div>
       </div>
     </React.Fragment>
   );
