@@ -39,13 +39,23 @@ const Placement = props => {
           <div class="quote">
             <blockquote>
               <p>
-                <strong>Average Of Top 20%:</strong> 20.50 LPA
-                <br />
-                <strong>Average Of Top 50%:</strong> 12.83 LPA
+                <strong>Highest Package:</strong> 27 LPA
                 <br/>
+                <strong>Lowest Package:</strong> 4.5 LPA
+                <br/>
+                <strong>Average CTC Of Top 20%:</strong> 20.50 LPA
+                <br />
+                <strong>Average CTC Of Top 50%:</strong> 12.83 LPA
+                <br/>
+                <strong>Average CTC Of Total Students:</strong> 11.08 LPA
+                <br />
                 <strong>Percentage Of Students Placed:</strong> 67.50%
                 <br/>
                 <strong>Total Students Registered:</strong> 40
+                <br/>
+                <strong>No. Of Offers:</strong> 39 + 5 interns
+                <br/>
+                <strong>No. Of Companies Visited:</strong> 27
               </p>
             </blockquote>
           </div>
