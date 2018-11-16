@@ -23,7 +23,7 @@ const Toolbar = props => (
                         </button>
                         <div className="dropdown-content">
                             <NavLink to="/courses" exact className="activeclass">Courses</NavLink>
-                            <NavLink to="/past" exact className="activeclass">Past Recruiters</NavLink>
+                            <NavLink to="/demographics" exact className="activeclass">Demographics</NavLink>
                         </div>
                     </li>
                     <li><NavLink to="/past" exact className="activeclass">Past Recruiters</NavLink></li>

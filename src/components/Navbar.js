@@ -12,8 +12,9 @@ class Navbar extends React.Component{
       sideDrawerToggler=()=>{
         this.setState((cs)=>({sideDrawerOpen:!cs.sideDrawerOpen}))
       }
-      backdropHandler=()=>{
+      backdropHandler=(handle={})=>{
         this.setState((cs)=>({sideDrawerOpen:false}))
+       if((typeof handle)==="function") handle();
       }
       render() {
     

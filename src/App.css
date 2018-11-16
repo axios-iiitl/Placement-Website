@@ -1451,3 +1451,37 @@ display: none;
   margin-left: 15px;
   
 }
+/* Demographics Component */
+
+.demo h1{
+ text-align: center;
+ 
+}
+.gender{
+  width:20%;
+  margin-top:3.5%;
+  margin-left:40%
+}
+.student{
+  margin-left: 70%;
+  width:30%;
+}
+.strength{
+
+  width:20%;
+}
+.demo h3{
+  margin-left: 50%;
+  color:#510909;
+  margin-bottom: 2%;
+  margin-top: 1.8%;
+}
+
+@media(max-width:600px){
+  .demo h3{
+    margin-left:42%;
+  }
+  .demo h1{
+    font-size: 30px
+  }
+}
