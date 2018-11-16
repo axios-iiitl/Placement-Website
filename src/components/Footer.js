@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import brochurePdf from "../assets/brochure.pdf"
+import brochurePdf from "../assets/brochure.pdf";
 
 const footer = () => {
   return (
@@ -50,10 +50,7 @@ const footer = () => {
             <div className="footer-col">
               <h2>Links</h2>
               <p>
-                <a
-                  href={brochurePdf}
-                  target="blank"
-                >
+                <a href={brochurePdf} target="blank">
                   Brochure
                 </a>
               </p>
@@ -61,9 +58,7 @@ const footer = () => {
                 <Link to="/courses">Academics</Link>
               </p>
               <p>
-                <Link to="/facilities">
-                  Facilities
-                </Link>
+                <Link to="/facilities">Facilities</Link>
               </p>
               <p>
                 <Link to="/contact">The Team</Link>
@@ -75,7 +70,7 @@ const footer = () => {
 
       <div className="footer-copyright">
         <p>
-          ALL RIGHTS RESERVED © 2018. <strong>IIIT LUCKNOW</strong>(Developed by Vaibhav Gupta)
+          ALL RIGHTS RESERVED © 2018. <strong>IIIT LUCKNOW</strong>
         </p>
       </div>
     </footer>
