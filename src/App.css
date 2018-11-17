@@ -175,7 +175,8 @@
   justify-content: center;
 }
 .sidebar-logo-text{
-   font-size:21px;
+  font-weight: bolder;
+   font-size:17px;
    margin-right: 70px;
 }
 
@@ -242,7 +243,8 @@ body {
   flex-direction: column;
 }
 footer {
-  margin-top:auto
+  margin-top:auto;
+  width: 100%;
 }
 
 .footer-copyright {
@@ -261,11 +263,6 @@ footer {
 
 .footer p {
   font-size: 14px!important;
-}
-
-.footer-outer-wrapper {
-  width: 100%;
-  display: flex;
 }
 
 .footer-inner-wrapper {
@@ -717,6 +714,7 @@ body {
 }
 
 .blog-card {
+  border: 1px solid #eee;
   display: flex;
   flex-direction: column;
   margin: 1rem auto;
@@ -728,6 +726,8 @@ body {
   border-radius: 5px;
   overflow: hidden;
   z-index: 2;
+  background-color: #f0f0f0;
+  border-bottom: 3px solid #eee
 }
 
 
@@ -1202,16 +1202,24 @@ body {
 }
 
 .abt3{
-  margin-top: 0.5vw;
-  margin-bottom: 2.2vw;
+  margin-top: 10px;
+  margin-bottom: 20px;
   color:#a50034;
 }
 .abt-text{
-  margin-left: 8vw;
-  margin-right: 8vw;
-  margin-bottom:4vw;
   font-weight: bold;
-  color:#19040e
+  color:#19040e;
+  width: 70%;
+}
+
+.about-text-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.abt-text p {
+  line-height: 27px;
+  margin: 20px 0;
 }
 
 /* Courses Components */

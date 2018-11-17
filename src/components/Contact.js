@@ -4,7 +4,7 @@ import Card from "./Card";
 const contactUs = () => {
   return (
     <React.Fragment>
-      <div className="contact-outer">
+      <div className="contact-outer" style={{backgroundColor: "white"}}>
         <div className="placement-team">
           <h1 className="placement-team-heading">The Team</h1>
           <h2>Training And Placement Officer (TPO)</h2>
