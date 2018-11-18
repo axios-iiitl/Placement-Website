@@ -55,13 +55,13 @@ const footer = () => {
                 </a>
               </p>
               <p>
-                <Link to="/courses">Academics</Link>
+                <Link to="/courses-offered">Academics</Link>
               </p>
               <p>
                 <Link to="/facilities">Facilities</Link>
               </p>
               <p>
-                <Link to="/contact">The Team</Link>
+                <Link to="/the-team">The Team</Link>
               </p>
             </div>
           </div>

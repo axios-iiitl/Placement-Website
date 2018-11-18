@@ -31,6 +31,20 @@ const Placement = props => {
           </p>
         </div>
       </div>
+
+      <div className="average-box-outer-wrapper">
+        <h1 className="graphs-top-heading">Placement Statistics 2018</h1>
+        <div className="average-box-outer">
+          <div className="average-box-inner">
+            <p>
+              <strong>Average CTC Of Top 20%: </strong>20.50 LPA
+            </p>
+            <p>
+              <strong>Average CTC Of Top 50%: </strong>12.83 LPA
+            </p>
+          </div>
+        </div>
+      </div>
       <div className="graphs-outer-wrapper">
         <div className="graphs-inner-wrapper">
           <div className="bar-graph-outer">
@@ -46,10 +60,6 @@ const Placement = props => {
                 <strong>Highest Package:</strong> 27 LPA
                 <br />
                 <strong>Lowest Package:</strong> 4.5 LPA
-                <br />
-                <strong>Average CTC Of Top 20%:</strong> 20.50 LPA
-                <br />
-                <strong>Average CTC Of Top 50%:</strong> 12.83 LPA
                 <br />
                 <strong>Average CTC Of Total Students:</strong> 11.08 LPA
                 <br />

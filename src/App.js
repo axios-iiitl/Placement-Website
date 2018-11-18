@@ -16,8 +16,10 @@ import About from "./components/about";
 import Courses from "./components/courses";
 import Facilities from "./components/Facilities";
 import Demographics from "./components/demographics";
+import Page404 from "./components/404";
 
 class App extends Component {
+
   getClientHeight = () => {
     return document.documentElement.clientHeight;
   };
@@ -29,8 +31,8 @@ class App extends Component {
     if (clientHeight >= 897) {
       let footerHeight = footer.offsetHeight;
       footerHeight += 20;
-      footer.style.paddingTop = footerHeight + 'px';
-      mainPage.style.paddingBottom = footerHeight + 'px';
+      footer.style.paddingTop = footerHeight + "px";
+      mainPage.style.paddingBottom = footerHeight + "px";
     }
   }
 
@@ -42,7 +44,7 @@ class App extends Component {
           bottom: "0",
           width: "100%",
           position: "fixed",
-          zIndex: '1'
+          zIndex: "1"
         };
         return style;
       }
@@ -55,16 +57,17 @@ class App extends Component {
           <Switch>
             <Route path="/facilities" exact component={Facilities} />
             <Route path="/" exact component={Home} />
-            <Route path="/past" exact component={PastRecruiters} />
-            <Route path="/statistics" exact component={Placement} />
-            <Route path="/contact" exact component={Contact} />
-            <Route path="/procedure" exact component={Procedure} />
-            <Route path="/why" exact component={Why} />
+            <Route path="/our-recruiters" exact component={PastRecruiters} />
+            <Route path="/placement-stats" exact component={Placement} />
+            <Route path="/the-team" exact component={Contact} />
+            <Route path="/procedure-and-policies" exact component={Procedure} />
+            <Route path="/why-iiitl" exact component={Why} />
             <Route path="/message/director" exact component={MessageD} />
             <Route path="/message/tpo" exact component={Messaget} />
-            <Route path="/about" exact component={About} />
-            <Route path="/courses" exact component={Courses} />
+            <Route path="/about-us" exact component={About} />
+            <Route path="/courses-offered" exact component={Courses} />
             <Route path="/demographics" exact component={Demographics} />
+            <Route to="/404" component={Page404} />
           </Switch>
         </div>
         <div className="footer-outer-wrapper" style={getFooterStyle()}>
