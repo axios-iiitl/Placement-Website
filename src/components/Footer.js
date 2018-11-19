@@ -23,7 +23,6 @@ const footer = () => {
               </p>
             </div>
             <div className="footer-col">
-              <h2>Coordinators</h2>
               <p className="footer-contact-name">Devanshoo Udhani</p>
               <p className="footer-contact-position">Student Coordinator</p>
               <p>
