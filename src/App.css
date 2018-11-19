@@ -605,6 +605,9 @@ body {
 .procedure-outer {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
 }
 
 .procedure-wrapper {
@@ -634,6 +637,15 @@ body {
 .procedure-wrapper h2 {
   margin-top: 20px;
   font-size: 30px;
+  text-align: center;
+  color: #700325;
+}
+
+.sub-part h2,
+.ph-subheading {
+  font-size: 23px!important;
+  color: #1a46f7!important;
+  text-align: left!important;
 }
 
 .procedure-wrapper p {
