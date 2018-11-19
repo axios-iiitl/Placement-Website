@@ -4,22 +4,20 @@ import Card from "./Card";
 const contactUs = () => {
   return (
     <React.Fragment>
-      <div className="contact-outer" style={{backgroundColor: "white"}}>
+      <div className="contact-outer" style={{ backgroundColor: "white" }}>
         <div className="placement-team">
           <h1 className="placement-team-heading">The Team</h1>
-          <h2>Training And Placement Officer (TPO)</h2>
-          <Card
-            src="https://iiitl.ac.in/sites/default/files/inline-images/vijayshri_0_0.jpg"
-            alt="Dr. Vijayshri Tewari"
-            name="Dr. Vijayshri Tewari"
-            isTeacher={false}
-            position="Training and Placements Officer"
-            email="tpo@iiitl.ac.in"
-            phone="+91-9415214707"
-          />
-          <h2>Student Coordinators</h2>
           <div className="placement-coordinators">
             <div className="placement-coordinators-wrapper">
+              <Card
+                src="https://iiitl.ac.in/sites/default/files/inline-images/vijayshri_0_0.jpg"
+                alt="Dr. Vijayshri Tewari"
+                name="Dr. Vijayshri Tewari"
+                isTeacher={false}
+                position="Training and Placements Officer"
+                email="tpo@iiitl.ac.in"
+                phone="+91-9415214707"
+              />
               <Card
                 src="https://iiitl.ac.in/sites/default/files/inline-images/devanshoo_1.jpg"
                 alt="Devanshoo Udhani"
@@ -40,7 +38,6 @@ const contactUs = () => {
               />
             </div>
           </div>
-          <h2>Executives</h2>
           <div className="placement-executives-wrapper">
             <div className="placement-executives">
               <Card

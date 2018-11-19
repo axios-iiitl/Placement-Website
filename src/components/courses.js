@@ -6,8 +6,7 @@ const Courses = () => (
   <React.Fragment>
     <div className="courses-outer-wrapper">
       <div className="courses">
-        <h1>Courses Offered</h1>
-        <h2>Undegraduate Courses</h2>
+        <h1>Courses</h1>
         <ul>
           <li>B.Tech. Information Technology (IT)</li>
         </ul>

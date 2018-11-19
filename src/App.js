@@ -65,7 +65,7 @@ class App extends Component {
             <Route path="/message/director" exact component={MessageD} />
             <Route path="/message/tpo" exact component={Messaget} />
             <Route path="/about-us" exact component={About} />
-            <Route path="/courses-offered" exact component={Courses} />
+            <Route path="/courses" exact component={Courses} />
             <Route path="/demographics" exact component={Demographics} />
             <Route to="/404" component={Page404} />
           </Switch>

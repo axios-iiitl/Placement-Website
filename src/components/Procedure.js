@@ -4,38 +4,6 @@ import HR from "./HR";
 const Procedure = props => (
   <div className="procedure-outer">
     <div className="procedure-wrapper">
-      <h1>Procedures and Policies</h1>
-      <h2>Job Policy</h2>
-      <p>
-        Companies visit campus and select students as per their recruitment
-        drive.
-      </p>
-      <p>
-        <strong>
-          To a student finally selected by a company after all testing and
-          interview rounds, the company may offer :
-        </strong>
-      </p>
-      <div className="sub-part">
-        <h2>Full time job offer</h2>
-        <p>
-          The selected student will join company in June 2019 as full time
-          employee.
-        </p>
-        <h2>Internship</h2>
-        <p>
-          B. Tech 3rd year students are eligible for <strong>2 months</strong>{" "}
-          summer internship The student will join the company in May/June 2019
-          as an intern for a period of 2 months.
-        </p>
-        <p>
-          B. Tech. 4th year students are eligible for <strong>6 months</strong>{" "}
-          internship. The student will join the company in January 2019 as an
-          intern for a period of 6 months and complete their 8th semester
-          project in the company.
-        </p>
-      </div>
-      <HR />
       <h2>Placement Procedure</h2>
       <ul className="custom-list">
         <li>
@@ -78,7 +46,40 @@ const Procedure = props => (
           reach the organization/company asap.
         </li>
       </ul>
-      <HR />
+      </div>
+      <div className="procedure-wrapper">
+      <h2>Job Policy</h2>
+      <p>
+        Companies visit campus and select students as per their recruitment
+        drive.
+      </p>
+      <p>
+        <strong>
+          To a student finally selected by a company after all testing and
+          interview rounds, the company may offer :
+        </strong>
+      </p>
+      <div className="sub-part">
+        <h2>Full time job offer</h2>
+        <p>
+          The selected student will join company in June 2019 as full time
+          employee.
+        </p>
+        <h2>Internship</h2>
+        <p>
+          B. Tech 3rd year students are eligible for <strong>2 months</strong>{" "}
+          summer internship The student will join the company in May/June 2019
+          as an intern for a period of 2 months.
+        </p>
+        <p>
+          B. Tech. 4th year students are eligible for <strong>6 months</strong>{" "}
+          internship. The student will join the company in January 2019 as an
+          intern for a period of 6 months and complete their 8th semester
+          project in the company.
+        </p>
+      </div>
+      </div>
+      <div className="procedure-wrapper">
       <div className="placement-policy-heading">
         <h2 className="policies-heading">Placement Policy</h2>
         <h2 className="ph-subheading">Classification of Company</h2>

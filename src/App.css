@@ -474,9 +474,9 @@ body {
 
 .placement-team-heading {
   font-size: 40px;
-  margin-top: 0 !important;
+  margin-top: 20px !important;
   background-color: white !important;
-  color: #700325;
+  color: #083e67;
   border: none !important;
 }
 
@@ -549,7 +549,7 @@ body {
 }
 
 .whyus-container h2 {
-  color: #350011;
+  color: #1a46f7;
 }
 
 .whyus-container p {
@@ -605,6 +605,9 @@ body {
 .procedure-outer {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
 }
 
 .procedure-wrapper {
@@ -634,6 +637,15 @@ body {
 .procedure-wrapper h2 {
   margin-top: 20px;
   font-size: 30px;
+  text-align: center;
+  color: #700325;
+}
+
+.sub-part h2,
+.ph-subheading {
+  font-size: 23px!important;
+  color: #1a46f7!important;
+  text-align: left!important;
 }
 
 .procedure-wrapper p {
@@ -1379,6 +1391,10 @@ Card Component */
   color: black;
 }
 
+.dropdown-content a::after {
+  content: none;
+}
+
 .topnav .icon {
   display: none;
 }
@@ -1406,6 +1422,7 @@ Card Component */
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  margin-top: 5px;
 }
 
 .dropdown-content a {
@@ -1482,9 +1499,15 @@ Card Component */
   justify-content: top;
 }
 .side-drawer.open .drp-down {
-  height: 90%;
+  height: 130px;
   width: 87%;
   box-shadow: 7px 7px 7px #e2e2e2;
+}
+
+@media (max-width: 440px) {
+  .side-drawer.open .drp-down {
+    height: 105px;
+  }
 }
 
 .drp-down .open .side-drawer li {
