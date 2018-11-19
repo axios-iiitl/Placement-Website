@@ -1494,9 +1494,15 @@ Card Component */
   justify-content: top;
 }
 .side-drawer.open .drp-down {
-  height: 90%;
+  height: 130px;
   width: 87%;
   box-shadow: 7px 7px 7px #e2e2e2;
+}
+
+@media (max-width: 440px) {
+  .side-drawer.open .drp-down {
+    height: 105px;
+  }
 }
 
 .drp-down .open .side-drawer li {
