@@ -249,6 +249,11 @@ footer {
   font-size: 11px;
 }
 
+.footer-copyright a {
+  text-decoration: underline;
+  color: white;
+}
+
 .footer {
   background-color: #191919;
   color: white;
