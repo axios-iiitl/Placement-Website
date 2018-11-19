@@ -1542,7 +1542,7 @@ Card Component */
   margin-top: 25px;
 }
 
-.gender-ratio-row:nth-last-child(1) {
+/* .gender-ratio-row:nth-last-child(1) {
   display: flex;
   flex-direction: column;
 }
@@ -1551,7 +1551,7 @@ Card Component */
   margin-top: 20px;
   margin-bottom: 20px;
   width: 96%;
-}
+} */
 
 .demo h1 {
   text-align: center;
@@ -1570,9 +1570,20 @@ Card Component */
   }
   .demo h1 {
     font-size: 30px;
+   
   }
 }
 
+.gender-ratio-inner h1{
+  color:#1a46f7;
+}
+
+
+.demo-head{
+  font-size:50px;
+  margin-top:2%;
+  color:#700325;
+}
 
 /* //////////////////////////////// */
 

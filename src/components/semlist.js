@@ -55,6 +55,7 @@ const elective = [
   "Data Mining and Data Warehousing",
   "Information Retrieval Systems",
 ];
+const project=["3 mini projects",'1 major project']
 export const semList = [
   "Basics",
   "Machine Intelligence",
@@ -64,7 +65,8 @@ export const semList = [
   "Software Engineering",
   "Applied Computing",
   "Applied Systems",
-  "Data Storing and Mining "
+  "Data Storing and Mining ",
+  "Projects"
 ];
 
 export const subjects = [
@@ -76,5 +78,6 @@ export const subjects = [
   sem6,
   sem7,
   sem8,
-  elective
+  elective,
+  project
 ];

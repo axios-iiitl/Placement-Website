@@ -1,12 +1,13 @@
 import React from "react";
 import gender from "../assets/images/SexRatio.png";
 import student from "../assets/images/Stydentfaculty.png";
-import BarChart2 from "../assets/images/bar-chart-2.png";
+import Strength from "../assets/images/Strength .png";
 
 const Demographics = () => {
   return (
     <div className="demo">
-      <h1 style={{ marginTop: "5%" }}>Gender Ratio</h1>
+    <h1 className='demo-head'>Demographics</h1>
+      <h1 style={{ marginTop: "5%",color:'#1a46f7' }}>Gender Ratio</h1>
       <div className="gender-ratio-outer">
         <div className="gender-ratio-inner">
           <div className="gender-ratio-row">
@@ -14,7 +15,7 @@ const Demographics = () => {
             <p>
               The institute aims to maintain a diverse culture in terms of
               gender ratio as well. The gender ratio in the college is observed
-              as <strong>3 boys to 1 girl.</strong>
+              as <strong>3 : 1.</strong>
             </p>
           </div>
           <h1>Student-Teacher Ratio</h1>
@@ -26,10 +27,13 @@ const Demographics = () => {
               every individual is paid adequate attention.
             </p>
           </div>
-          <div className="gender-ratio-row">
-            <h1>Dream Round Offers</h1>
-            <img src={BarChart2} alt="" className="gender" />
-          </div>{" "}
+          <h1>Student-Teacher Ratio</h1>
+          <div className="gender-ratio-row" style={{marginBottom:'50px'}}>
+            <img  src={Strength}  alt="" className="gender" />
+            <p >
+            Indian Institute of Information Technology, Lucknow (IIIT Lucknow) is one of the 20 IIITs being set up by the Central Government in Public Private Partnership (PPP) mode. IIIT Lucknow admitted its first batch of B. Tech. in Information Technology with an intake of 50 students w.e.f. the academic session 2015-16.
+            </p>
+          </div>
         </div>
       </div>
     </div>
