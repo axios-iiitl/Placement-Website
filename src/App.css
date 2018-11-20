@@ -1161,23 +1161,28 @@ body {
 
 .images-row-4 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin: 40px 0;
-  width: 100%;
 }
 
 .images-row-4 img {
-  width: 210px;
+  width: 280px;
   align-self: center;
   margin: 20px 10px;
 }
 
+.images-row-4 img:nth-child(2) {
+  width: 380px;
+  margin-top: 40px;
+}
+
 .images-row-4-inner {
-  width: 100%;
+  width: max-content;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-flow: row wrap;
+  
 }
 
 @media (max-width: 420px) {
