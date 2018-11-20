@@ -7,7 +7,7 @@ const Demographics = () => {
   return (
     <div className="demo">
     <h1 className='demo-head'>Demographics</h1>
-      <h1 style={{ marginTop: "5%",color:'#1a46f7' }}>Gender Ratio</h1>
+      <h1 style={{ marginTop: "5%",color:'#42f4e2' }}>Gender Ratio</h1>
       <div className="gender-ratio-outer">
         <div className="gender-ratio-inner">
           <div className="gender-ratio-row">
@@ -23,11 +23,11 @@ const Demographics = () => {
             <img src={student} alt="" className="gender" />
             <p>
               To provide quality education to its students, the institute
-              maintains a student-teacher ratio as <strong>6:1</strong> so that
+              maintains a student-teacher ratio as <strong>6 : 1</strong> so that
               every individual is paid adequate attention.
             </p>
           </div>
-          <h1>Student-Teacher Ratio</h1>
+          <h1>Final Year Strength</h1>
           <div className="gender-ratio-row" style={{marginBottom:'50px'}}>
             <img  src={Strength}  alt="" className="gender" />
             <p >

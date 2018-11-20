@@ -548,13 +548,13 @@ body {
 
 .whyus-container h1 {
   text-align: center;
-  color: #700325;
+  color: black;
   margin: 20px 0;
   margin-bottom: 20px;
 }
 
 .whyus-container h2 {
-  color: #1a46f7;
+  color: #42f4e2;
 }
 
 .whyus-container p {
@@ -627,7 +627,7 @@ body {
   text-align: center;
   margin: 20px 0;
   margin-bottom: 35px;
-  color: #700325;
+  color: black;
 }
 
 .sub-part h2 {
@@ -643,13 +643,13 @@ body {
   margin-top: 20px;
   font-size: 30px;
   text-align: center;
-  color: #700325;
+  color: black;
 }
 
 .sub-part h2,
 .ph-subheading {
   font-size: 23px!important;
-  color: #1a46f7!important;
+  color: #42f4e2!important;
   text-align: left!important;
 }
 
@@ -1209,12 +1209,11 @@ body {
   text-align: center;
   margin-top: 2vw;
   margin-bottom: 2vw;
-  color: #17915d;
+  color: black;
   font-size: 2.7em;
 }
 .msgp {
   font-size: 1.15em;
-  font-weight: bold;
   margin-left: 10vw;
   margin-right: 10vw;
   color: #0c2728;
@@ -1222,8 +1221,7 @@ body {
 
 .cred {
   margin-left: 10vw;
-
-  color: #563e55;
+  color: navy;
   font-weight: bold;
 }
 
@@ -1236,13 +1234,13 @@ body {
 
 .abt1 {
   margin-top: 3vw;
-  color: #5b031f;
+  color: black;
 }
 
 .abt3 {
   margin-top: 10px;
   margin-bottom: 20px;
-  color: #a50034;
+  color: navy;
 }
 .abt-text {
   color: #19040e;
@@ -1265,8 +1263,7 @@ body {
   text-align: center;
   margin-top: 1.5vw;
   font-size: 35px;
-  /* letter-spacing: 2px; */
-  color: #213659;
+  color: black;
   margin-bottom: 2vw;
 }
 .courses h2 {
@@ -1607,14 +1604,14 @@ Card Component */
 }
 
 .gender-ratio-inner h1{
-  color:#1a46f7;
+  color:#42f4e2;
 }
 
 
 .demo-head{
   font-size:50px;
   margin-top:2%;
-  color:#700325;
+  color:black;
 }
 
 /* //////////////////////////////// */

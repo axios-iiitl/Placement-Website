@@ -15,7 +15,7 @@ const contactUs = () => {
                 name="Dr. Vijayshri Tewari"
                 isTeacher={false}
                 position="Training and Placements Officer"
-                email="placements@iiitl.ac.in"
+                email="placements@iiitl.ac.in, tpo@iiitl.ac.in"
                 isPhone={false}
                 isEmail={true}
               />
