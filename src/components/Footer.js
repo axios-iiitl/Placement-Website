@@ -71,8 +71,7 @@ const footer = () => {
         <p>
           ALL RIGHTS RESERVED © 2018. <strong>IIIT LUCKNOW</strong> (Developed &
           Managed By -{" "}
-          <a href="https://www.linkedin.com/in/divy-khare-63a398172/" target="none">Divy</a>,{" "}
-          <a href="https://www.linkedin.com/in/vaibhavgupta79/" target="none">Vaibhav</a>)
+          <a href="https://www.linkedin.com/in/vaibhavgupta79/" target="none">Vaibhav Gupta</a>)
         </p>
       </div>
     </footer>
