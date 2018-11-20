@@ -18,11 +18,11 @@ const card = props => {
           <h5>{props.position}</h5>
         )}
         <p className="contact-detail">
-          <i className="fas fa-envelope" />
+          {props.isEmail ? (<p><i className="fas fa-envelope" />
           <strong> Email:</strong> {props.email}
-          <br />
-          <i className="fas fa-phone" />
-          <strong> Phone:</strong> {props.phone}
+          <br /></p>) : null}
+          {props.isPhone ? (<p><i className="fas fa-phone" />
+          <strong> Phone:</strong> {props.phone}</p>) : null}
         </p>
       </figcaption>
     </figure>
