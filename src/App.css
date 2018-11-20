@@ -554,7 +554,7 @@ body {
 }
 
 .whyus-container h2 {
-  color: #42f4e2;
+  color: navy;
 }
 
 .whyus-container p {
@@ -649,7 +649,7 @@ body {
 .sub-part h2,
 .ph-subheading {
   font-size: 23px!important;
-  color: #42f4e2!important;
+  color: navy!important;
   text-align: left!important;
 }
 
@@ -1364,7 +1364,7 @@ Card Component */
   margin-bottom: 0.5vw;
 }
 .sem {
-  color: #42f4e2;
+  color: navy;
 }
 .card__text {
   flex: 1 1 auto;
@@ -1604,7 +1604,7 @@ Card Component */
 }
 
 .gender-ratio-inner h1{
-  color:#42f4e2;
+  color:navy;
 }
 
 

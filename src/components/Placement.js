@@ -14,7 +14,7 @@ import DreamRoundOffersImg from "../assets/images/dream-round-offers.PNG"
 const Placement = props => {
   return (
     <div className="stats-outer-wrapper">
-      <h1 className="ps-name-heading">Placement Statistics 2018-19</h1>
+      <h1 className="ps-name-heading, pr-main-heading">Placement Statistics 2018-19</h1>
       <div className="images-row-2">
         <div className="images-row-2-inner">
           <img src={ArrowsImg} alt="Placement Stats 2018" />
