@@ -1,5 +1,4 @@
 import React from "react";
-import HR from "./HR";
 
 const Procedure = props => (
   <div className="procedure-outer">

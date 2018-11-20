@@ -18,11 +18,11 @@ const card = props => {
           <h5>{props.position}</h5>
         )}
         <p className="contact-detail">
-          {props.isEmail ? (<p><i className="fas fa-envelope" />
+          {props.isEmail ? (<React.Fragment><i className="fas fa-envelope" />
           <strong> Email:</strong> {props.email}
-          <br /></p>) : null}
-          {props.isPhone ? (<p><i className="fas fa-phone" />
-          <strong> Phone:</strong> {props.phone}</p>) : null}
+          <br /></React.Fragment>) : null}
+          {props.isPhone ? (<React.Fragment><i className="fas fa-phone" />
+          <strong> Phone:</strong> {props.phone}</React.Fragment>) : null}
         </p>
       </figcaption>
     </figure>
