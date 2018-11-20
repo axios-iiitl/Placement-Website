@@ -7,7 +7,7 @@ const Demographics = () => {
   return (
     <div className="demo">
     <h1 className='demo-head'>Demographics</h1>
-      <h1 style={{ marginTop: "5%",color:'#42f4e2' }}>Gender Ratio</h1>
+      <h1 style={{ marginTop: "5%",color:'navy' }}>Gender Ratio</h1>
       <div className="gender-ratio-outer">
         <div className="gender-ratio-inner">
           <div className="gender-ratio-row">
