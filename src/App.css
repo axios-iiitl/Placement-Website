@@ -1166,21 +1166,15 @@ body {
 }
 
 .images-row-4 img {
-  width: 280px;
   align-self: center;
   margin: 20px 10px;
-}
-
-.images-row-4 img:nth-child(2) {
-  width: 380px;
-  margin-top: 40px;
 }
 
 .images-row-4-inner {
   width: max-content;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   flex-flow: row wrap;
   
 }

@@ -10,6 +10,8 @@ import PyramidImg from "../assets/images/pyramid-stats.png";
 import SummerInternsImg from "../assets/images/summer-interns.png";
 import ArrowsImg from "../assets/images/arrows.PNG";
 import DreamRoundOffersImg from "../assets/images/dream-round-offers.PNG"
+import OffersMadeImg from "../assets/images/39-offers.PNG"
+import GearsImg from "../assets/images/gears.PNG"
 
 const Placement = props => {
   return (
@@ -18,7 +20,7 @@ const Placement = props => {
       <div className="images-row-2">
         <div className="images-row-2-inner">
           <img src={ArrowsImg} alt="Placement Stats 2018" />
-          <img src="https://i.imgur.com/FwZvsmD.png" alt="Placement Stats 2018"/>
+          <img src={GearsImg} alt="Placement Stats 2018"/>
         </div>
       </div>
       <div className="images-row-3">
@@ -29,8 +31,9 @@ const Placement = props => {
       </div>
       <div className="images-row-4">
         <div className="images-row-4-inner">
+          <img src={PlacedPercentageImg} alt="Placed Percentage" />
           <img src={CompaniesVisitedImg} alt="Companies Visited" />
-          <img src={PlacedPercentageImg} alt="Companies Visited" />
+          <img src={OffersMadeImg} alt="Offers Made" />
         </div>
       </div>
     </div>
