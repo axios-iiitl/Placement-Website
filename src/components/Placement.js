@@ -1,5 +1,13 @@
 import React from "react";
 import BarChart2 from "../assets/images/bar-chart-2.png";
+import FullTimeOffers from "../assets/images/full-time-offers.png"
+import Above25LpaImg from "../assets/images/above-25-lpa.png";
+import CompaniesVisitedImg from "../assets/images/companies-visited.png";
+import DomainWiseImg from "../assets/images/domain-wise.png";
+import HighestPackageImg from "../assets/images/highest-package.png";
+import PlacedPercentageImg from "../assets/images/placed-percentage.png";
+import PyramidImg from "../assets/images/pyramid-stats.png";
+import SummerInternsImg from "../assets/images/summer-interns.png";
 
 const Placement = props => {
   return (
@@ -7,9 +15,9 @@ const Placement = props => {
       <h1 className="ps-name-heading">Placement Statistics 2018-19</h1>
       <div className="images-row-1">
         <div className="images-row-2-inner">
-          <img src="https://i.imgur.com/A2C1e8m.png" alt="Full Time Offers" />
-          <img src="https://i.imgur.com/HWZh8fU.png" alt="Highest Package" />
-          <img src="https://i.imgur.com/AVWZX8Y.png" alt="Summer Interns" />
+          <img src={FullTimeOffers} alt="Full Time Offers" />
+          <img src={HighestPackageImg} alt="Highest Package" />
+          <img src={SummerInternsImg} alt="Summer Interns" />
         </div>
       </div>
       <div className="images-row-2">
@@ -35,20 +43,20 @@ const Placement = props => {
               </p>
             </blockquote>
           </div>
-          <img src="https://i.imgur.com/F70N1Kr.png" alt="Placement Stats 2018"/>
+          <img src={PyramidImg} alt="Placement Stats 2018"/>
         </div>
       </div>
       <div className="images-row-3">
         <div className="images-row-3-inner">
           <img src={BarChart2} alt="Dream Round Offers" />
-          <img src="https://i.imgur.com/cB7LVuE.png" alt="Domain Wise" />
+          <img src={DomainWiseImg} alt="Domain Wise" />
         </div>
       </div>
       <div className="images-row-4">
         <div className="images-row-4-inner">
-          <img src="https://i.imgur.com/Hb7rOGq.png" alt="Companies Visited" />
-          <img src="https://i.imgur.com/hMX5fF6.png" alt="Above 25 LPA" />
-          <img src="https://i.imgur.com/o6Yk5o5.png" alt="Placed Percentage" />
+          <img src={CompaniesVisitedImg} alt="Companies Visited" />
+          <img src={Above25LpaImg} alt="Above 25 LPA" />
+          <img src={PlacedPercentageImg} alt="Placed Percentage" />
         </div>
       </div>
     </div>
