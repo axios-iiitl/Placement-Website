@@ -511,6 +511,11 @@ body {
   border: 0.3px solid #eee;
 }
 
+.placement-team h1 {
+  background-color: white;
+  border: none;
+}
+
 .placement-executives {
   width: 100%;
   display: flex;
@@ -1257,6 +1262,10 @@ Card Component */
 
 .dropdown-content .activeclass {
   color: black;
+}
+
+.dropdown-content .activeclass:active {
+  color: rgb(66, 66, 66);
 }
 
 .dropdown-content a::after {
