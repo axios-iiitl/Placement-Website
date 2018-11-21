@@ -509,6 +509,7 @@ body {
   background-color: #f5f5f5;
   margin-top: 0;
   border: 0.3px solid #eee;
+  margin-top: 1.5vw;
 }
 
 .placement-team h1 {
@@ -1559,6 +1560,10 @@ Card Component */
 .gender-ratio-row img {
   width: 185px;
   align-self: center;
+}
+
+.gender-ratio-row img:nth-last-child(1) {
+  width: 130px;
 }
 
 .gender-ratio-outer h1 {
