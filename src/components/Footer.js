@@ -69,10 +69,7 @@ const footer = () => {
 
       <div className="footer-copyright">
         <p>
-          ALL RIGHTS RESERVED © 2018. <strong>IIIT LUCKNOW</strong> (Developed &
-          Managed By -{" "}
-          <a href="https://www.linkedin.com/in/vaibhavgupta79/" target="none">Vaibhav Gupta</a>)
-        </p>
+          ALL RIGHTS RESERVED © 2018. <strong>IIIT LUCKNOW</strong></p>
       </div>
     </footer>
   );
