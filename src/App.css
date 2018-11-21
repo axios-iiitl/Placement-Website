@@ -1587,6 +1587,10 @@ Card Component */
 
 .demo h1 {
   text-align: center;
+  /* font-size */
+}
+.subheads{
+  font-size: 25px;
 }
 .student {
   margin-left: 70%;
@@ -1612,9 +1616,10 @@ Card Component */
 
 
 .demo-head{
-  font-size:50px;
+  /* font-size:50px; */
   margin-top:2%;
   color:black;
+  font-size: 35px;
 }
 
 /* //////////////////////////////// */
