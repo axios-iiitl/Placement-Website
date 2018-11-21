@@ -1566,8 +1566,8 @@ Card Component */
   align-self: center;
 }
 
-.gender-ratio-row img:nth-last-child(1) {
-  width: 130px;
+.gender {
+  width: 130px!important;
 }
 
 .gender-ratio-outer h1 {
