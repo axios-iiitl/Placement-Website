@@ -247,6 +247,8 @@ footer {
   background-color: black;
   color: white;
   font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .footer-copyright a {
@@ -1198,6 +1200,9 @@ body {
     width: 200px;
   }
   .images-row-4 img {
+    width: 130px;
+  }
+  .images-row-4 img:nth-child(2) {
     width: 180px;
   }
 }
