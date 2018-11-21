@@ -17,6 +17,7 @@ const Placement = props => {
   return (
     <div className="stats-outer-wrapper">
       <h1 className="ps-name-heading, pr-main-heading">Placement Statistics 2018-19</h1>
+      <p style={{float:'right',fontSize:'15px'}}>* till November 2018</p>
       <div className="images-row-2">
         <div className="images-row-2-inner">
           <img src={ArrowsImg} alt="Placement Stats 2018" />
@@ -36,6 +37,7 @@ const Placement = props => {
           <img src={OffersMadeImg} alt="Offers Made" />
         </div>
       </div>
+      
     </div>
   );
 };
