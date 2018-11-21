@@ -7,31 +7,31 @@ const Demographics = () => {
   return (
     <div className="demo">
     <h1 className='demo-head'>Demographics</h1>
-      <h1 style={{ marginTop: "5%",color:'navy' }}>Gender Ratio</h1>
+      <h1 style={{ marginTop: "5%",color:'navy' }} className="subheads">Gender Ratio</h1>
       <div className="gender-ratio-outer">
         <div className="gender-ratio-inner">
           <div className="gender-ratio-row">
             <img src={gender} alt="" className="gender" />
-            <p>
+            <p style={{fontSize:'18px'}}>
               The institute aims to maintain a diverse culture in terms of
               gender ratio as well. The gender ratio in the college is observed
               as <strong>3 : 1.</strong>
             </p>
           </div>
-          <h1>Student-Teacher Ratio</h1>
+          <h1 className="subheads">Student-Teacher Ratio</h1>
           <div className="gender-ratio-row">
             <img src={student} alt="" className="gender" />
-            <p>
+            <p style={{fontSize:'18px'}}>
               To provide quality education to its students, the institute
               maintains a student-teacher ratio as <strong>6 : 1</strong> so that
               every individual is paid adequate attention.
             </p>
           </div>
-          <h1>Final Year Strength</h1>
+          <h1 className="subheads">Final Year Strength</h1>
           <div className="gender-ratio-row" style={{marginBottom:'50px'}}>
             <img  src={Strength}  alt="" className="gender" />
-            <p >
-            Indian Institute of Information Technology, Lucknow (IIIT Lucknow) is one of the 20 IIITs being set up by the Central Government in Public Private Partnership (PPP) mode. IIIT Lucknow admitted its first batch of B. Tech. in Information Technology with an intake of 50 students w.e.f. the academic session 2015-16.
+            <p style={{fontSize:'18px'}}>
+             IIIT Lucknow admitted its first batch of B. Tech. in Information Technology with an intake of 50 students w.e.f. the academic session 2015-16.
             </p>
           </div>
         </div>
