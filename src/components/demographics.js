@@ -31,7 +31,7 @@ const Demographics = () => {
           <div className="gender-ratio-row" style={{marginBottom:'50px'}}>
             <img  src={Strength}  alt="" className="gender" />
             <p style={{fontSize:'18px'}}>
-             IIIT Lucknow admitted its first batch of B. Tech. in Information Technology with an intake of 50 students w.e.f. the academic session 2015-16.
+             IIIT Lucknow admitted its first batch of B. Tech in Information Technology with an intake of 50 students w.e.f. the academic session 2015-16.
             </p>
           </div>
         </div>
