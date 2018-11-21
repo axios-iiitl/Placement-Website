@@ -587,23 +587,27 @@ body {
 
 /* Procedure And Policies */
 
+.custom-list {
+  list-style: disc!important;
+}
+
 .custom-list li {
   position: relative;
   border: 0px none;
-  padding: 10px 0 0px 22px;
-  display: block;
-  margin: 10px 0;
+  padding: 10px 0 0px 0px;
+  /* display: block; */
+  margin: 10px 15px;
   padding-right: 10px;
 }
 
-.custom-list li::before {
+/* .custom-list li::before {
   position: absolute;
   left: 0px;
-  content: "\f192";
+  content: "•";
   font-family: "Font Awesome 5 Free";
-  color: #00b3f3;
+  color: black;
   margin-top: 4px;
-}
+} */
 
 .ph-subheading {
   font-size: 25px !important;
