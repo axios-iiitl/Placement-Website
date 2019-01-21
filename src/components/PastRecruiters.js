@@ -27,6 +27,12 @@ import vassarlabsLogo from "../assets/company_logos/vassarlabs.jpeg";
 import vehanttechnologiesLogo from "../assets/company_logos/vehanttechnologies.png";
 import wickedrideLogo from "../assets/company_logos/wickedride.png";
 import zenefitsLogo from "../assets/company_logos/zenefits.jpeg";
+import kleanLogo from "../assets/company_logos/klean.png";
+import googleLogo from "../assets/company_logos/googlei.png";
+import polestar from "../assets/company_logos/pole.jpeg";
+import wipro from "../assets/company_logos/wipro.jpeg";
+
+
 
 const PastRecruiters = props => {
   return (
@@ -38,42 +44,46 @@ const PastRecruiters = props => {
             <div className="pr-inner-row">
               <img src={directiLogo} alt="Directi" />
               <img src={ackoLogo} alt="Acko" />
-              <img src={goldmansachsLogo} alt="Goldman Sachs" />
+              <img src={googleLogo} alt="Google" />
               <img src={linkedinLogo} alt="LinkedIn" />
-              <img src={expediaLogo} alt="Expedia" />
+              <img src={goldmansachsLogo} alt="Goldman Sachs" />
             </div>
 
             <div className="pr-inner-row">
+              <img src={expediaLogo} alt="Expedia" />
               <img src={codenationLogo} alt="Codenation" />
               <img src={accoliteLogo} alt="Accolite" />
               <img src={paytmLogo} alt="PayTm" />
               <img src={quantiphiLogo} alt="Quantiphi" />
-              <img src={wickedrideLogo} alt="Wicked Ride" />
             </div>
             <div className="pr-inner-row">
+              <img src={wickedrideLogo} alt="Wicked Ride" />
               <img src={mavenhiveLogo} alt="MavenHive" />
               <img src={nagarroLogo} alt="nagarro" />
               <img src={ONEmgLogo} alt="1mg" />
               <img src={jdaLogo} alt="jda" />
-              <img src={maqsoftwareLogo} alt="MAQ Software" />
             </div>
             <div className="pr-inner-row">
+              <img src={maqsoftwareLogo} alt="MAQ Software" />
               <img src={vassarlabsLogo} alt="Vassar Labs" />
               <img src={joshtechnologyLogo} alt="Josh Technology Group" />
               <img src={zenefitsLogo} alt="Zenefits" />
               <img src={hashedInLogo} alt="Hashedin" />
-              <img src={nineleapsLogo} alt="Nineleaps" />
             </div>
             <div className="pr-inner-row">
+              <img src={nineleapsLogo} alt="Nineleaps" />
               <img src={collegeduniaLogo} alt="College Dunia" />
               <img src={valuefyLogo} alt="Valuefy" />
               <img src={travelokaLogo} alt="traveloka" />
               <img src={infoobjectsLogo} alt="Info Objects" />
-              <img src={sokratiLogo} alt="Sokrati" />
             </div>
             <div className="pr-inner-row">
+              <img src={sokratiLogo} alt="Sokrati" />
               <img src={tcsLogo} alt="TATA Consultancy Services" />
               <img src={vehanttechnologiesLogo} alt="Vehant Technologies" />
+              <img src={wipro} alt="Wipro" />
+              <img src={polestar} alt="Pole Star" />
+              <img src={kleanLogo} alt="Klean Homez" />
             </div>
           </div>
         </div>
