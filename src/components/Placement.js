@@ -1,11 +1,11 @@
 import React from "react";
-import CompaniesVisitedImg from "../assets/images/companies-visited.PNG";
+import CompaniesVisitedImg from "../assets/images/companies-visited.png";
 import DomainWiseImg from "../assets/images/domain-wise.png";
-import PlacedPercentageImg from "../assets/images/placed-percentage.PNG";
-import ArrowsImg from "../assets/images/arrows.PNG";
-import DreamRoundOffersImg from "../assets/images/dream-round-offers.PNG"
-import OffersMadeImg from "../assets/images/39-offers.PNG"
-import GearsImg from "../assets/images/gears.PNG"
+import PlacedPercentageImg from "../assets/images/percentage-placed.png";
+import ArrowsImg from "../assets/images/arrows.png";
+import DreamRoundOffersImg from "../assets/images/dream-round-offers.png"
+import OffersMadeImg from "../assets/images/46-offers.png"
+import GearsImg from "../assets/images/gears.png"
 
 const Placement = props => {
   return (
@@ -31,7 +31,6 @@ const Placement = props => {
           <img src={OffersMadeImg} alt="Offers Made" />
         </div>
       </div>
-      
     </div>
   );
 };
