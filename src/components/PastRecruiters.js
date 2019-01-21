@@ -29,10 +29,8 @@ import wickedrideLogo from "../assets/company_logos/wickedride.png";
 import zenefitsLogo from "../assets/company_logos/zenefits.jpeg";
 import kleanLogo from "../assets/company_logos/klean.png";
 import googleLogo from "../assets/company_logos/googlei.png";
-import polestar from "../assets/company_logos/pole.jpeg";
-import wipro from "../assets/company_logos/wipro.jpeg";
-
-
+import polestarLogo from "../assets/company_logos/polestar.jpeg";
+import wiproLogo from "../assets/company_logos/wipro.jpeg";
 
 const PastRecruiters = props => {
   return (
@@ -81,11 +79,11 @@ const PastRecruiters = props => {
               <img src={sokratiLogo} alt="Sokrati" />
               <img src={tcsLogo} alt="TATA Consultancy Services" />
               <img src={vehanttechnologiesLogo} alt="Vehant Technologies" />
-              <img src={wipro} alt="Wipro" />
-              <img src={polestar} alt="Pole Star" />
-              <div className="pr-inner-row">
+              <img src={wiproLogo} alt="Wipro" />
+              <img src={polestarLogo} alt="Pole Star" />
+            </div>
+            <div className="pr-inner-row">
               <img src={kleanLogo} alt="Klean Homez" />
-              </div>
             </div>
           </div>
         </div>
