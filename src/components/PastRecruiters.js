@@ -83,7 +83,9 @@ const PastRecruiters = props => {
               <img src={vehanttechnologiesLogo} alt="Vehant Technologies" />
               <img src={wipro} alt="Wipro" />
               <img src={polestar} alt="Pole Star" />
+              <div className="pr-inner-row">
               <img src={kleanLogo} alt="Klean Homez" />
+              </div>
             </div>
           </div>
         </div>
