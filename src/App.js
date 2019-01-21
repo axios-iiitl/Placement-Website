@@ -20,36 +20,36 @@ import Page404 from "./components/404";
 
 class App extends Component {
 
-  getClientHeight = () => {
-    return document.documentElement.clientHeight;
-  };
+  // getClientHeight = () => {
+  //   return document.documentElement.clientHeight;
+  // };
 
-  componentDidMount() {
-    const footer = document.getElementsByClassName("footer-outer-wrapper")[0];
-    const mainPage = document.getElementsByClassName("main-page")[0];
-    const clientHeight = this.getClientHeight();
-    if (clientHeight >= 897) {
-      let footerHeight = footer.offsetHeight;
-      footerHeight += 20;
-      footer.style.paddingTop = footerHeight + "px";
-      mainPage.style.paddingBottom = footerHeight + "px";
-    }
-  }
+  // componentDidMount() {
+  //   const footer = document.getElementsByClassName("footer-outer-wrapper")[0];
+  //   const mainPage = document.getElementsByClassName("main-page")[0];
+  //   const clientHeight = this.getClientHeight();
+  //   if (clientHeight >= 897) {
+  //     let footerHeight = footer.offsetHeight;
+  //     footerHeight += 20;
+  //     footer.style.paddingTop = footerHeight + "px";
+  //     mainPage.style.paddingBottom = footerHeight + "px";
+  //   }
+  // }
 
   render() {
-    const getFooterStyle = () => {
-      const clientHeight = this.getClientHeight();
-      if (clientHeight >= 897) {
-        const style = {
-          bottom: "0",
-          width: "100%",
-          position: "fixed",
-          zIndex: "1"
-        };
-        return style;
-      }
-      return {};
-    };
+    // const getFooterStyle = () => {
+    //   const clientHeight = this.getClientHeight();
+    //   if (clientHeight >= 897) {
+    //     const style = {
+    //       bottom: "0",
+    //       width: "100%",
+    //       position: "fixed",
+    //       zIndex: "1"
+    //     };
+    //     return style;
+    //   }
+    //   return {};
+    // };
     return (
       <Fragment>
         <Navbar />
@@ -70,7 +70,7 @@ class App extends Component {
             <Route to="/404" component={Page404} />
           </Switch>
         </div>
-        <div className="footer-outer-wrapper" style={getFooterStyle()}>
+        <div className="footer-outer-wrapper" >
           <Footer />
         </div>
       </Fragment>
