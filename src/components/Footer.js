@@ -49,6 +49,11 @@ const footer = () => {
             <div className="footer-col">
               <h2>Links</h2>
               <p>
+                <a href="https://www.ncs.gov.in/Pages/default.aspx" target="blank">
+                  National Career Service
+                </a>
+              </p>
+              <p>
                 <a href={brochurePdf} target="blank">
                   Brochure
                 </a>
