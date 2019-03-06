@@ -773,6 +773,7 @@ body {
   background-position: center;
   transition: transform 0.2s;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 .blog-card .details,
 .blog-card .details ul {

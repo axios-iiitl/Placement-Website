@@ -9,7 +9,7 @@ const Ex = props => (
       <div className="meta">
         <div className="photo" style={{ backgroundImage: `url(${director})` }} />
         <ul className="details">
-          <li className="author">Prof. P. Nagabhushan</li>
+          <li className="author">Dr. Arun Mohan Sherry</li>
           <li className="date">Director</li>
           <li className="tags">
             <ul>
@@ -39,7 +39,7 @@ const Ex = props => (
       <div className="meta">
         <div className="photo" style={{ backgroundImage: `url(${vijayshri})` }} />
         <ul className="details">
-          <li className="author">Dr Vijayshri Tiwari</li>
+          <li className="author">Dr. Vijayshri Tiwari</li>
           <li className="date">Training and Placement Officer</li>
           <li className="tags">
             <ul>
