@@ -39,7 +39,7 @@ const Ex = props => (
       <div className="meta">
         <div className="photo" style={{ backgroundImage: `url(${vks})` }} />
         <ul className="details">
-          <li className="author">Dr. Vijayshri Tiwari</li>
+          <li className="author">Dr. Vishal Krishna Singh</li>
           <li className="date">Training and Placement Officer</li>
           <li className="tags">
             <ul>

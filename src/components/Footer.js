@@ -14,7 +14,7 @@ const footer = () => {
                 <a href="mailto:placements@iiitl.ac.in">placements@iiitl.ac.in</a>
               </p>
               <p>
-                <a href="tel:+91-98386361242">+91-9838636124</a>
+                <a href="tel:+91-8077863514">+91-8077863514</a>
               </p>
               <p>
                 IIIT Allahabad, Jhalwa,
@@ -26,7 +26,7 @@ const footer = () => {
               <p className="footer-contact-name">Nishant Malik</p>
               <p className="footer-contact-position">Student Coordinator</p>
               <p>
-                <a href="tel:+91-9415214707">+91-8077863514</a>
+                <a href="tel:+91-8077863514">+91-8077863514</a>
               </p>
               <p>
                 <a href="mailto:placements@iiitl.ac.in">
@@ -38,7 +38,7 @@ const footer = () => {
               <p className="footer-contact-name">Tarun Singhal</p>
               <p className="footer-contact-position">Student Coordinator</p>
               <p>
-                <a href="tel:+91-9415214707">+91-8318699228</a>
+                <a href="tel:+91-8318699228">+91-8318699228</a>
               </p>
               <p>
                 <a href="mailto:placements@iiitl.ac.in">
