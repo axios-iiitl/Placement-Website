@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./Card";
 import Bittu from '../assets/images/Bittu.jpg'
 import Suryansh from '../assets/images/Suryansh.jpg'
-import vks from '../assets/images/vks.png'
+import vks from '../assets/images/vks.jpg'
 import Nishant from '../assets/images/Nishant.jpg'
 import Shubham from '../assets/images/Shubham.jpg'
 import Tarun from '../assets/images/Tarun.jpg'
