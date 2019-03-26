@@ -23,10 +23,10 @@ const footer = () => {
               </p>
             </div>
             <div className="footer-col">
-              <p className="footer-contact-name">Devanshoo Udhani</p>
+              <p className="footer-contact-name">Nishant Malik</p>
               <p className="footer-contact-position">Student Coordinator</p>
               <p>
-                <a href="tel:+91-9415214707">+91-9838636124</a>
+                <a href="tel:+91-9415214707">+91-8077863514</a>
               </p>
               <p>
                 <a href="mailto:placements@iiitl.ac.in">
@@ -35,10 +35,10 @@ const footer = () => {
               </p>
             </div>
             <div className="footer-col">
-              <p className="footer-contact-name">Prankur Agarwal</p>
+              <p className="footer-contact-name">Tarun Singhal</p>
               <p className="footer-contact-position">Student Coordinator</p>
               <p>
-                <a href="tel:+91-9415214707">+91-9457382069</a>
+                <a href="tel:+91-9415214707">+91-8318699228</a>
               </p>
               <p>
                 <a href="mailto:placements@iiitl.ac.in">
