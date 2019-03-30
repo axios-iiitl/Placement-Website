@@ -25,10 +25,6 @@ const contactUs = () => {
                 isPhone={false}
                 isEmail={true}
               />
-            </div>
-          </div>
-          <div className="placement-coordinators">
-            <div className="placement-coordinators-wrapper">
               <Card
                 src={Nishant}
                 alt="Nishant Malik"

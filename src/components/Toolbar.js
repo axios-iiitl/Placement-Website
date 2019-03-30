@@ -53,7 +53,7 @@ const Toolbar = props => (
             </NavLink>
           </li>
           <li>
-            <NavLink to="/the-team" exact className="activeclass">
+            <NavLink to="/contact-us" exact className="activeclass">
               Contact Us
             </NavLink>
           </li>
