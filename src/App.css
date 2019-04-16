@@ -4,7 +4,7 @@
 /* Toolbar component */
 .toolbar {
   width: 100%;
-  background-color: #292c30;
+  background-color: #005f99;
   height: 60px;
 }
 
@@ -68,10 +68,6 @@
   width: 100%;
   left: 0;
   background: #fff;
-}
-
-.nav-elements .activeclass:active {
-  color: #00ffe9;
 }
 
 .nav-elements ul {
@@ -156,12 +152,12 @@
 
 .side-drawer .activeclass:hover,
 .side-drawer .activeclass:active {
-  color: #f90074;
+  color: #88c3d0;
 }
 
 .side {
   width: 100%;
-  background-color: #292c30;
+  background-color: #005f99;
   height: 60px;
   color: white;
   display: flex;
@@ -471,7 +467,7 @@ body {
 .snip1559.active {
   top: -4px;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
-  border-bottom: 2px solid rgba(250, 123, 128, 1);
+  border-bottom: 2px solid #88c3d0;
 }me
 
 .placement-team-heading {
@@ -699,8 +695,27 @@ body {
 
 /*Home Page Component */
 
+.homepic {
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 90%;
+  max-width: 960px;
+}
+
 .logo-img {
   width: 100%;
+  max-width: 960px;
+}
+
+@media (max-width: 638px) {
+  .logo-img {
+    width: 100%;
+    max-width: 100%;
+  }
+  .homepic {
+    max-width: 100%;
+    width: 100%;
+  }
 }
 
 .elegantshadow {
@@ -990,8 +1005,8 @@ body {
   width: 100%;
   height: 2px;
   height: 4px;
-  border-top: 2px solid mediumaquamarine;
-  border-bottom: 2px solid mediumaquamarine;
+  border-top: 2px solid #88c3d0;
+  border-bottom: 2px solid #88c3d0;
 }
 
 .pr-main-heading:before {
@@ -1503,8 +1518,6 @@ Card Component */
 }
 
 .drp-down {
-  /* background-color: #e2e2e2; */
-
   padding-bottom: 2vw;
   display: flex;
   justify-content: top;

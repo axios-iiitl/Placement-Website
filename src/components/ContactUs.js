@@ -1,10 +1,10 @@
 import React from "react";
 import Card from "./Card";
-import Bittu from "../assets/images/Bittu.jpg";
+import Bittu from "../assets/images/bittu.jpeg";
 import Suryansh from "../assets/images/Suryansh.jpg";
 import vks from "../assets/images/vks.jpg";
 import Nishant from "../assets/images/Nishant.jpg";
-import Shubham from "../assets/images/Shubham.jpg";
+import Shubham from "../assets/images/shubham.jpeg";
 import Tarun from "../assets/images/Tarun.jpg";
 
 const contactUs = () => {
