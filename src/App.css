@@ -429,12 +429,10 @@ body {
 }
 
 .snip1559 .profile-image img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
   vertical-align: top;
   position: relative;
   border-radius: 50%;
-  max-width: 150px;
 }
 
 .snip1559 figcaption {
@@ -698,13 +696,11 @@ body {
 .homepic {
   margin: 0 auto;
   margin-top: 25px;
-  width: 90%;
-  max-width: 960px;
+  width: 85%;
 }
 
 .logo-img {
   width: 100%;
-  max-width: 960px;
 }
 
 @media (max-width: 638px) {
