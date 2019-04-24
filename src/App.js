@@ -17,15 +17,16 @@ import Courses from "./components/courses";
 import Facilities from "./components/Facilities";
 import Demographics from "./components/demographics";
 import Page404 from "./components/404";
+import AlumniSpeaks from "./components/AlumniSpeaks";
 
 class App extends Component {
-
   render() {
     return (
       <Fragment>
         <Navbar />
         <div className="main-page">
           <Switch>
+            <Route path="/alumni-speaks" exact component={AlumniSpeaks} />
             <Route path="/facilities" exact component={Facilities} />
             <Route path="/" exact component={Home} />
             <Route path="/our-recruiters" exact component={OurRecruiters} />
@@ -41,7 +42,7 @@ class App extends Component {
             <Route to="/404" component={Page404} />
           </Switch>
         </div>
-        <div className="footer-outer-wrapper" >
+        <div className="footer-outer-wrapper">
           <Footer />
         </div>
       </Fragment>

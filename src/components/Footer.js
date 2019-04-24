@@ -67,6 +67,9 @@ const footer = () => {
               <p>
                 <Link to="/contact-us">The Team</Link>
               </p>
+              <p>
+                <Link to="/alumni-speaks">Alumni Speaks</Link>
+              </p>
             </div>
           </div>
         </div>
