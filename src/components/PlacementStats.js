@@ -20,15 +20,15 @@ const Placement = props => {
       </div>
       <div className="images-row-3">
         <div className="images-row-3-inner">
-          <img src={DreamRoundOffersImg} alt="Dream Round Offers" />
+          {/* <img src={DreamRoundOffersImg} alt="Dream Round Offers" /> */}
           <img src={DomainWiseImg} alt="Domain Wise" />
         </div>
       </div>
       <div className="images-row-4">
         <div className="images-row-4-inner">
-          <img src={PlacedPercentageImg} alt="Placed Percentage" />
-          <img src={CompaniesVisitedImg} alt="Companies Visited" />
-          <img src={OffersMadeImg} alt="Offers Made" />
+          {/* <img src={PlacedPercentageImg} alt="Placed Percentage" /> */}
+          {/* <img src={CompaniesVisitedImg} alt="Companies Visited" /> */}
+          {/* <img src={OffersMadeImg} alt="Offers Made" /> */}
         </div>
       </div>
     </div>
