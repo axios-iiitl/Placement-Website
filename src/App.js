@@ -18,6 +18,7 @@ import Facilities from "./components/Facilities";
 import Demographics from "./components/demographics";
 import Page404 from "./components/404";
 import AlumniSpeaks from "./components/AlumniSpeaks";
+import Placement2018 from './components/PlacementStats2018';
 
 class App extends Component {
   render() {
@@ -31,6 +32,7 @@ class App extends Component {
             <Route path="/" exact component={Home} />
             <Route path="/our-recruiters" exact component={OurRecruiters} />
             <Route path="/placement-stats" exact component={PlacementStats} />
+            <Route path="/placement-stats-2018" exact component={Placement2018} />
             <Route path="/contact-us" exact component={ContactUs} />
             <Route path="/procedure-and-policies" exact component={Procedure} />
             <Route path="/why-iiitl" exact component={WhyIiitl} />

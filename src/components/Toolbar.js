@@ -37,10 +37,19 @@ const Toolbar = props => (
               Our Recruiters
             </NavLink>
           </li>
-          <li>
-            <NavLink to="/placement-stats" exact className="activeclass">
-              Statistics
-            </NavLink>
+          <li className="dropdown">
+            <button className="dropbtn">
+              <span>Statistics </span>
+              <i className="fa fa-caret-down" />
+            </button>
+            <div className="dropdown-content">
+              <NavLink to="/placement-stats" exact className="activeclass">
+                Placement Stats 2019
+              </NavLink>
+              <NavLink to="/placement-stats-2018" exact className="activeclass">
+                Placement Stats 2018
+              </NavLink>
+            </div>
           </li>
           <li>
             <NavLink to="/why-iiitl" exact className="activeclass">
