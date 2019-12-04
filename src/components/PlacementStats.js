@@ -12,8 +12,8 @@ const Placement = props => {
       <p style={{ float: "right", fontSize: "15px" }}>*till November 2019</p>
       <div className="images-row-2">
         <div className="images-row-2-inner">
-          <img src={PlacementStats} alt="Placement Stats 2018" />
-          <img src={GearsImg} alt="Placement Stats 2018" />
+          <img src={PlacementStats} alt="Placement Stats 2019" />
+          <img src={GearsImg} alt="Placement Stats 2019" />
         </div>
       </div>
       <div className="images-row-3">

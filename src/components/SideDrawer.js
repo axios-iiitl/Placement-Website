@@ -2,10 +2,20 @@ import React from "react";
 import { NavLink, Link } from "react-router-dom";
 class SideDrawer extends React.Component {
   state = {
-    showDropDown: false
+    showDropDownAcademics: false,
+    showDropdownStatistics: false
   };
-  handleDropDown = () => {
-    this.setState(cs => ({ showDropDown: !cs.showDropDown }));
+  handleDropDownAcademics = () => {
+    this.setState(cs => ({
+      showDropDownAcademics: !cs.showDropDownAcademics,
+      showDropdownStatistics: false
+    }));
+  };
+  handleDropdownStatistics = () => {
+    this.setState(cs => ({
+      showDropdownStatistics: !cs.showDropdownStatistics,
+      showDropDownAcademics: false
+    }));
   };
   render() {
     let drawerClass = "side-drawer";
@@ -33,13 +43,13 @@ class SideDrawer extends React.Component {
               Our Recruitors
             </NavLink>
           </li>
-          <li className="activeclass" onClick={this.handleDropDown}>
+          <li className="activeclass" onClick={this.handleDropDownAcademics}>
             Academics <i className="fa fa-caret-down" />
           </li>
-          {this.state.showDropDown ? (
+          {this.state.showDropDownAcademics ? (
             <ul className="drp-down">
               <li
-                onClick={() => this.props.click(this.handleDropDown)}
+                onClick={() => this.props.click(this.handleDropDownAcademics)}
                 className="activeclass"
               >
                 <NavLink to="/courses" exact className="activeclass">
@@ -47,8 +57,8 @@ class SideDrawer extends React.Component {
                 </NavLink>
               </li>
               <li
-                onClick={() => this.props.click(this.handleDropDown)}
-                className=" activeclass"
+                onClick={() => this.props.click(this.handleDropDownAcademics)}
+                className="activeclass"
               >
                 <NavLink to="/demographics" exact className="activeclass">
                   Demographics
@@ -56,11 +66,35 @@ class SideDrawer extends React.Component {
               </li>
             </ul>
           ) : null}
-          <li onClick={this.props.click}>
-            <NavLink to="/placement-stats" exact className="activeclass">
-              Statistics
-            </NavLink>
+
+          <li className="activeclass" onClick={this.handleDropdownStatistics}>
+            Statistics <i className="fa fa-caret-down" />
           </li>
+          {this.state.showDropdownStatistics ? (
+            <ul className="drp-down">
+              <li
+                onClick={() => this.props.click(this.handleDropdownStatistics)}
+                className="activeclass"
+              >
+                <NavLink to="/placement-stats" exact className="activeclass">
+                  Placement Stats 2019
+                </NavLink>
+              </li>
+              <li
+                onClick={() => this.props.click(this.handleDropdownStatistics)}
+                className="activeclass"
+              >
+                <NavLink
+                  to="/placement-stats-2018"
+                  exact
+                  className="activeclass"
+                >
+                  Placement Stats 2018
+                </NavLink>
+              </li>
+            </ul>
+          ) : null}
+
           <li onClick={this.props.click}>
             <NavLink to="/why-iiitl" exact className="activeclass">
               Why Us
