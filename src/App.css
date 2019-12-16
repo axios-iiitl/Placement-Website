@@ -466,9 +466,8 @@ body {
   top: -4px;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
   border-bottom: 2px solid #88c3d0;
-}me
-
-.placement-team-heading {
+}
+me .placement-team-heading {
   font-size: 40px;
   margin-top: 20px !important;
   background-color: white !important;
@@ -584,7 +583,7 @@ body {
 /* Procedure And Policies */
 
 .custom-list {
-  list-style: disc!important;
+  list-style: disc !important;
 }
 
 .custom-list li {
@@ -649,9 +648,9 @@ body {
 
 .sub-part h2,
 .ph-subheading {
-  font-size: 23px!important;
-  color: navy!important;
-  text-align: left!important;
+  font-size: 23px !important;
+  color: navy !important;
+  text-align: left !important;
 }
 
 .procedure-wrapper p {
@@ -1078,10 +1077,10 @@ body {
 
 .images-row-2-inner {
   width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-flow: row wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: row wrap;
 }
 
 .images-row-1 img {
@@ -1195,7 +1194,6 @@ body {
   flex-direction: row;
   justify-content: center;
   flex-flow: row wrap;
-  
 }
 
 @media (max-width: 420px) {
@@ -1582,7 +1580,7 @@ Card Component */
 }
 
 .gender {
-  width: 130px!important;
+  width: 130px !important;
 }
 
 .gender-ratio-outer h1 {
@@ -1604,7 +1602,7 @@ Card Component */
   text-align: center;
   /* font-size */
 }
-.subheads{
+.subheads {
   font-size: 25px;
 }
 .student {
@@ -1621,19 +1619,17 @@ Card Component */
   }
   .demo h1 {
     font-size: 30px;
-   
   }
 }
 
-.gender-ratio-inner h1{
-  color:navy;
+.gender-ratio-inner h1 {
+  color: navy;
 }
 
-
-.demo-head{
+.demo-head {
   /* font-size:50px; */
-  margin-top:2%;
-  color:black;
+  margin-top: 2%;
+  color: black;
   font-size: 35px;
 }
 

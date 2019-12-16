@@ -11,15 +11,19 @@ const footer = () => {
             <div className="footer-col">
               <h2>Contact Us</h2>
               <p>
-                <a href="mailto:placements@iiitl.ac.in">placements@iiitl.ac.in</a>
+                IIIT Lucknow
+                <br />
+                Chak Ganjaria, C. G. City
+                <br />
+                Lucknow – 226002
+              </p>
+              <p>
+                <a href="mailto:placements@iiitl.ac.in">
+                  placements@iiitl.ac.in
+                </a>
               </p>
               <p>
                 <a href="tel:+91-8077863514">+91-8077863514</a>
-              </p>
-              <p>
-                IIIT Allahabad, Jhalwa,
-                <br />
-                Allahabad - 211015
               </p>
             </div>
             <div className="footer-col">
@@ -49,7 +53,10 @@ const footer = () => {
             <div className="footer-col">
               <h2>Links</h2>
               <p>
-                <a href="https://www.ncs.gov.in/Pages/default.aspx" target="blank">
+                <a
+                  href="https://www.ncs.gov.in/Pages/default.aspx"
+                  target="blank"
+                >
                   National Career Service
                 </a>
               </p>
@@ -77,8 +84,8 @@ const footer = () => {
 
       <div className="footer-copyright">
         <p>
-          ALL RIGHTS RESERVED © 2019. <strong>IIIT LUCKNOW.</strong> (Developed &
-          Managed By -{" "}
+          ALL RIGHTS RESERVED © 2019. <strong>IIIT LUCKNOW.</strong> (Developed
+          & Managed By -{" "}
           <a
             href="https://www.linkedin.com/in/divy-khare-63a398172/"
             target="none"

@@ -1,56 +1,57 @@
 import React, { Component } from "react";
-import Chart from "react-apexcharts";
+import { Doughnut } from "react-chartjs-2";
 
 class PlacementStatsDomainWise extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      series: [11, 25.92, 26.42, 7.4, 11.11, 7.4, 7.94],
-      options: {
-        responsive: [
-          {
-            breakpoint: 480,
-            options: {
-              chart: {
-                width: 320
-              },
-              legend: {
-                position: "bottom"
-              }
-            }
-          }
-        ],
-        colors: [
-          "#5b9bd5",
-          "#e97c31",
-          "#4472c4",
-          "#f5bf1a",
-          "#901525",
-          "#70ad47",
-          "#a5a5a5"
-        ],
-        labels: [
-          "Finance",
-          "Consultancy",
-          "Core IT",
-          "Analytics",
-          "Travel Network",
-          "Engineering & Technology",
-          "Others"
-        ]
-      }
-    };
-  }
+  state = {
+    data: {
+      labels: [
+        "Finance",
+        "Consultancy",
+        "Core IT",
+        "Analytics",
+        "Travel Network",
+        "Engineering & Technology",
+        "Others"
+      ],
+      datasets: [
+        {
+          data: [11, 25.92, 26.42, 7.4, 11.11, 7.4, 7.94],
+          backgroundColor: [
+            "#55efc4",
+            "#d63031",
+            "#fdcb6e",
+            "#6c5ce7",
+            "#e74c3c",
+            "#8e44ad",
+            "#2ecc71"
+          ],
+          hoverBackgroundColor: [
+            "#55efc4",
+            "#d63031",
+            "#fdcb6e",
+            "#6c5ce7",
+            "#e74c3c",
+            "#8e44ad",
+            "#2ecc71"
+          ]
+        }
+      ]
+    }
+  };
 
   render() {
     return (
-      <div className="donut">
-        <Chart
-          options={this.state.options}
-          series={this.state.series}
-          type="donut"
-          width="480"
+      <div>
+        <Doughnut
+          data={this.state.data}
+          width={350}
+          height={350}
+          options={{
+            legend: {
+              position: "bottom",
+              align: "Start"
+            }
+          }}
         />
       </div>
     );
