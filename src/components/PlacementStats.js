@@ -7,7 +7,7 @@ import PlacedPercentageImage from "../assets/images/placedpercentage.PNG";
 
 const Placement = props => {
   const comparisonData = {
-    labels: ["Max Package", "Min Package", "Avg Package"],
+    labels: ["Max Package", "Avg Package", "Min Package"],
     datasets: [
       {
         label: "2019",
