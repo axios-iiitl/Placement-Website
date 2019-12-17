@@ -5,17 +5,17 @@ class PlacementStatsDomainWise extends Component {
   state = {
     data: {
       labels: [
-        "Finance",
         "Consultancy",
         "Core IT",
         "Analytics",
         "Travel Network",
         "Engineering & Technology",
+        "Finance",
         "Others"
       ],
       datasets: [
         {
-          data: [11, 25.92, 26.42, 7.4, 11.11, 7.4, 7.94],
+          data: [25.9, 26.4, 7.4, 11.1, 7.4, 11, 10.8],
           backgroundColor: [
             "#55efc4",
             "#d63031",
@@ -41,15 +41,20 @@ class PlacementStatsDomainWise extends Component {
 
   render() {
     return (
-      <div>
+      <div className="doughnut-chart">
         <Doughnut
           data={this.state.data}
-          width={350}
-          height={350}
+          width={400}
+          height={400}
           options={{
             legend: {
               position: "bottom",
-              align: "Start"
+              align: "center"
+            },
+            title: {
+              display: true,
+              text: "Company Distribution",
+              fontSize: 30
             }
           }}
         />

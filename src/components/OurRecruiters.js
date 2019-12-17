@@ -48,6 +48,7 @@ import juspayLogo from "../assets/company_logos/juspay.png";
 import whitepandaLogo from "../assets/company_logos/whitepanda.png";
 import virtusaLogo from "../assets/company_logos/virtusa.png";
 import goibiboLogo from "../assets/company_logos/goibibo.png";
+import amazonLogo from "../assets/company_logos/amazon.png";
 
 const PastRecruiters = props => {
   return (
@@ -58,7 +59,7 @@ const PastRecruiters = props => {
           <div className="pr-inner-box">
             <div className="pr-inner-row">
               <img src={directiLogo} alt="Directi" />
-              <img src={ackoLogo} alt="MindTickle" />
+              <img src={amazonLogo} alt="Amazon" />
               <img src={googleLogo} alt="Google" />
               <img src={Microsoft} alt="Microsoft" />
               <img src={linkedinLogo} alt="LinkedIn" />
@@ -98,7 +99,7 @@ const PastRecruiters = props => {
 
             <div className="pr-inner-row">
               <img src={quantiphiLogo} alt="Quantiphi" />
-              <img src={wickedrideLogo} alt="Wicked Ride" />
+              <img src={ackoLogo} alt="Acko" />
               <img src={mavenhiveLogo} alt="MavenHive" />
               <img src={nagarroLogo} alt="nagarro" />
               <img src={ONEmgLogo} alt="1mg" />
@@ -130,6 +131,7 @@ const PastRecruiters = props => {
 
             <div className="pr-inner-row">
               <img src={wiproLogo} alt="Wipro" />
+              <img src={wickedrideLogo} alt="Wicked Ride" />
               <img src={polestarLogo} alt="Pole Star" />
               <img src={kleanLogo} alt="Klean Homez" />
             </div>

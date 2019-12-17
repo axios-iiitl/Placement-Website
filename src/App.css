@@ -1097,7 +1097,8 @@ me .placement-team-heading {
 }
 
 @media (max-width: 926px) {
-  .images-row-2-inner img {
+  .images-row-2-inner img,
+  .images-row-2-inner div {
     margin-top: 30px;
   }
 
@@ -1641,4 +1642,26 @@ Card Component */
   text-align: center;
   margin: 300px;
   color: rgb(122, 122, 122);
+}
+
+.horizontal-chart {
+width: 50%;
+}
+
+@media (max-width: 1000px) {
+  .horizontal-chart {
+    width: 80%;
+  }
+}
+
+@media (max-width: 650px) {
+  .horizontal-chart {
+    width: 90%;
+  }
+}
+
+@media (max-width: 420px) {
+  .doughnut-chart {
+    width: 290px;
+  }
 }
