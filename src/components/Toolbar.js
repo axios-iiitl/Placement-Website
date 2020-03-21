@@ -44,10 +44,10 @@ const Toolbar = props => (
             </button>
             <div className="dropdown-content">
               <NavLink to="/placement-stats" exact className="activeclass">
-                Placement Stats 2019
+                Placement Stats 2020
               </NavLink>
-              <NavLink to="/placement-stats-2018" exact className="activeclass">
-                Placement Stats 2018
+              <NavLink to="/placement-stats-2019" exact className="activeclass">
+                Placement Stats 2019
               </NavLink>
             </div>
           </li>

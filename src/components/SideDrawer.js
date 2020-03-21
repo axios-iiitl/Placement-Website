@@ -77,7 +77,7 @@ class SideDrawer extends React.Component {
                 className="activeclass"
               >
                 <NavLink to="/placement-stats" exact className="activeclass">
-                  Placement Stats 2019
+                  Placement Stats 2020
                 </NavLink>
               </li>
               <li
@@ -85,11 +85,11 @@ class SideDrawer extends React.Component {
                 className="activeclass"
               >
                 <NavLink
-                  to="/placement-stats-2018"
+                  to="/placement-stats-2019"
                   exact
                   className="activeclass"
                 >
-                  Placement Stats 2018
+                  Placement Stats 2019
                 </NavLink>
               </li>
             </ul>
