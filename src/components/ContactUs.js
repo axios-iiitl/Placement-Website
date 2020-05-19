@@ -1,11 +1,12 @@
 import React from "react";
 import Card from "./Card";
-import Bittu from "../assets/images/bittu.jpeg";
-import Suryansh from "../assets/images/Suryansh.jpg";
+import Aman from "../assets/team21/aman.jpg";
 import vks from "../assets/images/vks.jpg";
-import Nishant from "../assets/images/Nishant.jpg";
-import Shubham from "../assets/images/shubham.jpeg";
-import Tarun from "../assets/images/Tarun.jpg";
+import Gaurav from "../assets/team21/gaurav.jpeg";
+import Satyam from "../assets/team21/satyam.jpg";
+import Hidayat from "../assets/team21/hidayat.jpg";
+import Anmol from "../assets/team21/anmol.png";
+import Swastik from "../assets/team21/swastik.jpg";
 
 const contactUs = () => {
   return (
@@ -26,24 +27,35 @@ const contactUs = () => {
                 isEmail={true}
               />
               <Card
-                src={Nishant}
-                alt="Nishant Malik"
-                name="Nishant Malik"
+                src={Gaurav}
+                alt="Gaurav Singh"
+                name="Gaurav Singh"
                 isTeacher={false}
-                position="Student Coordinator"
-                email="placements@iiitl.ac.in"
-                phone="+91-8077 863514"
+                position="Overall Coordinator"
+                email="lit2017031@iiitl.ac.in"
+                phone="+91-9140354859"
                 isPhone={true}
                 isEmail={true}
               />
               <Card
-                src={Tarun}
-                alt="Tarun Singhal"
-                name="Tarun Singhal"
+                src={Satyam}
+                alt="Satyam Jha"
+                name="Satyam Jha"
                 isTeacher={false}
-                position="Student Coordinator"
-                email="placements@iiitl.ac.in"
-                phone="+91-8318 699228"
+                position="B.tech Coordinator"
+                email="lit2017023@iiitl.ac.in"
+                phone="+91-6394281036"
+                isPhone={true}
+                isEmail={true}
+              />
+              <Card
+                src={Aman}
+                alt="Aman Ojha"
+                name="Aman Ojha"
+                isTeacher={false}
+                position="M.Tech. Coordinator"
+                phone="+91-9695158100"
+                email="mcs2019010@iiitl.ac.in"
                 isPhone={true}
                 isEmail={true}
               />
@@ -52,34 +64,37 @@ const contactUs = () => {
           <div className="placement-coordinators">
             <div className="placement-coordinators-wrapper">
               <Card
-                src={Bittu}
-                alt="Bittu Dalal"
-                name="Bittu Dalal"
+                src={Hidayat}
+                alt="Hidayat Ullah Khan"
+                name="Hidayat Ullah Khan"
                 isTeacher={false}
                 position="Placement Executive"
-                phone="+91-9467453631"
+                email="lit2017029@iiitl.ac.in"
+                phone="+91-8871331797"
                 isPhone={true}
-                isEmail={false}
+                isEmail={true}
               />
               <Card
-                src={Shubham}
-                alt="Shubham Upadhyay"
-                name="Shubham Upadhyay"
+                src={Anmol}
+                alt="Anmol suri"
+                name="Anmol suri"
                 isTeacher={false}
                 position="Placement Executive"
-                phone="+91-8115736069"
+                phone="+91-7351932807"
+                email="lit2017042@iiitl.ac.in"
                 isPhone={true}
-                isEmail={false}
+                isEmail={true}
               />
               <Card
-                src={Suryansh}
-                alt="Suryansh Tiwari"
-                name="Suryansh Tiwari"
+                src={Swastik}
+                alt="Swastik Singh"
+                name="Swastik Singh"
                 isTeacher={false}
                 position="Placement Executive"
-                phone="+91-8318703691"
+                phone="+91-8318807190"
+                email="lit2017021@iiitl.ac.in"
                 isPhone={true}
-                isEmail={false}
+                isEmail={true}
               />
             </div>
           </div>
