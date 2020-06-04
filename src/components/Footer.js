@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import brochurePdf from "../assets/brochure.pdf";
+import brochurePdf from "../assets/Brochure IIIT Lucknow.pdf";
+import jnf from "../assets/JNF IIIT Lucknow.docx";
 
 const footer = () => {
   return (
@@ -63,6 +64,11 @@ const footer = () => {
               <p>
                 <a href={brochurePdf} target="blank">
                   Brochure
+                </a>
+              </p>
+              <p>
+                <a href={jnf} target="blank">
+                  Job Notification form
                 </a>
               </p>
               <p>
