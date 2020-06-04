@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import brochurePdf from "../assets/brochure.pdf";
+import brochurePdf from "../assets/Brochure IIIT Lucknow.pdf";
+import jnf from "../assets/JNF IIIT Lucknow.docx";
 
 const footer = () => {
   return (
@@ -23,14 +24,14 @@ const footer = () => {
                 </a>
               </p>
               <p>
-                <a href="tel:+91-8077863514">+91-8077863514</a>
+                <a href="tel:+91-9140354859">+91-9140354859</a>
               </p>
             </div>
             <div className="footer-col">
-              <p className="footer-contact-name">Nishant Malik</p>
-              <p className="footer-contact-position">Student Coordinator</p>
+              <p className="footer-contact-name">Gaurav Singh</p>
+              <p className="footer-contact-position">Overall Coordinator</p>
               <p>
-                <a href="tel:+91-8077863514">+91-8077863514</a>
+                <a href="tel:+91-9140354859">+91-9140354859</a>
               </p>
               <p>
                 <a href="mailto:placements@iiitl.ac.in">
@@ -39,10 +40,10 @@ const footer = () => {
               </p>
             </div>
             <div className="footer-col">
-              <p className="footer-contact-name">Tarun Singhal</p>
-              <p className="footer-contact-position">Student Coordinator</p>
+              <p className="footer-contact-name">Satyam Jha</p>
+              <p className="footer-contact-position">B.tech Coordinator</p>
               <p>
-                <a href="tel:+91-8318699228">+91-8318699228</a>
+                <a href="tel:+91-6394281036">+91-6394281036</a>
               </p>
               <p>
                 <a href="mailto:placements@iiitl.ac.in">
@@ -63,6 +64,11 @@ const footer = () => {
               <p>
                 <a href={brochurePdf} target="blank">
                   Brochure
+                </a>
+              </p>
+              <p>
+                <a href={jnf} target="blank">
+                  Job Notification form
                 </a>
               </p>
               <p>

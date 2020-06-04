@@ -1268,8 +1268,9 @@ me .placement-team-heading {
 }
 
 .abt-text p {
-  line-height: 27px;
+  line-height: 1.5;
   margin: 20px 0;
+  font-size: 1.7rem;
 }
 
 /* Courses Components */
@@ -1645,12 +1646,16 @@ Card Component */
 }
 
 .horizontal-chart {
-width: 50%;
+  width: 50%;
 }
 
 @media (max-width: 1000px) {
   .horizontal-chart {
     width: 80%;
+  }
+  .abt-text p {
+    line-height: 1.5;
+    font-size: 1.4rem;
   }
 }
 
