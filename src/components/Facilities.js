@@ -4,9 +4,9 @@ const Facilities = props => (
   <div className="procedure-outer">
     <div className="procedure-wrapper">
       <h1>Facilities</h1>
-      {/* <p>
-        IIIT Lucknow is located at
-      </p> */}
+      <p>
+        The campus of IIIT Lucknow is situated at the heart of Lucknow city providing fast connectivity to railway and airport situated at a distance less than 20 kilometers.
+      </p>
       <p>The facilities provided for the placement process includes:</p>
       <ul className="custom-list">
         <li>Fully furnished AC rooms</li>

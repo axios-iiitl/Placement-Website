@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Why = props => {
+const Why = (props) => {
   return (
     <div className="whyus-o-container">
       <div className="whyus-container">
@@ -21,7 +21,7 @@ const Why = props => {
           junior to them.
         </p>
         <h2>The Academic Program</h2>
-        <p>The campus offers B.Tech program in IT.</p>
+        <p>The campus offers B.Tech and M.Tech programs.</p>
         <p>
           The Courses are finely refined and fabricated to meet the needs of the
           versatile industry and latest research areas. The highly qualified,
@@ -33,11 +33,14 @@ const Why = props => {
         </p>
         <h2>Admission Criteria</h2>
         <p>
-          B.Tech Entrance at IIIT Lucknow is based on JEE Mains score and
-          percentage in Class 12th. As the students are admitted through the
-          esteemed JEE Mains and represents the top 2% of the candidates that
-          appear for the exam nationwide, they are handpicked from the garden of
-          knowledge and critical thinking.
+          B.Tech Entrance at IIIT Lucknow is based on JEE Mains score. As the
+          students are admitted through the esteemed JEE Mains and represents
+          the top 2% of the candidates that appear for the exam nationwide, they
+          are handpicked from the garden of knowledge and critical thinking.{" "}
+        </p>
+        <p>
+          Admissions to M.Tech program is made throuh Graduate Aptitude Test
+          Engineering (GATE) and Centralized Couselling for M.Tech (CCMT).
         </p>
         <p>
           These students are enriched with both qualitative and quantitative
