@@ -18,7 +18,7 @@ const Toolbar = props => (
               About Us
             </NavLink>
           </li>
-          <li className="dropdown">
+          <li className="dropdownmenu">
             <button className="dropbtn">
               <span>Academics </span>
               <i className="fa fa-caret-down" />
@@ -37,13 +37,16 @@ const Toolbar = props => (
               Our Recruiters
             </NavLink>
           </li>
-          <li className="dropdown">
+          <li className="dropdownmenu">
             <button className="dropbtn">
               <span>Statistics </span>
               <i className="fa fa-caret-down" />
             </button>
             <div className="dropdown-content">
-              <NavLink to="/placement-stats" exact className="activeclass">
+              <NavLink to="/placement-stats-2021" exact className="activeclass">
+                Placement Stats 2021
+              </NavLink>
+              <NavLink to="/placement-stats-2020" exact className="activeclass">
                 Placement Stats 2020
               </NavLink>
               <NavLink to="/placement-stats-2019" exact className="activeclass">

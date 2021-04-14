@@ -31,9 +31,6 @@ const Placement = props => {
       <h1 className="ps-name-heading pr-main-heading">
         Placement Statistics 2019-20
       </h1>
-      <p style={{ float: "right", fontSize: "15px" }}>
-        * till 1st December 2019
-      </p>
       <div className="images-row-2">
         <div className="images-row-2-inner">
           <img src={PlacementStats} alt="Placement Stats 2019" />
