@@ -23,29 +23,14 @@ const footer = () => {
                   placements@iiitl.ac.in
                 </a>
               </p>
-              <p>
-                <a href="tel:+91-9140354859">+91-9140354859</a>
-              </p>
             </div>
             <div className="footer-col">
-              <p className="footer-contact-name">Gaurav Singh</p>
+              <p className="footer-contact-name">Saksham Varshney</p>
               <p className="footer-contact-position">Overall Coordinator</p>
               <p>
-                <a href="tel:+91-9140354859">+91-9140354859</a>
+                <a href="tel:+91-8094123615">+91-8094123615</a>
               </p>
-              <p>
-                <a href="mailto:placements@iiitl.ac.in">
-                  placements@iiitl.ac.in
-                </a>
-              </p>
-            </div>
-            <div className="footer-col">
-              <p className="footer-contact-name">Satyam Jha</p>
-              <p className="footer-contact-position">B.tech Coordinator</p>
-              <p>
-                <a href="tel:+91-6394281036">+91-6394281036</a>
-              </p>
-              <p>
+              <p> 
                 <a href="mailto:placements@iiitl.ac.in">
                   placements@iiitl.ac.in
                 </a>
@@ -76,9 +61,6 @@ const footer = () => {
               </p>
               <p>
                 <Link to="/facilities">Facilities</Link>
-              </p>
-              <p>
-                <Link to="/contact-us">The Team</Link>
               </p>
               <p>
                 <Link to="/alumni-speaks">Alumni Speaks</Link>
