@@ -1,12 +1,12 @@
 import React from "react";
 import Card from "./Card";
-import Satyam from "../assets/team21/satyam.jpeg";
+import Satyam from "../assets/team21/satyam.png";
 import vks from "../assets/images/vks.jpg";
-import Saksham from "../assets/team21/saksham.jpeg";
-import Abhijeet from "../assets/team21/abhijeet.jpeg";
-import Naman from "../assets/team21/naman.jpeg";
-import Ojas from "../assets/team21/ojas.jpeg";
-import Manish from "../assets/team21/manish.jpg";
+import Saksham from "../assets/team21/saksham.png";
+import Abhijeet from "../assets/team21/abhijeet.png";
+import Naman from "../assets/team21/naman.png";
+import Ojas from "../assets/team21/ojas.png";
+import Manish from "../assets/team21/manish.png";
 
 const contactUs = () => {
   return (
