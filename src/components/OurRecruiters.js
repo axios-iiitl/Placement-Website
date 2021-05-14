@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { Collapse, Button } from 'reactstrap';
-import { BsCaretDownFill, BsFillCaretUpFill, BsChevronDown } from "react-icons/bs";
+import { BsCaretDownFill, BsFillCaretUpFill } from "react-icons/bs";
 import directiLogo from "../assets/company_logos/directi.png";
 import dotnetLogo from "../assets/company_logos/dotnet.png";
-import infosysLogo from "../assets/company_logos/infosys.png";
 import intelLogo from "../assets/company_logos/Intel-Logo-2005.png";
 import nutanixLogo from "../assets/company_logos/Nutanix-Logo.wine.png";
 import postmanLogo from "../assets/company_logos/postman.png";
@@ -80,7 +79,7 @@ import symphonylogo from "../assets/company_logos/symphony.jpg";
 
 
 const PastRecruiters = props => {
-  const [isOpenFirst, setIsOpenFirst] = useState(true);
+  const [isOpenFirst] = useState(true);
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
     setIsOpen(!isOpen)

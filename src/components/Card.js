@@ -24,7 +24,7 @@ const card = props => {
           {props.isPhone ? (<React.Fragment><i className="fas fa-phone" />
           <strong> Phone:</strong> {props.phone}<br /></React.Fragment>) : null}
           {props.islinkedin ? (<React.Fragment><i className="fab fa-linkedin" />
-          {<a href={props.linkedin} target="_blank"><strong> Linkedin</strong></a>}</React.Fragment>) : null}
+          {<a href={props.linkedin} target="blank"><strong> Linkedin</strong></a>}</React.Fragment>) : null}
         </p>
       </figcaption>
     </figure>
