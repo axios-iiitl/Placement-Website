@@ -74,6 +74,10 @@ import deloitteLogo from "../assets/company_logos/dlite.png";
 import tripockLogo from "../assets/company_logos/tripock.png";
 import niLogo from "../assets/company_logos/ni.png";
 import capdgeminiLogo from "../assets/company_logos/capgemini.webp";
+import zomatologo from "../assets/company_logos/zomato.png";
+import gaugelogo from "../assets/company_logos/gauge.png";
+import symphonylogo from "../assets/company_logos/symphony.jpg";
+
 
 const PastRecruiters = props => {
   const [isOpenFirst, setIsOpenFirst] = useState(true);
@@ -91,7 +95,7 @@ const PastRecruiters = props => {
               <img src={amazonLogo} alt="Amazon" />
               <img src={flipkartLogo} alt="Flipkart" />
               <img src={ackoLogo} alt="Acko" />
-              <img src={infosysLogo} alt="Xebia" />
+              <img src={zomatologo} alt="Xebia" />
               <img src={intelLogo} alt="Goldman Sachs" />
 
             </div>
@@ -140,6 +144,9 @@ const PastRecruiters = props => {
               <img src={tripockLogo} alt="shipsy" />
               <img src={niLogo} alt="shipsy" />
               <img src={capdgeminiLogo} alt="shipsy" />
+              <img src={gaugelogo} alt="shipsy" />
+              <img src={symphonylogo} alt="shipsy" />
+
             </div>
           </div>
         </div>
@@ -235,6 +242,7 @@ const PastRecruiters = props => {
 
       </Collapse>
     </div>
+
   );
 };
 

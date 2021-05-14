@@ -1,12 +1,12 @@
 import React from "react";
 import Card from "./Card";
-import Aman from "../assets/team21/aman.jpg";
+import Satyam from "../assets/team21/satyam.jpeg";
 import vks from "../assets/images/vks.jpg";
-import Gaurav from "../assets/team21/gaurav.jpeg";
-import Satyam from "../assets/team21/satyam.jpg";
-import Hidayat from "../assets/team21/hidayat.jpg";
-import Anmol from "../assets/team21/anmol.png";
-import Swastik from "../assets/team21/swastik.jpg";
+import Saksham from "../assets/team21/saksham.jpeg";
+import Abhijeet from "../assets/team21/abhijeet.jpeg";
+import Naman from "../assets/team21/naman.jpeg";
+import Ojas from "../assets/team21/ojas.jpeg";
+import Manish from "../assets/team21/manish.jpg";
 
 const contactUs = () => {
   return (
@@ -23,39 +23,47 @@ const contactUs = () => {
                 isTeacher={false}
                 position="Training and Placements Officer"
                 email="placements@iiitl.ac.in, tpo@iiitl.ac.in"
+                linkedin="https://www.linkedin.com/in/vishal-krishna-singh-48670916a/"
+                islinkedin={true}                
                 isPhone={false}
                 isEmail={true}
               />
               <Card
-                src={Gaurav}
-                alt="Gaurav Singh"
-                name="Gaurav Singh"
+                src={Saksham}
+                alt="Saksham Varshney"
+                name="Saksham Varshney"
                 isTeacher={false}
                 position="Overall Coordinator"
-                email="lit2017031@iiitl.ac.in"
-                phone="+91-9140354859"
+                email="lit2018029@iiitl.ac.in "
+                phone="+91-8094123615"
+                linkedin="https://www.linkedin.com/in/sakshamv30/"
+                islinkedin={true}
+                isPhone={true}
+                isEmail={true}
+              />
+              <Card
+                src={Abhijeet}
+                alt="Abhijeet Dwivedi"
+                name="Abhijeet Dwivedi"
+                isTeacher={false}
+                position="B.tech Coordinator"
+                email="lit2018031@iiitl.ac.in"
+                phone="+91-8318184059"
+                linkedin="https://www.linkedin.com/in/abhijeet-dwivedi/"
+                islinkedin={true}
                 isPhone={true}
                 isEmail={true}
               />
               <Card
                 src={Satyam}
-                alt="Satyam Jha"
-                name="Satyam Jha"
-                isTeacher={false}
-                position="B.tech Coordinator"
-                email="lit2017023@iiitl.ac.in"
-                phone="+91-6394281036"
-                isPhone={true}
-                isEmail={true}
-              />
-              <Card
-                src={Aman}
-                alt="Aman Ojha"
-                name="Aman Ojha"
+                alt="Satyam Patidar"
+                name="Satyam Patidar"
                 isTeacher={false}
                 position="M.Tech. Coordinator"
-                phone="+91-9695158100"
-                email="mcs2019010@iiitl.ac.in"
+                phone="+91-7987137356"
+                email="mcs20026@iiitl.ac.in"
+                linkedin=" https://www.linkedin.com/in/satyampatidar/ "
+                islinkedin={true}
                 isPhone={true}
                 isEmail={true}
               />
@@ -64,35 +72,41 @@ const contactUs = () => {
           <div className="placement-coordinators">
             <div className="placement-coordinators-wrapper">
               <Card
-                src={Hidayat}
-                alt="Hidayat Ullah Khan"
-                name="Hidayat Ullah Khan"
+                src={Naman}
+                alt="Naman Gupta"
+                name="Naman Gupta"
                 isTeacher={false}
                 position="Placement Executive"
-                email="lit2017029@iiitl.ac.in"
-                phone="+91-8871331797"
+                email="lit2018045@iiitl.ac.in"
+                phone="+91-8090434623"
+                linkedin="https://www.linkedin.com/in/naman1502/"
+                islinkedin={true}
                 isPhone={true}
                 isEmail={true}
               />
               <Card
-                src={Anmol}
-                alt="Anmol suri"
-                name="Anmol suri"
+                src={Manish}
+                alt="Manish Pandey"
+                name="Manish Pandey"
                 isTeacher={false}
                 position="Placement Executive"
-                phone="+91-7351932807"
-                email="lit2017042@iiitl.ac.in"
+                phone="+91-7906940263"
+                email="lit2018055@iiitl.ac.in"
+                linkedin="https://www.linkedin.com/in/manish-pandey-3243b1174"
+                islinkedin={true}
                 isPhone={true}
                 isEmail={true}
               />
               <Card
-                src={Swastik}
-                alt="Swastik Singh"
-                name="Swastik Singh"
+                src={Ojas}
+                alt="Ojas Dubey"
+                name="Ojas Dubey"
                 isTeacher={false}
                 position="Placement Executive"
-                phone="+91-8318807190"
-                email="lit2017021@iiitl.ac.in"
+                phone="+91-7985218601"
+                email="lit2018060@iiitl.ac.in"
+                linkedin="https://www.linkedin.com/in/ojas-dubey-84581b174/"
+                islinkedin={true}
                 isPhone={true}
                 isEmail={true}
               />

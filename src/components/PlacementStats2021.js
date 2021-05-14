@@ -14,7 +14,7 @@ const Placement = props => {
                 backgroundColor: "rgba(255,99,132,0.2)",
                 borderColor: "rgba(255,99,132,1)",
                 borderWidth: 1,
-                data: [48, 18, 12]
+                data: [0,0,0]
             },
             {
                 label: "2019",

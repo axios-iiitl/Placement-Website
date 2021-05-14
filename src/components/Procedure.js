@@ -61,18 +61,18 @@ const Procedure = props => (
       <div className="sub-part">
         <h2>Full time job offer</h2>
         <p>
-          The selected student will join company in June 2020 as full time
+          The selected student will join company in June 2022 as full time
           employee.
         </p>
         <h2>Internship</h2>
         <p>
           B. Tech 3rd year students are eligible for <strong>2 months</strong>{" "}
-          summer internship The student will join the company in May/June 2020
+          summer internship The student will join the company in May/June 2022
           as an intern for a period of 2 months.
         </p>
         <p>
           B. Tech. 4th year students are eligible for <strong>6 months</strong>{" "}
-          internship. The student will join the company in January 2020 as an
+          internship. The student will join the company in January 2022 as an
           intern for a period of 6 months and complete their 8th semester
           project in the company.
         </p>
