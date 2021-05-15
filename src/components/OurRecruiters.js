@@ -1,6 +1,12 @@
-import React from "react";
-
+import React, { useState } from "react";
+import { Collapse, Button } from 'reactstrap';
+import { BsCaretDownFill, BsFillCaretUpFill } from "react-icons/bs";
 import directiLogo from "../assets/company_logos/directi.png";
+import dotnetLogo from "../assets/company_logos/dotnet.png";
+import intelLogo from "../assets/company_logos/Intel-Logo-2005.png";
+import nutanixLogo from "../assets/company_logos/Nutanix-Logo.wine.png";
+import postmanLogo from "../assets/company_logos/postman.png";
+import buyhatkeLogo from "../assets/company_logos/buyhatke.png";
 import accoliteLogo from "../assets/company_logos/accolite.png";
 import ackoLogo from "../assets/company_logos/acko.png";
 import expediaLogo from "../assets/company_logos/expedia.png";
@@ -49,12 +55,107 @@ import whitepandaLogo from "../assets/company_logos/whitepanda.png";
 import virtusaLogo from "../assets/company_logos/virtusa.png";
 import goibiboLogo from "../assets/company_logos/goibibo.png";
 import amazonLogo from "../assets/company_logos/amazon.png";
+import tekionLogo from "../assets/company_logos/tekion.png";
+import gradeupLogo from "../assets/company_logos/gradeup-logo.png";
+import ucLogo from "../assets/company_logos/uc.jpg";
+import jioLogo from "../assets/company_logos/jio.jpg";
+import pubLogo from "../assets/company_logos/pub.png";
+import onineLogo from "../assets/company_logos/onine.jpg";
+import nferenceLogo from "../assets/company_logos/nference.svg";
+import abbLogo from "../assets/company_logos/abb.png";
+import clarivateLogo from "../assets/company_logos/clarivate.png";
+import delhiveryLogo from "../assets/company_logos/delhivery.png";
+import cardekhoLogo from "../assets/company_logos/cardekho.jpeg";
+import gameskraftLogo from "../assets/company_logos/gameskraft.jpg";
+import maqLogo from "../assets/company_logos/maqsoftware.png";
+import practoLogo from "../assets/company_logos/practo.png";
+import deloitteLogo from "../assets/company_logos/dlite.png";
+import tripockLogo from "../assets/company_logos/tripock.png";
+import niLogo from "../assets/company_logos/ni.png";
+import capdgeminiLogo from "../assets/company_logos/capgemini.webp";
+import zomatologo from "../assets/company_logos/zomato.png";
+import gaugelogo from "../assets/company_logos/gauge.png";
+import symphonylogo from "../assets/company_logos/symphony.jpg";
+
 
 const PastRecruiters = props => {
+  const [isOpenFirst] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => {
+    setIsOpen(!isOpen)
+  }
   return (
-    <React.Fragment>
-      <div className="pr-outer-container">
-        <h1 className="pr-main-heading">Our Recruiters</h1>
+    <div className="pr-outer-container">
+      <h1 className="pr-main-heading">Our Recruiters</h1>
+      <Collapse isOpen={isOpenFirst}>
+        <div className="pr-inner-wrapper">
+          <div className="pr-inner-box">
+            <div className="pr-inner-row">
+              <img src={amazonLogo} alt="Amazon" />
+              <img src={flipkartLogo} alt="Flipkart" />
+              <img src={ackoLogo} alt="Acko" />
+              <img src={zomatologo} alt="Xebia" />
+              <img src={intelLogo} alt="Goldman Sachs" />
+
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={dotnetLogo} alt="Vassar Labs" />
+              <img src={nutanixLogo} alt="Vassar Labs" />
+              <img src={sabreLogo} alt="Sabre" />
+              <img src={postmanLogo} alt="Xebia" />
+              <img src={buyhatkeLogo} alt="Goldman Sachs" />
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={infoedgeLogo} alt="Infoedge" />
+              <img src={tekionLogo} alt="Nineleaps" />
+              <img src={gradeupLogo} alt="Nucleus" />
+              <img src={nykaaLogo} alt="Nykaa" />
+              <img src={ucLogo} alt="Samsung" />
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={jioLogo} alt="Infotech Hub" />
+              <img src={paytmLogo} alt="Paytm" />
+              <img src={pubLogo} alt="MavenHive" />
+              <img src={onineLogo} alt="Virtusa" />
+              <img src={nagarroLogo} alt="nagarro" />
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={nferenceLogo} alt="Bizongo" />
+              <img src={abbLogo} alt="Expedia" />
+              <img src={clarivateLogo} alt="Info Objects" />
+              <img src={delhiveryLogo} alt="Accolite" />
+              <img src={cardekhoLogo} alt="Zenefits" />
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={gameskraftLogo} alt="Quantiphi" />
+              <img src={codenationLogo} alt="Codenation" />
+              <img src={maqLogo} alt="White Panda" />
+              <img src={practoLogo} alt="nagarro" />
+              <img src={deloitteLogo} alt="1mg" />
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={tripockLogo} alt="shipsy" />
+              <img src={niLogo} alt="shipsy" />
+              <img src={capdgeminiLogo} alt="shipsy" />
+              <img src={gaugelogo} alt="shipsy" />
+              <img src={symphonylogo} alt="shipsy" />
+
+            </div>
+          </div>
+        </div>
+
+      </Collapse>
+
+      <Button className="pr-past-heading" color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>
+        Past Recruiters &nbsp; {isOpen ? < BsFillCaretUpFill /> : <BsCaretDownFill />}
+      </Button>
+      <Collapse isOpen={isOpen}>
         <div className="pr-inner-wrapper">
           <div className="pr-inner-box">
             <div className="pr-inner-row">
@@ -137,8 +238,10 @@ const PastRecruiters = props => {
             </div>
           </div>
         </div>
-      </div>
-    </React.Fragment>
+
+      </Collapse>
+    </div>
+
   );
 };
 

@@ -6,7 +6,8 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import OurRecruiters from "./components/OurRecruiters";
-import PlacementStats from "./components/PlacementStats";
+import PlacementStats2020 from "./components/PlacementStats2020";
+import PlacementStats2021 from "./components/PlacementStats2021";
 import Procedure from "./components/Procedure";
 import WhyIiitl from "./components/WhyIiitl";
 import ContactUs from "./components/ContactUs";
@@ -18,7 +19,7 @@ import Facilities from "./components/Facilities";
 import Demographics from "./components/demographics";
 import Page404 from "./components/404";
 import AlumniSpeaks from "./components/AlumniSpeaks";
-import Placement2018 from './components/PlacementStats2018';
+import Placement2019 from './components/PlacementStats2019';
 
 class App extends Component {
   render() {
@@ -31,8 +32,9 @@ class App extends Component {
             <Route path="/facilities" exact component={Facilities} />
             <Route path="/" exact component={Home} />
             <Route path="/our-recruiters" exact component={OurRecruiters} />
-            <Route path="/placement-stats" exact component={PlacementStats} />
-            <Route path="/placement-stats-2019" exact component={Placement2018} />
+            <Route path="/placement-stats-2021" exact component={PlacementStats2021} />
+            <Route path="/placement-stats-2020" exact component={PlacementStats2020} />
+            <Route path="/placement-stats-2019" exact component={Placement2019} />
             <Route path="/contact-us" exact component={ContactUs} />
             <Route path="/procedure-and-policies" exact component={Procedure} />
             <Route path="/why-iiitl" exact component={WhyIiitl} />

@@ -15,7 +15,7 @@ const Demographics = () => {
             <p style={{fontSize:'18px'}}>
               The institute aims to maintain a diverse culture in terms of
               gender ratio as well. The gender ratio in the college is observed
-              as <strong>3 : 1.</strong>
+              as <strong>7 : 1.</strong>
             </p>
           </div>
           <h1 className="subheads">Student-Teacher Ratio</h1>

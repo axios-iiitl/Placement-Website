@@ -72,17 +72,21 @@ const footer = () => {
 
       <div className="footer-copyright">
         <p>
-          ALL RIGHTS RESERVED © 2020. <strong>IIIT LUCKNOW.</strong> (Developed
+          ALL RIGHTS RESERVED © 2021. <strong>IIIT LUCKNOW.</strong> (Developed
           & Managed By -{" "}
           <a
-            href="https://www.linkedin.com/in/divy-khare-63a398172/"
+            href="https://github.com/narendraiiitl"
             target="none"
           >
-            Divy
+            Narendra
           </a>
-          ,{" "}
-          <a href="https://www.linkedin.com/in/vaibhavgupta79/" target="none">
-            Vaibhav
+          ,{"  "}
+          <a href="https://www.linkedin.com/in/blurry-x-face/" target="none">
+            Rishabh
+          </a>
+           , {" "}
+          <a href="https://www.linkedin.com/in/vinamrbajaj/" target="none">
+            Vinamr 
           </a>
           )
         </p>
