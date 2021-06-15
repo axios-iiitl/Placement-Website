@@ -99,11 +99,7 @@ class SideDrawer extends React.Component {
             </ul>
           ) : null}
 
-          <li onClick={this.props.click}>
-            <NavLink to="/contact-us" exact className="activeclass">
-              The Team
-            </NavLink>
-          </li>
+
           <li onClick={this.props.click}>
             <NavLink to="/why-iiitl" exact className="activeclass">
               Why Us
