@@ -1,5 +1,5 @@
 import React from "react";
-import gender from "../assets/images/Sexratio.png";
+import gender from "../assets/images/SexRatio.png";
 import student from "../assets/images/Stydentfaculty.png";
 import Strength from "../assets/images/Strength.png";
 
