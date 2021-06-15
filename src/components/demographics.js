@@ -1,7 +1,7 @@
 import React from "react";
-import gender from "../assets/images/SexRatio.png";
+import gender from "../assets/images/Sexratio.png";
 import student from "../assets/images/Stydentfaculty.png";
-import Strength from "../assets/images/Strength .png";
+import Strength from "../assets/images/Strength.png";
 
 const Demographics = () => {
   return (
@@ -15,7 +15,7 @@ const Demographics = () => {
             <p style={{fontSize:'18px'}}>
               The institute aims to maintain a diverse culture in terms of
               gender ratio as well. The gender ratio in the college is observed
-              as <strong>7 : 1.</strong>
+              as <strong>4 : 1.</strong>
             </p>
           </div>
           <h1 className="subheads">Student-Teacher Ratio</h1>
@@ -27,11 +27,11 @@ const Demographics = () => {
               every individual is paid adequate attention.
             </p>
           </div>
-          <h1 className="subheads">Final Year Strength</h1>
+          <h1 className="subheads">Final & Pre Final Year Strength</h1>
           <div className="gender-ratio-row" style={{marginBottom:'50px'}}>
             <img  src={Strength}  alt="" className="gender" />
             <p style={{fontSize:'18px'}}>
-             IIIT Lucknow admitted its first batch of B. Tech in Information Technology with an intake of 50 students w.e.f. the academic session 2015-16.
+             IIIT Lucknow admitted batch of B. Tech in Information Technology with an intake of 75 students w.e.f. the academic session 2017-18 and admitted batch of B. Tech in Computer Science with an intake of 75 students w.e.f. the academic session 2019-20.
             </p>
           </div>
         </div>
