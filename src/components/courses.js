@@ -33,7 +33,9 @@ const Courses = () => (
         ))}
       </div>
     </div>
+    
   </React.Fragment>
+  
   
   
 );

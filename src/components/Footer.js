@@ -37,6 +37,18 @@ const footer = () => {
               </p>
             </div>
             <div className="footer-col">
+              <p className="footer-contact-name">Ojas Dubey</p>
+              <p className="footer-contact-position">Placement Executive</p>
+              <p>
+                <a href="tel:+91-8094123615">+91-7985218601</a>
+              </p>
+              <p> 
+                <a href="mailto:placements@iiitl.ac.in">
+                  placements@iiitl.ac.in
+                </a>
+              </p>
+            </div>
+            <div className="footer-col">
               <h2>Links</h2>
               <p>
                 <a

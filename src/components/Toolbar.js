@@ -43,6 +43,9 @@ const Toolbar = props => (
               <i className="fa fa-caret-down" />
             </button>
             <div className="dropdown-content">
+              <NavLink to="/placement-stats-2021" exact className="activeclass">
+                Placement Stats 2021
+              </NavLink>
               <NavLink to="/placement-stats-2020" exact className="activeclass">
                 Placement Stats 2020
               </NavLink>
@@ -51,11 +54,7 @@ const Toolbar = props => (
               </NavLink>
             </div>
           </li>
-          <li>
-            <NavLink to="/contact-us" exact className="activeclass">
-              The Team
-            </NavLink>
-          </li>
+          
           <li>
             <NavLink to="/why-iiitl" exact className="activeclass">
               Why Us
