@@ -10,7 +10,7 @@ const Placement = props => {
     return (
         <div className="stats-outer-wrapper" style={{ marginBottom: "30px" }}>
             <h1 className="ps-name-heading pr-main-heading">
-                Placement Statistics 2020-21
+                Placement Statistics (B.Tech) 2020-21
       </h1>
             <div className="images-row-2">
                 <div className="images-row-2-inner">
