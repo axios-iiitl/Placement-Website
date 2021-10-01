@@ -35,7 +35,7 @@ const Why = (props) => {
         <p>
           B.Tech Entrance at IIIT Lucknow is based on JEE Mains score. As the
           students are admitted through the esteemed JEE Mains and represents
-          the top 2% of the candidates that appear for the exam nationwide, they
+          the top 1% of the candidates that appear for the exam nationwide, they
           are handpicked from the garden of knowledge and critical thinking.{" "}
         </p>
         <p>
