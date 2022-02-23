@@ -76,6 +76,7 @@ import capdgeminiLogo from "../assets/company_logos/capgemini.webp";
 import zomatologo from "../assets/company_logos/zomato.png";
 import gaugelogo from "../assets/company_logos/gauge.png";
 import symphonylogo from "../assets/company_logos/symphony.jpg";
+import ecorp from "../assets/company_logos/314ecorp.jpeg";
 
 
 const PastRecruiters = props => {
@@ -93,11 +94,13 @@ const PastRecruiters = props => {
             <div className="pr-inner-row">
               <img src={amazonLogo} alt="Amazon" />
               <img src={flipkartLogo} alt="Flipkart" />
+              <img src={ecorp} alt="314ecorp" />
               <img src={ackoLogo} alt="Acko" />
-              <img src={zomatologo} alt="Xebia" />
               <img src={intelLogo} alt="Goldman Sachs" />
 
             </div>
+
+            
 
             <div className="pr-inner-row">
               <img src={dotnetLogo} alt="Vassar Labs" />
@@ -235,6 +238,7 @@ const PastRecruiters = props => {
               <img src={wickedrideLogo} alt="Wicked Ride" />
               <img src={polestarLogo} alt="Pole Star" />
               <img src={kleanLogo} alt="Klean Homez" />
+              <img src={zomatologo} alt="Xebia" />
             </div>
           </div>
         </div>

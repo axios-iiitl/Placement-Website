@@ -1,7 +1,7 @@
 import React from "react";
-import GearsImg from "../assets/images/gear20.png";
+import GearsImg from "../assets/images/gear21.png";
 import PlacementStatsDomainWise from "./PlacemetsStatsDomainWise2021";
-import PlacementStats from "../assets/images/stats20.png";
+import PlacementStats from "../assets/images/stats21.png";
 import PlacedPercentageImage from "../assets/images/placedpercentage.PNG";
 
 const Placement = props => {
@@ -10,7 +10,7 @@ const Placement = props => {
     return (
         <div className="stats-outer-wrapper" style={{ marginBottom: "30px" }}>
             <h1 className="ps-name-heading pr-main-heading">
-                Placement Statistics (B.Tech) 2021-21\2
+                Placement Statistics (B.Tech) 2021-22
       </h1>
             <div className="images-row-2">
                 <div className="images-row-2-inner">
