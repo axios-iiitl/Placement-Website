@@ -40,7 +40,7 @@ class SideDrawer extends React.Component {
           </li>
           <li onClick={this.props.click}>
             <NavLink to="/our-recruiters" exact className="activeclass">
-              Our Recruitors
+              Our Recruiters
             </NavLink>
           </li>
           <li className="activeclass" onClick={this.handleDropDownAcademics}>

@@ -66,8 +66,7 @@ import abbLogo from "../assets/company_logos/abb.png";
 import clarivateLogo from "../assets/company_logos/clarivate.png";
 import delhiveryLogo from "../assets/company_logos/delhivery.png";
 import cardekhoLogo from "../assets/company_logos/cardekho.jpeg";
-import gameskraftLogo from "../assets/company_logos/gameskraft.jpg";
-import maqLogo from "../assets/company_logos/maqsoftware.png";
+import gameskraftLogo from "../assets/company_logos/gameskraft.png";
 import practoLogo from "../assets/company_logos/practo.png";
 import deloitteLogo from "../assets/company_logos/dlite.png";
 import tripockLogo from "../assets/company_logos/tripock.png";
@@ -77,7 +76,49 @@ import zomatologo from "../assets/company_logos/zomato.png";
 import gaugelogo from "../assets/company_logos/gauge.png";
 import symphonylogo from "../assets/company_logos/symphony.jpg";
 import ecorp from "../assets/company_logos/314ecorp.jpeg";
-
+import amd from "../assets/company_logos/amd.jpg"
+import bigbasket from "../assets/company_logos/bigbasket.jpg"
+import byjus from "../assets/company_logos/byjus.png"
+import cognitio from "../assets/company_logos/cognitio.png"
+import cognizant from "../assets/company_logos/cognizant.png"
+import cogoport from "../assets/company_logos/cogoport.jpg"
+import accenture from "../assets/company_logos/accenture.png" 
+import albatronix from "../assets/company_logos/albatronix.png"
+import cred from "../assets/company_logos/cred.png"
+import darwinbox from "../assets/company_logos/darwinbox.jpg"
+import dolcera from "../assets/company_logos/dolcera.png"
+import fis from "../assets/company_logos/FIS.png"
+import ganit from "../assets/company_logos/ganit.png"
+import gupshup from "../assets/company_logos/gupshup.png"
+import increff from "../assets/company_logos/increff.png"
+import indiamart from "../assets/company_logos/indiamart.png"
+import infosys from "../assets/company_logos/infosys.png"
+import inframarket from "../assets/company_logos/inframarket.jpg"
+import innominds from "../assets/company_logos/innominds.png"
+import ixigo from "../assets/company_logos/ixigo.png"
+import larsentoubro from "../assets/company_logos/larsentoubro.png"
+import mathworks from "../assets/company_logos/mathworks.png"
+import neosoft from "../assets/company_logos/neosoft.png"
+import nvidia from "../assets/company_logos/nvidia.png"
+import netmeds from "../assets/company_logos/netmeds.png"
+import paynearby from "../assets/company_logos/paynearby.png"
+import pristyn from "../assets/company_logos/pristyn.png"
+import parkplus from "../assets/company_logos/parkplus.jpg"
+import samsungsds from "../assets/company_logos/SamsungSDS.png"
+import sawolabds from "../assets/company_logos/sawo.png"
+import servicenow from "../assets/company_logos/ServiceNow.png"
+import sourcewiz from "../assets/company_logos/sourcewiz.png"
+import techcurator from "../assets/company_logos/techcurator.jpg"
+import techolution from "../assets/company_logos/techolution.png"
+import tejas from "../assets/company_logos/tejas.jpg"
+import trifacta from "../assets/company_logos/trifacta.png"
+import undostres from "../assets/company_logos/undostres.jpg"
+import walmartglobaltech from "../assets/company_logos/walmartglobaltech.jpeg"
+import mthree from "../assets/company_logos/mthree.webp"
+import zsassociates from "../assets/company_logos/zsassociates.png"
+import zycus from "../assets/company_logos/zycus.png"
+import thrillophilia from "../assets/company_logos/thrillophilia.png"
+import sportsapp from "../assets/company_logos/sportsapp.png"
 
 const PastRecruiters = props => {
   const [isOpenFirst] = useState(true);
@@ -96,59 +137,119 @@ const PastRecruiters = props => {
               <img src={flipkartLogo} alt="Flipkart" />
               <img src={ecorp} alt="314ecorp" />
               <img src={ackoLogo} alt="Acko" />
-              <img src={intelLogo} alt="Goldman Sachs" />
-
-            </div>
-
-            
-
-            <div className="pr-inner-row">
-              <img src={dotnetLogo} alt="Vassar Labs" />
-              <img src={nutanixLogo} alt="Vassar Labs" />
-              <img src={sabreLogo} alt="Sabre" />
-              <img src={postmanLogo} alt="Xebia" />
-              <img src={buyhatkeLogo} alt="Goldman Sachs" />
+              <img src={intelLogo} alt="Intel" />
             </div>
 
             <div className="pr-inner-row">
-              <img src={infoedgeLogo} alt="Infoedge" />
-              <img src={tekionLogo} alt="Nineleaps" />
-              <img src={gradeupLogo} alt="Nucleus" />
-              <img src={nykaaLogo} alt="Nykaa" />
-              <img src={ucLogo} alt="Samsung" />
+              <img src={americanExpressLogo} alt="American Express" />
+              <img src={amd} alt="AMD" />
+              <img src={bigbasket} alt="BigBasket" />
+              <img src={byjus} alt="Byjus" />
+              <img src={capdgeminiLogo} alt="Capgemini" />
             </div>
 
             <div className="pr-inner-row">
-              <img src={jioLogo} alt="Infotech Hub" />
-              <img src={paytmLogo} alt="Paytm" />
-              <img src={pubLogo} alt="MavenHive" />
-              <img src={onineLogo} alt="Virtusa" />
-              <img src={nagarroLogo} alt="nagarro" />
-            </div>
-
-            <div className="pr-inner-row">
-              <img src={nferenceLogo} alt="Bizongo" />
-              <img src={abbLogo} alt="Expedia" />
-              <img src={clarivateLogo} alt="Info Objects" />
-              <img src={delhiveryLogo} alt="Accolite" />
-              <img src={cardekhoLogo} alt="Zenefits" />
-            </div>
-
-            <div className="pr-inner-row">
-              <img src={gameskraftLogo} alt="Quantiphi" />
               <img src={codenationLogo} alt="Codenation" />
-              <img src={maqLogo} alt="White Panda" />
-              <img src={practoLogo} alt="nagarro" />
-              <img src={deloitteLogo} alt="1mg" />
+              <img src={cognitio} alt="cognitio" />
+              <img src={cognizant} alt="Cognizant" />
+              <img src={cogoport} alt="Cogoport" />
+              <img src={accenture} alt="Accenture" />
             </div>
 
             <div className="pr-inner-row">
-              <img src={tripockLogo} alt="shipsy" />
-              <img src={niLogo} alt="shipsy" />
-              <img src={capdgeminiLogo} alt="shipsy" />
-              <img src={gaugelogo} alt="shipsy" />
-              <img src={symphonylogo} alt="shipsy" />
+              <img src={albatronix} alt="Albatronix" />
+              <img src={cred} alt="Cred" />
+              <img src={darwinbox} alt="DarwinBox" />
+              <img src={deloitteLogo} alt="Deloitte" />
+              <img src={dolcera} alt="Dolcera" />
+            </div>
 
+            <div className="pr-inner-row">
+              <img src={fis} alt="FIS" />
+              <img src={gameskraftLogo} alt="Gameskraft" />
+              <img src={ganit} alt="Ganit" />
+              <img src={gupshup} alt="Gupshup" />
+              <img src={increff} alt="Increff" />
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={indiamart} alt="Indiamart" />
+              <img src={infoedgeLogo} alt="Infoedge" />
+              <img src={infosys} alt="Infosys" />
+              <img src={inframarket} alt="Inframrket" />
+              <img src={innominds} alt="Innominds" />
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={ixigo} alt="Ixigo" />
+              <img src={jioLogo} alt="Jio" />
+              <img src={joshtechnologyLogo} alt="Josh Technology Group" />
+              <img src={larsentoubro} alt="Larsen Tourbo" />
+              <img src={maqsoftwareLogo} alt="MAQ Software" />
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={mathworks} alt="Mathworks" />
+              <img src={dotnetLogo} alt="Dotnet" />
+              <img src={mindtickleLogo} alt="Mind Tickle" />
+              <img src={nagarroLogo} alt="nagarro" />
+              <img src={niLogo} alt="National Instruments" />
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={neosoft} alt="Neosoft" />
+              <img src={netmeds} alt="Netmeds" />
+              <img src={nferenceLogo} alt="Nference" />
+              <img src={sportsapp} alt="sportsapp" />
+              <img src={nucleusLogo} alt="Nucleus" />
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={nutanixLogo} alt="Nutanix" />
+              <img src={nvidia} alt="nvidia" />
+              <img src={onineLogo} alt="o9 solutions" />
+              <img src={parkplus} alt="parkplus" />
+              <img src={paynearby} alt="Paynearby" />
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={paytmLogo} alt="Paytm" />
+              <img src={postmanLogo} alt="Postman" />
+              <img src={practoLogo} alt="Practo" />
+              <img src={pristyn} alt="pristyn" />
+              <img src={pubLogo} alt="Publicis Sapients" />
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={sabreLogo} alt="Sabre" />
+              <img src={samsungLogo} alt="Samsung" />
+              <img src={samsungsds} alt="Samsung sds" />
+              <img src={sawolabds} alt="Sawo Labs" />
+              <img src={servicenow} alt="Service Now" />
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={ShipsyLogo} alt="shipsy" />
+              <img src={sourcewiz} alt="SourceWiz" />
+              <img src={tcsLogo} alt="TATA Consultancy Services" />
+              <img src={techcurator} alt="Tech Curator" />
+              <img src={techolution} alt="Techolution" />
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={tejas} alt="tejas" />
+              <img src={tekionLogo} alt="Tekion Corp" />
+              <img src={thrillophilia} alt="thrillophilia" />
+              <img src={trifacta} alt="Trifacta" />
+              <img src={undostres} alt="Undostres" />
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={vassarlabsLogo} alt="Vassar Labs" />
+              <img src={walmartglobaltech} alt="Walmart Global Tech" />
+              <img src={mthree} alt="Wiley Mthree" />
+              <img src={zsassociates} alt="ZS Associates" />
+              <img src={zycus} alt="Zycus" />
             </div>
           </div>
         </div>
@@ -238,7 +339,46 @@ const PastRecruiters = props => {
               <img src={wickedrideLogo} alt="Wicked Ride" />
               <img src={polestarLogo} alt="Pole Star" />
               <img src={kleanLogo} alt="Klean Homez" />
-              <img src={zomatologo} alt="Xebia" />
+              <img src={zomatologo} alt="Zomato" />
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={intelLogo} alt="Intel" />
+              <img src={dotnetLogo} alt="Dotnet" />
+              <img src={nutanixLogo} alt="Nutanix" />
+              <img src={postmanLogo} alt="Postman" />
+              <img src={buyhatkeLogo} alt="Buy Hatke" />
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={tekionLogo} alt="Tekion" />
+              <img src={gradeupLogo} alt="Gradeup" />
+              <img src={ucLogo} alt="Urban Company" />
+              <img src={jioLogo} alt="Jio" />
+              <img src={pubLogo} alt="Publicis Sapients" />
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={onineLogo} alt="o9 solutions" />
+              <img src={nferenceLogo} alt="Nference" />
+              <img src={abbLogo} alt="ABB" />
+              <img src={clarivateLogo} alt="Clarivate" />
+              <img src={delhiveryLogo} alt="Delhivery" />
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={cardekhoLogo} alt="Car Dekho" />
+              <img src={gameskraftLogo} alt="Gameskraft" />
+              <img src={practoLogo} alt="Practo" />
+              <img src={deloitteLogo} alt="Deloitte" />
+              <img src={capdgeminiLogo} alt="Capgemini" />
+            </div>
+
+            <div className="pr-inner-row">
+              <img src={gaugelogo} alt="Gauge Data Solutions" />
+              <img src={symphonylogo} alt="Symphony" />
+              <img src={tripockLogo} alt="Tripock" />
+              <img src={niLogo} alt="National Instruments" />
             </div>
           </div>
         </div>
