@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import brochurePdf from "../assets/Brochure IIIT Lucknow.pdf";
-import jnf from "../assets/JNF IIIT Lucknow.docx";
+import brochurePdf from "../assets/Placement_brochure.pdf";
+import jnf from "../assets/JNF 2022-23 IIIT Lucknow.docx";
 import kushal from "../assets/team22/kushal.jpeg";
 import anu from "../assets/team22/anu.jpg";
 
@@ -32,7 +32,7 @@ const footer = () => {
               </a>
               <div className="footer-col">
                 <p className="footer-contact-name">R. Kushal Reddy</p>
-                <p className="footer-contact-position">Overall Tech Coordinator</p>
+                <p className="footer-contact-position">Overall Placement Coordinator</p>
                 <p>
                   <a href="tel:+91-8094123615">+91-9059110999</a>
                 </p>
