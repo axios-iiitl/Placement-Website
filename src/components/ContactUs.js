@@ -43,7 +43,7 @@ const contactUs = () => {
                 name="R. Kushal Reddy"
                 isTeacher={false}
                 position="Overall Coordinator"
-                email="lcs2019072@iiitl.ac.in "
+                email="placements@iiitl.ac.in "
                 phone="+91-9059110999"
                 linkedin="https://www.linkedin.com/in/kushal-reddy-3101231b5/?originalSubdomain=in"
                 islinkedin={true}
@@ -55,8 +55,8 @@ const contactUs = () => {
                 alt="Aman Verma"
                 name="Aman Verma"
                 isTeacher={false}
-                position="B.tech Coordinator (CS)"
-                email="lcs2019067@iiitl.ac.in "
+                position="B.tech Coordinator"
+                email="placements@iiitl.ac.in "
                 phone="+91-9792666122"
                 linkedin="https://www.linkedin.com/in/aman-verma-04a07b230"
                 islinkedin={true}
@@ -68,9 +68,9 @@ const contactUs = () => {
                 alt="Yash Sahu"
                 name="Yash Sahu"
                 isTeacher={false}
-                position="B.Tech Coordinator (IT)"
+                position="B.Tech Coordinator"
                 phone="+91-9140631559"
-                email="lit2019017@iiitl.ac.in"
+                email="placements@iiitl.ac.in"
                 linkedin="https://www.linkedin.com/in/yash-sahu-5b2a01197/"
                 islinkedin={true}
                 isPhone={true}
@@ -85,52 +85,48 @@ const contactUs = () => {
                 alt="Abhishek Singh"
                 name="Abhishek Singh"
                 isTeacher={false}
-                position="IT Executive"
-                email="lit2019008@iiitl.ac.in"
+                position="Placement Executive"
                 phone="+91-8303186235"
                 linkedin="https://www.linkedin.com/in/abhishekworks787"
                 islinkedin={true}
                 isPhone={true}
-                isEmail={true}
+                isEmail={false}
               />
               <Card
                 src={Pranjal}
                 alt="Pranjal Saxena"
                 name="Pranjal Saxena"
                 isTeacher={false}
-                position="IT Executive"
+                position="Placement Executive"
                 phone="+91-7385015375"
-                email="lit2019003@iiitl.ac.in"
                 linkedin="https://www.linkedin.com/in/pranjal-saxena-3a33841a4/"
                 islinkedin={true}
                 isPhone={true}
-                isEmail={true}
+                isEmail={false}
               />
               <Card
                 src={Anu}
                 alt="Anu Kumari"
                 name="Anu Kumari"
                 isTeacher={false}
-                position="IT Executive"
+                position="Placement Executive"
                 phone="+91-9324121272"
-                email="lit2019072@iiitl.ac.in"
                 linkedin="https://www.linkedin.com/in/anu-kumari-401464197/"
                 islinkedin={true}
                 isPhone={true}
-                isEmail={true}
+                isEmail={false}
               />
               <Card
                 src={Ishan}
                 alt="Ishan Nagar"
                 name="Ishan Nagar"
                 isTeacher={false}
-                position="CS Executive"
+                position="Placement Executive"
                 phone="+91-6265179307"
-                email="lcs2019034@iiitl.ac.in"
                 linkedin="https://www.linkedin.com/in/ishan-nagar-5044231a9"
                 islinkedin={true}
                 isPhone={true}
-                isEmail={true}
+                isEmail={false}
               />
             </div>
           </div>
@@ -141,22 +137,21 @@ const contactUs = () => {
                 alt="Nirmal Nambiar"
                 name="Nirmal Nambiar"
                 isTeacher={false}
-                position="CS Executive"
-                email="lcs2019048@iiitl.ac.in"
+                position="Placement Executive"
                 phone="+91-9995346899"
                 linkedin="https://www.linkedin.com/in/nirmal-nambiar-739288197/"
                 islinkedin={true}
                 isPhone={true}
-                isEmail={true}
+                isEmail={false}
               />
               <Card
                 src={Jasleen}
                 alt="Jasleen Bhatia"
                 name="Jasleen Bhatia"
                 isTeacher={false}
-                position="MTech COORDINATOR"
+                position="MTech Placement COORDINATOR"
                 phone="+91-8349683499"
-                email="mcs21022@iiitl.ac.in"
+                email="placements@iiitl.ac.in"
                 linkedin="https://www.linkedin.com/in/jasleen-bhatia-78371b169/"
                 islinkedin={true}
                 isPhone={true}
@@ -167,9 +162,9 @@ const contactUs = () => {
                 alt="Shivani Kushwaha"
                 name="Shivani Kushwaha"
                 isTeacher={false}
-                position="MTech COORDINATOR"
+                position="MTech Placement COORDINATOR"
                 phone="+91-9453422900"
-                email="mcs21030@iiitl.ac.in"
+                email="placements@iiitl.ac.in"
                 linkedin="https://www.linkedin.com/in/shivani-kushwaha-9a80ba122/"
                 islinkedin={true}
                 isPhone={true}
@@ -180,13 +175,13 @@ const contactUs = () => {
                 alt="Zainab Fatima"
                 name="Zainab Fatima"
                 isTeacher={false}
-                position="M.Tech Executive"
+                position="MTech Placement Executive"
                 phone="+91-8433497963"
                 email="mcs21001@iiitl.ac.in"
                 linkedin="https://www.linkedin.com/in/zainab-fatima118/"
                 islinkedin={true}
                 isPhone={true}
-                isEmail={true}
+                isEmail={false}
               />
             </div>
           </div>
@@ -197,8 +192,8 @@ const contactUs = () => {
                 alt="Gaurav Tripathi"
                 name="Gaurav Tripathi"
                 isTeacher={false}
-                position="Phd Coordinator"
-                email="rcs1001@iiitl.ac.in"
+                position="Phd Placement Coordinator"
+                email="placements@iiitl.ac.in"
                 phone="+91-6280058825"
                 linkedin="https://www.linkedin.com/in/gauravt50/?originalSubdomain=in/"
                 islinkedin={true}
@@ -212,7 +207,7 @@ const contactUs = () => {
                 isTeacher={false}
                 position="MBA ( Digital Business) Placement Coordinator"
                 phone="+91-9038686200"
-                email="mdb2001@iiitl.ac.in"
+                email="placements@iiitl.ac.in"
                 linkedin="https://www.linkedin.com/in/orunayan-bhattacharya-3a4b5518b/"
                 islinkedin={true}
                 isPhone={true}
@@ -223,26 +218,26 @@ const contactUs = () => {
                 alt="Ajay Vikram"
                 name="Ajay Vikram"
                 isTeacher={false}
-                position="MBA ( Digital Business) Placement Coordinator"
+                position="MBA ( Digital Business) Placement Executive"
                 phone="+91-9019593477"
                 email="mdb2002@iiitl.ac.in"
                 linkedin="https://www.linkedin.com/in/ajay-vikram-11545a14"
                 islinkedin={true}
                 isPhone={true}
-                isEmail={true}
+                isEmail={false}
               />
               <Card
                 src={Aysha}
                 alt="Aysha Hannah"
                 name="Aysha Hannah"
                 isTeacher={false}
-                position="MBA ( Digital Business) Placement Coordinator"
+                position="MBA ( Digital Business) Placement Executive"
                 phone="+91-9656482753"
                 email="mdb2020@iiitl.ac.in"
                 linkedin="https://www.linkedin.com/in/aysha-hannah-904213150/"
                 islinkedin={true}
                 isPhone={true}
-                isEmail={true}
+                isEmail={false}
               />
             </div>
           </div>
