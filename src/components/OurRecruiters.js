@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { Collapse, Button } from 'reactstrap';
-import { BsCaretDownFill, BsFillCaretUpFill } from "react-icons/bs";
+import { Collapse } from 'reactstrap';
 import directiLogo from "../assets/company_logos/directi.png";
 import dotnetLogo from "../assets/company_logos/dotnet.png";
 import intelLogo from "../assets/company_logos/Intel-Logo-2005.png";
@@ -122,10 +121,10 @@ import sportsapp from "../assets/company_logos/sportsapp.png"
 
 const PastRecruiters = props => {
   const [isOpenFirst] = useState(true);
-  const [isOpen, setIsOpen] = useState(false);
+  /* const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
     setIsOpen(!isOpen)
-  }
+  } */
   return (
     <div className="pr-outer-container">
       <h1 className="pr-main-heading">Our Recruiters</h1>
