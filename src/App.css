@@ -269,12 +269,21 @@ footer {
   height: 20%;
 }
 
-.footer-col {
+.footer-col-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-col-parent img {
   margin: 20px 10px;
 }
 
-.footer-col:nth-child(1) {
-  align-items: center;
+.footer-col {
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .footer-col a {
@@ -291,11 +300,6 @@ footer {
 .footer-col p {
   margin: 5px 0;
   font-size: 20px;
-}
-
-.footer-col:nth-child(3),
-.footer-col:nth-child(2) {
-  margin-top: 43px;
 }
 
 .footer-logo {
@@ -337,10 +341,9 @@ footer {
   transition: all 0.3s ease;
 }
 
-@media (max-width: 360px) {
-  .footer-col:nth-last-child(1) {
-    text-align: center;
-  }
+.footer-img {
+  height: 7rem;
+  border-radius: 50%;
 }
 
 body {
@@ -354,10 +357,6 @@ body {
 }
 
 @media (max-width: 418px) {
-  .footer-col:nth-child(4) {
-    padding-right: 91px;
-    width: 33%;
-  }
   .footer-col {
     margin: 20px 10px;
   }
@@ -425,14 +424,16 @@ body {
   transition: all 0.3s ease-out 0s;
 }
 .snip1559 .profile-image {
-  padding: 7% 10% 0;
+  padding: 0% 0% 0;
 }
 
 .snip1559 .profile-image img {
   width: 200px;
   vertical-align: top;
   position: relative;
+  height: 200px;
   border-radius: 50%;
+  
 }
 
 .snip1559 figcaption {

@@ -1,5 +1,5 @@
 import React from "react";
-import vks from "../assets/images/vks.jpg";
+import vks from "../assets/images/vks_1.jpg";
 import director from "../assets/images/director.jpg";
 import { NavLink } from "react-router-dom";
 

@@ -8,7 +8,7 @@ const Courses = () => (
       <div className="courses">
         <h1>Courses</h1>
         <ul>
-          <li>B.Tech. Information Technology (IT)</li>
+          <li>B.Tech.</li>
         </ul>
         <p className="courses-overview">
           This course is arguably the best in the country. Its strength is its
