@@ -31,7 +31,7 @@ const Demographics = () => {
           <div className="gender-ratio-row" style={{marginBottom:'50px'}}>
             <img  src={Strength}  alt="" className="gender" />
             <p style={{fontSize:'18px'}}>
-             IIIT Lucknow admitted batch of B. Tech in Information Technology with an intake of 75 students w.e.f. the academic session 2017-18 and admitted batch of B. Tech in Computer Science with an intake of 75 students w.e.f. the academic session 2019-20.
+             IIIT Lucknow admitted batch of B. Tech in Information Technology with an intake of 75 students w.e.f. the academic session 2019-20 and admitted batch of B. Tech in Computer Science with an intake of 74 students w.e.f. the academic session 2019-20.
             </p>
           </div>
         </div>
