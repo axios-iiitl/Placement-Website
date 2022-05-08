@@ -133,30 +133,23 @@ const PastRecruiters = props => {
         <div className="pr-inner-wrapper">
           <div className="pr-inner-box">
             <div className="pr-inner-row">
-              <img src={amazonLogo} alt="Amazon" />
-              <img src={flipkartLogo} alt="Flipkart" />
-              <img src={ecorp} alt="314ecorp" />
-              <img src={ackoLogo} alt="Acko" />
-              <img src={intelLogo} alt="Intel" />
-            </div>
-
-            <div className="pr-inner-row">
               <img src={americanExpressLogo} alt="American Express" />
               <img src={amd} alt="AMD" />
               <img src={bigbasket} alt="BigBasket" />
               <img src={byjus} alt="Byjus" />
-              <img src={capdgeminiLogo} alt="Capgemini" />
+              <img src={ecorp} alt="314ecorp" />
             </div>
 
             <div className="pr-inner-row">
-              <img src={codenationLogo} alt="Codenation" />
+              <img src={ackoLogo} alt="Acko" />
+              <img src={intelLogo} alt="Intel" />
               <img src={cognitio} alt="cognitio" />
               <img src={cognizant} alt="Cognizant" />
               <img src={cogoport} alt="Cogoport" />
-              <img src={accenture} alt="Accenture" />
             </div>
 
             <div className="pr-inner-row">
+              <img src={accenture} alt="Accenture" />
               <img src={albatronix} alt="Albatronix" />
               <img src={cred} alt="Cred" />
               <img src={darwinbox} alt="DarwinBox" />
@@ -185,15 +178,6 @@ const PastRecruiters = props => {
               <img src={jioLogo} alt="Jio" />
               <img src={joshtechnologyLogo} alt="Josh Technology Group" />
               <img src={larsentoubro} alt="Larsen Tourbo" />
-              <img src={maqsoftwareLogo} alt="MAQ Software" />
-            </div>
-
-            <div className="pr-inner-row">
-              <img src={mathworks} alt="Mathworks" />
-              <img src={dotnetLogo} alt="Dotnet" />
-              <img src={mindtickleLogo} alt="Mind Tickle" />
-              <img src={nagarroLogo} alt="nagarro" />
-              <img src={niLogo} alt="National Instruments" />
             </div>
 
             <div className="pr-inner-row">
@@ -213,15 +197,13 @@ const PastRecruiters = props => {
             </div>
 
             <div className="pr-inner-row">
-              <img src={paytmLogo} alt="Paytm" />
-              <img src={postmanLogo} alt="Postman" />
+              <img src={mathworks} alt="Mathworks" />
+              <img src={niLogo} alt="National Instruments" />
               <img src={practoLogo} alt="Practo" />
               <img src={pristyn} alt="pristyn" />
-              <img src={pubLogo} alt="Publicis Sapients" />
             </div>
 
             <div className="pr-inner-row">
-              <img src={sabreLogo} alt="Sabre" />
               <img src={samsungLogo} alt="Samsung" />
               <img src={samsungsds} alt="Samsung sds" />
               <img src={sawolabds} alt="Sawo Labs" />
@@ -238,7 +220,6 @@ const PastRecruiters = props => {
 
             <div className="pr-inner-row">
               <img src={tejas} alt="tejas" />
-              <img src={tekionLogo} alt="Tekion Corp" />
               <img src={thrillophilia} alt="thrillophilia" />
               <img src={trifacta} alt="Trifacta" />
               <img src={undostres} alt="Undostres" />
@@ -251,17 +232,6 @@ const PastRecruiters = props => {
               <img src={zsassociates} alt="ZS Associates" />
               <img src={zycus} alt="Zycus" />
             </div>
-          </div>
-        </div>
-
-      </Collapse>
-
-      <Button className="pr-past-heading" color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>
-        Past Recruiters &nbsp; {isOpen ? < BsFillCaretUpFill /> : <BsCaretDownFill />}
-      </Button>
-      <Collapse isOpen={isOpen}>
-        <div className="pr-inner-wrapper">
-          <div className="pr-inner-box">
             <div className="pr-inner-row">
               <img src={directiLogo} alt="Directi" />
               <img src={amazonLogo} alt="Amazon" />
@@ -304,7 +274,6 @@ const PastRecruiters = props => {
 
             <div className="pr-inner-row">
               <img src={quantiphiLogo} alt="Quantiphi" />
-              <img src={ackoLogo} alt="Acko" />
               <img src={whitepandaLogo} alt="White Panda" />
               <img src={nagarroLogo} alt="nagarro" />
               <img src={ONEmgLogo} alt="1mg" />
@@ -321,7 +290,6 @@ const PastRecruiters = props => {
             <div className="pr-inner-row">
               <img src={paytmLogo} alt="Paytm" />
               <img src={hashedInLogo} alt="Hashedin" />
-              <img src={americanExpressLogo} alt="American Express" />
               <img src={collegeduniaLogo} alt="College Dunia" />
               <img src={valuefyLogo} alt="Valuefy" />
             </div>
@@ -330,7 +298,6 @@ const PastRecruiters = props => {
               <img src={travelokaLogo} alt="traveloka" />
               <img src={codenationLogo} alt="Codenation" />
               <img src={sokratiLogo} alt="Sokrati" />
-              <img src={tcsLogo} alt="TATA Consultancy Services" />
               <img src={vehanttechnologiesLogo} alt="Vehant Technologies" />
             </div>
 
@@ -343,9 +310,7 @@ const PastRecruiters = props => {
             </div>
 
             <div className="pr-inner-row">
-              <img src={intelLogo} alt="Intel" />
               <img src={dotnetLogo} alt="Dotnet" />
-              <img src={nutanixLogo} alt="Nutanix" />
               <img src={postmanLogo} alt="Postman" />
               <img src={buyhatkeLogo} alt="Buy Hatke" />
             </div>
@@ -360,7 +325,6 @@ const PastRecruiters = props => {
 
             <div className="pr-inner-row">
               <img src={onineLogo} alt="o9 solutions" />
-              <img src={nferenceLogo} alt="Nference" />
               <img src={abbLogo} alt="ABB" />
               <img src={clarivateLogo} alt="Clarivate" />
               <img src={delhiveryLogo} alt="Delhivery" />
