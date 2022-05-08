@@ -98,17 +98,23 @@ const footer = () => {
         <p>
           ALL RIGHTS RESERVED © 2021. <strong>IIIT LUCKNOW.</strong> (Developed
           & Managed By -{" "}
-          <a
-            href="https://github.com/narendraiiitl"
-            target="none"
-          >
-            Narendra
-          </a>
-          ,{"  "}
           <a href="https://www.linkedin.com/in/blurry-x-face/" target="none">
             Rishabh
           </a>
-           , {" "}
+          , {" "}
+           <a
+            href="https://www.linkedin.com/in/narendra-singh-139b5219a/"
+            target="none"
+          >
+            Narendra 
+          </a>, {" "}
+           <a
+            href="https://www.linkedin.com/in/harshdeep-061661193/x"
+            target="none"
+          >
+            Harshdeep
+          </a>
+          ,{"  "}
           <a href="https://www.linkedin.com/in/vinamrbajaj/" target="none">
             Vinamr 
           </a>
